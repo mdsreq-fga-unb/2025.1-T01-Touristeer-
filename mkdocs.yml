@@ -3,12 +3,14 @@ site_name: Touristeer
 nav:
   - Início: index.md
   - Visão de Produto e Projeto: 
-    - Cenário Atual do Cliente e Negócio: sections/docPage/cenarioAtual.md
-    - Solução Proposta: sections/docPage/solucaoProp.md
-    - Estratégias de Engenharia de Software: sections/docPage/estrategias.md
-    - Cronograma e Entregas: sections/docPage/cronograma.md
-    - Interação entre Equipe e Cliente: sections/docPage/interacaoEqCliente.md
-    - Lições Aprendidas: sections/docPage/licoesAprendidas.md
+    - Cenário Atual do Cliente e Negócio: sections/docPage/1-cenarioAtual.md
+    - Solução Proposta: sections/docPage/2-solucaoProp.md
+    - Estratégias de Engenharia de Software: sections/docPage/3-estrategias.md
+    - Cronograma e Entregas: sections/docPage/4-cronograma.md
+    - Interação entre Equipe e Cliente: sections/docPage/5-interacaoEqCliente.md
+    - Lições Aprendidas: sections/docPage/6-licoesAprendidas.md
+  - Entregas:
+    - Unidade 1: sections/entregas/unidade1.md
 
 
 
