@@ -1,5 +1,9 @@
 site_name: Touristeer
 
+repo_name: Github Touristeer 
+repo_url: https://github.com/mdsreq-fga-unb/2025.1-T01-Touristeer-
+
+
 nav:
   - Início: index.md
   - Visão de Produto e Projeto: 
@@ -25,3 +29,21 @@ theme:
       - navigation.instant
       - navigation.top
       - navigation.tracking
+  
+  palette:
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: '2c3094'
+    accent: '2c3094'
+    toggle:
+      icon: material/weather-night
+      name: Tema claro
+
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: '2c3094'
+    accent: '2c3094'
+    toggle:
+      icon: material/weather-sunny
+      name: Tema escuro
+

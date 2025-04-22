@@ -1,4 +1,5 @@
-# Welcome to Touristeer
+# 
+![Banner Turisteer](./assets/BANNER%20PRINCIPAL.png)
 
 ## 1. A disciplina de Requisitos de Software
 Este projeto foi desenvolvido por estudantes da Universidade de Brasília como parte da disciplina de Requisitos, sob orientação do professor George Marscicano Corrêa. <br>
@@ -8,11 +9,11 @@ A disciplina tem como foco capacitar os alunos na comunicação entre desenvolve
 O conteúdo aborda técnicas de elicitação, modelagem, documentação e gerenciamento de requisitos, além de considerar os aspectos humanos e sociais que influenciam essa área. Também são exploradas ferramentas e métodos para verificação e validação, bem como frameworks tradicionais e adaptativos utilizados na engenharia de requisitos.
 
 ## 2. Contribuidores
-A equipe de desenvolvedor do Touristeer é composta por 6 membros do curso de Engenharia de Software da Universidade de Brasília (UnB)
+A equipe de desenvolvimento do Touristeer é composta por 6 membros do curso de Engenharia de Software da Universidade de Brasília (UnB).
 <div align="center">
   <table>
     <tr>
-      <td align="center"><a href="https://github.com/SAnjos3"><img style="border-radius: 50%;" src="https://github.com/SAnjos3.png" width="100px;" alt=""/><br /><sub><b>Gabriel Soare</b></sub></a><br /><a href="https://github.com/SAnjos3" title="Rocketseat">Analista de Quality Assurance</a></td>
+      <td align="center"><a href="https://github.com/SAnjos3"><img style="border-radius: 50%;" src="https://github.com/SAnjos3.png" width="100px;" alt=""/><br /><sub><b>Gabriel Soares</b></sub></a><br /><a href="https://github.com/SAnjos3" title="Rocketseat">Analista de Quality Assurance</a></td>
       <td align="center"><a href="https://github.com/Guga301104"><img style="border-radius: 50%;" src="https://github.com/Guga301104.png" width="100px;" alt=""/><br /><sub><b>Gustavo Gontijo</b></sub></a><br /><a href="https://github.com/Guga301104" title="Rocketseat">Analista de Requisitos</a></td>
       <td align="center"><a href="https://github.com/leohssjr"><img style="border-radius: 50%;" src="https://github.com/leohssjr.png" width="100px;" alt=""/><br /><sub><b>Leonardo Sauma</b></sub></a><br /><a href="https://github.com/leohssjr" title="Rocketseat">Coordenador e Desenvolvedor do Frontend</a></td>
     </tr>

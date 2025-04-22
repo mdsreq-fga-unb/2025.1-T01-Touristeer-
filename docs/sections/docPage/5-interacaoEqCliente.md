@@ -15,7 +15,7 @@
   Será utilizado para dois propósitos: comunicação diária com os membros desenvolvedores e comunicação rápida com o cliente. O WhatsApp permitirá a separação do alvo da comunicação por meio da criação de grupos, além de possibilitar o envio de mensagens, links e arquivos. Irá concentrar avisos de novos pedidos de revisão por parte da equipe de desenvolvimento e discussões rápidas.
 
 - **Teams**  
-  As reuniões quinzenais de validação com o cliente serão realizadas por videochamadas através da plataforma Zoom. Essa ferramenta será utilizada para validar entregas, revisar atividades delegadas e coletar feedbacks sobre acertos e erros da equipe.
+  As reuniões quinzenais de validação com o cliente serão realizadas por videochamadas através da plataforma Teams. Essa ferramenta será utilizada para validar entregas, revisar atividades delegadas e coletar feedbacks sobre acertos e erros da equipe.
 
 - **Discord**  
   Utilizado para reuniões informais, ou seja, aquelas que não foram oficializadas pelo gerente e que têm como objetivo realizar atividades durante as etapas do projeto. Será a plataforma de videochamadas entre os desenvolvedores envolvidos.
@@ -25,7 +25,7 @@
 
 
 ### Métodos e Frequência de Reuniões
-- **Reunião de Validação com o Cliente:** a primeira acontecendo no final da análise de requisitos, durante o design de usuário ela ocorrerá de maneira semanal, visando o melhor desenvolvimento dos protótipos, durante o desenvolvimento, será realizada no final de cada ciclo, as reuniões de validação acontecerão para mostrarmos o progresso do projeto para o cliente e ele poder validar o que foi feito, podendo solicitar alterações, se necessário.
+- **Reunião de Validação com o Cliente:** a primeira acontecendo no final da análise de requisitos. Durante o design de usuário (User Design) ela ocorrerá de maneira semanal, visando o melhor desenvolvimento dos protótipos. Durante o desenvolvimento, será realizada no final de cada ciclo, as reuniões de validação acontecerão para mostrarmos o progresso do projeto para o cliente e ele poder validar o que foi feito, podendo solicitar alterações, se necessário.
 -  **Semanal da equipe:** será realizada toda semana às quartas-feira, com a intenção de alinhar com a equipe como estão as atividades e o desenvolvimento do projeto.
 
 ---
