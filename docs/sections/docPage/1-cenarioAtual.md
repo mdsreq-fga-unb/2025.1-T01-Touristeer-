@@ -1,6 +1,6 @@
 ## 1.1 Introdução ao Negócio e Contexto
 
-O **“Touristeer”** é uma aplicação particular de navegação móvel voltada ao setor de turismo com enfoque em aproximar o viajante da cultura e costumes locais, disponibilizando espaços próximos do usuário que sejam mais diversificados do que as rotas oferecidas por pacotes de viagem com pontos turísticos.
+O **“Touristeer”** é uma aplicação web de navegação móvel voltada ao setor de turismo com enfoque em aproximar o viajante da cultura e costumes locais, disponibilizando espaços próximos do usuário que sejam mais diversificados do que as rotas oferecidas por pacotes de viagem com pontos turísticos.
 
 A principal proposta da aplicação é fornecer rotas otimizadas em tempo real com base em informações de localização e avaliação coletadas pelo usuário e com percursos possíveis de se transitar a curtas distâncias, visando liberdade e flexibilidade no planejamento e corte de gastos nas viagens do usuário.
 
@@ -25,7 +25,7 @@ Esse conjunto de fatores reforça a passividade dos turistas, que frequentemente
 
 > A figura, a seguir, apresenta o diagrama de Ishikawa contendo as causas (organizadas pelos 6M’s) e o problema do cliente.
 
-![Diagrama de Ishikawa](/../assets/diagrama.webp)
+![Diagrama de Ishikawa](/../assets/diagrama.png)
 
 ## 1.3 Desafios do Projeto
 
@@ -71,3 +71,4 @@ Indivíduos aposentados, com tempo livre e renda acumulada, que realizam de **2 
 |09/04/2025| 1.2 | Reescrita do tópico 1.2 | Rodrigo Amaral |Todos os integrantes da equipe|
 |20/04/2025| 1.3 | Reescrita dos tópico 1.1 e 1.2 | Samuel Afonso |Gabriel Soares|
 |21/04/2025| 1.4 | Reescrita dos tópico 1.3 e 1.4 | Gabriel Soares |Leonardo Sauma|
+|21/04/2025| 1.4 | Alteração no tópico 1.1 | Rodrigo Amaral |Leonardo Sauma|
