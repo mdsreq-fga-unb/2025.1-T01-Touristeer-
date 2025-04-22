@@ -64,10 +64,10 @@ Esse grupo inclui jovens adultos entre **18 e 35 anos** que vivem em grandes cen
 Indivíduos aposentados, com tempo livre e renda acumulada, que realizam de **2 a 3 viagens por ano**. Preferem viagens dinâmicas com muitos serviços incluídos, priorizando conforto, segurança e acessibilidade. Valorizam experiências culturais e históricas.
 
 
-## Histórico de Versão:
+## Histórico de Versão
 | Data | Versão | Descrição | Autor | Revisores|
 |-|-|-|-|-|
-|07/04/2025| 1.0 | Definição do produto e projeto | Todos os integrantes do grupo |-|
-|09/04/2025| 1.2 | Reescrita do tópico 1.2 | Rodrigo Amaral |-|
-|20/04/2025| 1.2 | Reescrita dos tópico 1.1 e 1.2 | Samuel  |-|
-|21/04/2025| 1.2 | Reescrita dos tópico xxxxxxxx | |-|
+|07/04/2025| 1.0 | Definição do produto e projeto | Todos os integrantes do grupo |Todos os integrantes da equipe|
+|09/04/2025| 1.2 | Reescrita do tópico 1.2 | Rodrigo Amaral |Todos os integrantes da equipe|
+|20/04/2025| 1.3 | Reescrita dos tópico 1.1 e 1.2 | Samuel Afonso |Gabriel Soares|
+|21/04/2025| 1.4 | Reescrita dos tópico 1.3 e 1.4 | Gabriel Soares |Leonardo Sauma|

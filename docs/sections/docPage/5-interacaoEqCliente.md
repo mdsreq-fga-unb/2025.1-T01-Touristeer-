@@ -14,7 +14,7 @@
 - **WhatsApp**  
   Será utilizado para dois propósitos: comunicação diária com os membros desenvolvedores e comunicação rápida com o cliente. O WhatsApp permitirá a separação do alvo da comunicação por meio da criação de grupos, além de possibilitar o envio de mensagens, links e arquivos. Irá concentrar avisos de novos pedidos de revisão por parte da equipe de desenvolvimento e discussões rápidas.
 
-- **Zoom**  
+- **Teams**  
   As reuniões quinzenais de validação com o cliente serão realizadas por videochamadas através da plataforma Zoom. Essa ferramenta será utilizada para validar entregas, revisar atividades delegadas e coletar feedbacks sobre acertos e erros da equipe.
 
 - **Discord**  
@@ -54,4 +54,5 @@ Esse processo garante maior qualidade do produto final, promovendo entregas mais
 ## Histórico de Versão
 | Data | Versão | Descrição | Autor | Revisores|
 |-|-|-|-|-|
-|21/04/2025| 1.0 | Criação do documento |-|-|
+|21/04/2025| 1.0 | Criação do documento | Rodrigo Amaral |Todos os integrantes da equipe|
+|21/04/2025| 1.1 | Alteração da plataforma de reuniões | Rodrigo Amaral |Leonardo Sauma|

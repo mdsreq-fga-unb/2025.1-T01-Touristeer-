@@ -1,10 +1,15 @@
 ## 6.1 Unidade 1
-## 6.1 Unidade 1
 
 Durante a Unidade 1, nosso grupo enfrentou alguns desafios para o desenvolvimento do projeto. A principal dificuldade esteve relacionada à elaboração da documentação: tivemos problemas na forma como organizamos o conteúdo, alocando informações em tópicos inadequados e utilizando títulos pouco claros ou vagos. Essa estrutura inicial comprometeu a objetividade e a fluidez do documento, o que gerou a necessidade de diversas correções com base nos feedbacks recebidos.  
 
-E para mantermos uma comunicação eficaz e garantir o bom andamento do projeto, adotamos algumas ferramentas e práticas que fortaleceram a colaboração entre os membros do grupo. O WhatsApp se tornou nosso principal canal de troca rápida de informações, permitindo acompanhamento constante das tarefas e dúvidas. O Google Docs foi utilizado como ferramenta principal para a produção da documentação, possibilitando uma construção colaborativa e revisões simultâneas em tempo real. Além disso, realizamos reuniões via Discord, o que nos ajudou a alinhar melhor as decisões e manter todos atualizados em relação às etapas do projeto. Para a gravação dos nossos vídeos, optamos pelo Zoom, por ser uma plataforma intuitiva, que oferece boa qualidade de áudio e vídeo, além de facilitar o processo de gravação e armazenamento dos materiais.  
+E para mantermos uma comunicação eficaz e garantir o bom andamento do projeto, adotamos algumas ferramentas e práticas que fortaleceram a colaboração entre os membros do grupo. O WhatsApp se tornou nosso principal canal de troca rápida de informações, permitindo acompanhamento constante das tarefas e dúvidas. O Google Docs foi utilizado como ferramenta principal para a produção da documentação, possibilitando uma construção colaborativa e revisões simultâneas em tempo real. Além disso, realizamos reuniões via Discord, o que nos ajudou a alinhar melhor as decisões e manter todos atualizados em relação às etapas do projeto. Para a gravação dos nossos vídeos, optamos pelo Teams, por ser uma plataforma intuitiva, que oferece boa qualidade de áudio e vídeo, além de facilitar o processo de gravação e armazenamento dos materiais.  
 
 Também estabelecemos de forma clara as responsabilidades de cada membro, definindo funções específicas para garantir uma divisão de tarefas eficiente: Desenvolvedor Front-end, Desenvolvedor Back-end, Analista de QA, Analista de Requisitos e Gerente de Projeto. Com essa distribuição, conseguimos assegurar que cada área fosse bem equilibrada, evitando sobrecarga e melhorando a organização das etapas do projeto.  
 
 Essas medidas ajudaram a consolidar uma dinâmica de trabalho mais coesa e eficiente ao longo da unidade. Essas mudanças refletiram positivamente na nossa dinâmica de grupo e serão mantidas e aprimoradas nas próximas unidades, a fim de garantir entregas mais alinhadas e eficientes.  
+
+## Histórico de Versão
+| Data | Versão | Descrição | Autor | Revisores|
+|-|-|-|-|-|
+|21/04/2025| 1.0 | Criação do documento | Mylena Trindade |Gabriel Soares|
+|21/04/2025| 1.1 | Alteração da plataforma de reuniões | Leonardo Sauma |Mylena Trindade|

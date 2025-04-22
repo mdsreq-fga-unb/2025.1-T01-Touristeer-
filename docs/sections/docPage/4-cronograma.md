@@ -1,5 +1,5 @@
 
-Baseando-se na estratégia de desenvolvimento de software seleccionado, mencionado no tópico 3, o cronograma preliminar do projeto pode ser visualizada logo abaixo:
+Baseando-se na estratégia de desenvolvimento de software selecionado, mencionado no tópico 3, o cronograma preliminar do projeto pode ser visualizada logo abaixo:
 
 | **Etapa**                     | **Início** | **Fim**   | **Objetivo Principal**                                | **Entregas Esperadas**                          | **Validação do Cliente**                          |
 |-------------------------------|------------|-----------|-------------------------------------------------------|------------------------------------------------|---------------------------------------------------|
@@ -10,3 +10,9 @@ Baseando-se na estratégia de desenvolvimento de software seleccionado, menciona
 | **Implantação**                | 05/07      | 15/07     | Realizar testes finais e implantar o sistema          | Sistema implantado e documentação completa      | Aceitação final do sistema pelo cliente           |
 
 O cronograma acima poderá sofrer alterações ao longo do desenvolvimento do projeto Touristeer.
+
+## Histórico de Versão
+| Data | Versão | Descrição | Autor | Revisores|
+|-|-|-|-|-|
+|21/04/2025| 1.0 | Criação do documento |Rodrigo Amaral|Todos os integrantes da equipe|
+
