@@ -2,7 +2,7 @@
 | Papel | Descrição | Responsável | Participantes |
 |-|-|-|-|
 | Gerente de Projeto | Supervisiona o andamento do projeto, define metas, coordena a equipe e mantém o cronograma do projeto. | Rodrigo Amaral | Rodrigo Amaral |
-| Desenvolvedor Back-end | Responsável pela criação e manutenção dos sistemas e funcionalidades no lado do servidor, assegurando que o backend suporte todas as funcionalidades necessárias e integrando-se com o frontend. | Samuel | Gabriel Soares e Samuel|
+| Desenvolvedor Back-end | Responsável pela criação e manutenção dos sistemas e funcionalidades no lado do servidor, assegurando que o backend suporte todas as funcionalidades necessárias e integrando-se com o frontend. | Samuel | Gabriel Soares, Samuel Afonso e Gustavo Gontijo |
 | Desenvolvedor Front-end | Responsável pela construção da interface do usuário e da interação do cliente com o sistema, garantindo uma experiência intuitiva e responsiva. | Leonardo Sauma | Mylena Trindade e Leonardo Sauma |
 | Analista de QA | Responsável por testar a solução para garantir a qualidade e a correção do sistema antes da entrega, identificando possíveis bugs e validando funcionalidades. | Gabriel Soares | Todos os integrantes do time. |
 |Analista de Requisitos | Trabalha na definição dos requisitos funcionais e não funcionais do sistema e garante que eles sejam atendidos. | Gustavo Gontijo | Todos os integrantes do time.|
@@ -56,3 +56,4 @@ Esse processo garante maior qualidade do produto final, promovendo entregas mais
 |-|-|-|-|-|
 |21/04/2025| 1.0 | Criação do documento | Rodrigo Amaral |Todos os integrantes da equipe|
 |21/04/2025| 1.1 | Alteração da plataforma de reuniões | Rodrigo Amaral |Leonardo Sauma|
+|21/04/2025| 1.2 | Alteração cargo Gustavo Gontijo | Gabriel Soares |Leonardo Sauma|

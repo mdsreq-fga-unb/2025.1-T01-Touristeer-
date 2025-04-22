@@ -4,11 +4,11 @@
 O objetivo do aplicativo “Touristeer” é ajudar você a encontrar atrações perto de onde está e criar rotas e roteiros sob medida para explorar cada ponto no seu próprio ritmo. A proposta é permitir que os viajantes explorem pontos turísticos com autonomia, acesso rápido à informação e praticidade, sem as restrições impostas por horários e roteiros fixos. Com isso, busca-se melhorar a experiência de viagem, promovendo o turismo mais livre, eficiente e informativo.
 
 ## 2.2 Características da Solução
-A solução contará com os seguintes recursos principais:
-- **Geolocalização** para detectar a posição do usuário e sugerir atrações próximas, gerando informações como melhores rotas e horário de funcionamento;
-- **Busca e filtros avançados** por tipo de atração, distância, horário, avaliação;
-- **Sistema de visualização de avaliações e comentários**;
-- **Curadoria de pontos turísticos** com informações detalhadas (descrição, preço, acessibilidade, imagens, contexto cultural, etc.);
+A solução contará com os seguintes recursos principais: <br>
+- **GPS** para detectar a posição do usuário e sugerir atrações próximas, gerando informações como melhores rotas e horário de funcionamento; <br>
+- **Busca e filtros avançados** por tipo de atração, distância, horário, avaliação; <br>
+- **Sistema de visualização de avaliações e comentários**; <br>
+- **Curadoria de pontos turísticos** com informações detalhadas (descrição, preço, acessibilidade, imagens, contexto cultural, etc.); <br> 
 - **Interface simples e eficiente** para facilitar a navegação mesmo em ambientes com baixa conectividade.
 
 ## 2.3 Tecnologias a Serem Utilizadas
@@ -18,7 +18,7 @@ A solução contará com os seguintes recursos principais:
 - **Backend**: Node.js com Express.  
   O backend será desenvolvido com Node.js e o framework Express. O Node.js permite usar JavaScript no servidor com alta performance, enquanto o Express facilita a criação de rotas e APIs de forma simples, leve e eficiente, além de ser direto e familiar à equipe.
 
-- **Geolocalização e Mapas**: APIs do Google Maps.  
+- **GPS e Mapas**: APIs do Google Maps.  
   O Google Maps garante dados completos e precisos.
 
 - **Autenticação**: Firebase Auth.  
@@ -51,14 +51,14 @@ Nesse cenário, o Touristeer se destaca por oferecer:
 - **Interface pensada para turistas**: Design intuitivo e funcional, ideal para facilitar a navegação durante a viagem.
 
 ## 2.5 Análise de Viabilidade Técnica, Financeira e de Mercado
-A proposta é tecnicamente viável com as tecnologias atuais. Bibliotecas e APIs como Google Maps e Firebase facilitam a integração de funcionalidades como geolocalização, mapas, rotas e autenticação.
+A proposta é tecnicamente viável com as tecnologias atuais. Bibliotecas e APIs como Google Maps e Firebase facilitam a integração de funcionalidades como GPS, mapas, rotas e autenticação.
 
 ### Viabilidade Técnica:
 De acordo com a disponibilidade dos membros da equipe, o ideal é implementar reuniões rápidas e interativas para estabelecer as funções e necessidades básicas. O projeto será construído de forma iterativa, gerando incrementos durante o desenvolvimento. O desenvolvimento contará com uma carga de trabalho bem dividida e de pouca sobrecarga semanal, além de garantir boa adaptabilidade e evitar problemas críticos futuros.
 
 ### Viabilidade Financeira:
-O objetivo é desenvolver um projeto baseado em tecnologias e APIs gratuitas e open source, o que reduz as chances de se tornar necessário um fundo monetário. As principais possibilidades de custo estão relacionadas à:
-- Infraestrutura em nuvem (Firebase/AWS/Heroku);
+O objetivo é desenvolver um projeto baseado em tecnologias e APIs gratuitas e open source, o que reduz as chances de se tornar necessário um fundo monetário. As principais possibilidades de custo estão relacionadas à: <br>
+- Infraestrutura em nuvem (Firebase/AWS/Heroku); <br>
 - APIs de mapas (Google Maps tem cota gratuita, mas pode ter custo variável).
 
 ### Viabilidade no Mercado:
@@ -87,3 +87,4 @@ Além de melhorar a jornada dos visitantes, a aplicação também terá um forte
 |21/04/2025| 1.1 | Reescrita dos tópicos 2.1 e 2.2 | Gustavo Gontijo | Gabriel Soares |
 |21/04/2025| 1.2 | Reescrita dos tópicos 2.3 e 2.4 | Leonardo Sauma | Rodrigo Amaral |
 |21/04/2025| 1.3 | Reescrita dos tópicos 2.5 e 2.6 | Mylena Trindade | Gabriel Soares |
+|21/04/2025| 1.4 | Ajuste formatação tópicos 2.2 e 2.5 | Mylena Trindade | Gabriel Soares |

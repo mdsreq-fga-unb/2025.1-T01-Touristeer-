@@ -25,7 +25,7 @@ Esse conjunto de fatores reforça a passividade dos turistas, que frequentemente
 
 > A figura, a seguir, apresenta o diagrama de Ishikawa contendo as causas (organizadas pelos 6M’s) e o problema do cliente.
 
-![Diagrama de Ishikawa](/../assets/diagrama.png)
+![Diagrama de Ishikawa](../../assets/diagrama.png)
 
 ## 1.3 Desafios do Projeto
 

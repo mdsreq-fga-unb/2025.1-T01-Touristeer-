@@ -28,7 +28,7 @@ A escolha pelo modelo RAD (Rapid Application Development) foi fundamentada na ap
 
 <p align="center">Figura 1 - Escolha do processo através do framework Gupta adaptado</p>
  
-![Captura de tela de uma planilha com os tópicos para escolha do processo](/../assets/planilhaprocesso.png)
+![Captura de tela de uma planilha com os tópicos para escolha do processo](/../../assets/planilhaprocesso.png)
 
 <p align="center">Fonte: Elaborado pelos autores (2025)</p>
 
