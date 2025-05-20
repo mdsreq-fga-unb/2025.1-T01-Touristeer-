@@ -14,6 +14,8 @@ nav:
     - Interação entre Equipe e Cliente: sections/docPage/5-interacaoEqCliente.md
     - Lições Aprendidas: sections/docPage/6-licoesAprendidas.md
   - Requisitos: sections/docPage/7-requisitos.md
+  - DOR e DOD: sections/docPage/8-dor-e-dod.md
+  - Backlog do Produto: sections/docPage/9-backlog.md
   - Entregas:
     - Unidade 1: sections/entregas/unidade1.md
 
