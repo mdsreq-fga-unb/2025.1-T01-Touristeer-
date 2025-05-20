@@ -11,8 +11,8 @@ Baseando-se na estratégia de desenvolvimento de software selecionado, mencionad
 
 O cronograma acima poderá sofrer alterações ao longo do desenvolvimento do projeto Touristeer.
 
-## Histórico de Versão
-| Data | Versão | Descrição | Autor | Revisores|
-|-|-|-|-|-|
-|21/04/2025| 1.0 | Criação do documento |Rodrigo Amaral|Todos os integrantes da equipe|
+??? abstract "Histórico de Versão"
+    | Data | Versão | Descrição | Autor | Revisores|
+    |-|-|-|-|-|
+    |21/04/2025| 1.0 | Criação do documento |Rodrigo Amaral|Todos os integrantes da equipe|
 

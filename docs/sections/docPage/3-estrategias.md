@@ -40,7 +40,7 @@ A equipe de desenvolvimento possui experiência em ciclos rápidos e uma dinâmi
 Por fim, o escopo do projeto é de complexidade moderada, favorecendo a aplicação de um modelo que prioriza entregas rápidas e incrementais. A capacidade do RAD de mitigar riscos por meio de validações precoces e de integrar mudanças de forma eficiente torna-o a escolha mais adequada, permitindo otimizar o tempo e a qualidade do desenvolvimento.
 
 
-## Histórico de Versão
-| Data | Versão | Descrição | Autor | Revisores|
-|-|-|-|-|-
-|21/04/2025| 1.0 | Criação do documento |Rodrigo Amaral| Todos os integrantes do grupo|
+??? abstract "Histórico de Versão"
+    | Data | Versão | Descrição | Autor | Revisores|
+    |-|-|-|-|-
+    |21/04/2025| 1.0 | Criação do documento |Rodrigo Amaral| Todos os integrantes do grupo|

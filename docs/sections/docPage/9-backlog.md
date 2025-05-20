@@ -1,5 +1,9 @@
 # Backlog do Produto
-Ressalta-se que as histórias de usuário descritas a seguir foram construídas com base na lista de requisitos funcionais previamente apresentada neste documento. Esta composição representa uma versão preliminar, passível de revisões e aprimoramentos contínuos ao longo do processo de desenvolvimento do Touristeer.
+O backlog do produto é uma lista priorizada e evolutiva de funcionalidades, melhorias, correções e outras entregas necessárias para atingir os objetivos do sistema. Ele representa tudo aquilo que precisa ser desenvolvido ao longo do projeto e serve como principal fonte de trabalho da equipe de desenvolvimento. Cada item do backlog — como histórias de usuário, tarefas técnicas ou épicos — deve estar descrito de forma clara e alinhada com as necessidades do cliente. O backlog é constantemente refinado e reorganizado, acompanhando a evolução do projeto, o feedback dos stakeholders e mudanças de prioridade.
+
+!!! info "Importante"
+    Ressalta-se que as histórias de usuário descritas a seguir foram construídas com base na lista de requisitos funcionais previamente apresentada neste documento. Esta composição representa uma versão preliminar, passível de revisões e aprimoramentos contínuos ao longo do processo de desenvolvimento do Touristeer.
+
 
 ## Backlog Geral
 **US01** - Como usuário, quero criar rotas turísticas escolhendo até 5 pontos turísticos e adicionando à essa rota. <br>
@@ -36,7 +40,6 @@ Empregamos a técnica MoSCoW nesta etapa para estabelecer a importância de cada
 ➤ **Won't have**: Funcionalidades que não serão incluídas agora, com possível consideração no futuro. <br>
 
 A priorização buscou assegurar que o desenvolvimento se concentre nas funcionalidades mais cruciais, harmonizando o produto com as demandas do negócio e os recursos existentes. A tabela especifica a classificação de cada item do backlog, oferecendo transparência e estrutura para as fases seguintes do projeto.
-Com base nisso, definimos o MVP do produto, abrangendo todos os itens com prioridade "Must have" e "Should have".
 
 | ID    | Descrição                                                                         | Prioridade  | MVP |
 |-------|-----------------------------------------------------------------------------------|-------------|-----|
@@ -64,3 +67,8 @@ Com base nisso, definimos o MVP do produto, abrangendo todos os itens com priori
 | US22  | Compartilhar rotas turísticas por e-mail                                          | Could have  |     |
 | US23  | Mudar idioma durante a execução da aplicação                                      | Should have |     |
 | US24  | Exibir um conversor de moedas funcional, informando a moeda origem e destino      | Won't have  |     |
+
+??? abstract "Histórico de Versão"
+    | Data | Versão | Descrição | Autor | Revisores|
+    |-|-|-|-|-
+    |20/05/2025| 1.0 | Criação do backlog | Leonardo Sauma | Gabriel Soares e Gustavo Gontijo|

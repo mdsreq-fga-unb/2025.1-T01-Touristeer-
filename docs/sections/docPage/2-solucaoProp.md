@@ -80,11 +80,11 @@ Além de melhorar a jornada dos visitantes, a aplicação também terá um forte
   A aplicação se destaca por não se limitar aos pontos turísticos mais conhecidos, mas utilizar a localização do usuário para sugerir atrações próximas, frequentemente ignoradas pelos roteiros convencionais. Isso permite ao visitante descobrir espaços históricos, culturais e simbólicos da cidade que normalmente passariam despercebidos, promovendo uma conexão mais autêntica com o território. Ao dar visibilidade a esses locais, a plataforma contribui para a valorização da história local, preservação do patrimônio e distribuição mais equilibrada do fluxo turístico, gerando impacto positivo tanto na memória coletiva quanto na economia de comunidades que vivem fora dos grandes eixos turísticos.
 
   
-## Histórico de Versão
-| Data | Versão | Descrição | Autor | Revisores|
-|-|-|-|-|-|
-|21/04/2025| 1.0 | Criação do documento | Todos os integrantes do grupo |Todos os integrantes do grupo|
-|21/04/2025| 1.1 | Reescrita dos tópicos 2.1 e 2.2 | Gustavo Gontijo | Gabriel Soares |
-|21/04/2025| 1.2 | Reescrita dos tópicos 2.3 e 2.4 | Leonardo Sauma | Rodrigo Amaral |
-|21/04/2025| 1.3 | Reescrita dos tópicos 2.5 e 2.6 | Mylena Trindade | Gabriel Soares |
-|21/04/2025| 1.4 | Ajuste formatação tópicos 2.2 e 2.5 | Mylena Trindade | Gabriel Soares |
+??? abstract "Histórico de Versão"
+    | Data | Versão | Descrição | Autor | Revisores|
+    |-|-|-|-|-|
+    |21/04/2025| 1.0 | Criação do documento | Todos os integrantes do grupo |Todos os integrantes do grupo|
+    |21/04/2025| 1.1 | Reescrita dos tópicos 2.1 e 2.2 | Gustavo Gontijo | Gabriel Soares |
+    |21/04/2025| 1.2 | Reescrita dos tópicos 2.3 e 2.4 | Leonardo Sauma | Rodrigo Amaral |
+    |21/04/2025| 1.3 | Reescrita dos tópicos 2.5 e 2.6 | Mylena Trindade | Gabriel Soares |
+    |21/04/2025| 1.4 | Ajuste formatação tópicos 2.2 e 2.5 | Mylena Trindade | Gabriel Soares |

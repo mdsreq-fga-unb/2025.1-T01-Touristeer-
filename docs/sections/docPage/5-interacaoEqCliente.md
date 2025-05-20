@@ -51,9 +51,9 @@ Antes da implantação definitiva, será realizada uma **validação global do s
 Esse processo garante maior qualidade do produto final, promovendo entregas mais próximas às necessidades reais do cliente.
 
 
-## Histórico de Versão
-| Data | Versão | Descrição | Autor | Revisores|
-|-|-|-|-|-|
-|21/04/2025| 1.0 | Criação do documento | Rodrigo Amaral |Todos os integrantes da equipe|
-|21/04/2025| 1.1 | Alteração da plataforma de reuniões | Rodrigo Amaral |Leonardo Sauma|
-|21/04/2025| 1.2 | Alteração cargo Gustavo Gontijo | Gabriel Soares |Leonardo Sauma|
+??? abstract "Histórico de Versão"
+    | Data | Versão | Descrição | Autor | Revisores|
+    |-|-|-|-|-|
+    |21/04/2025| 1.0 | Criação do documento | Rodrigo Amaral |Todos os integrantes da equipe|
+    |21/04/2025| 1.1 | Alteração da plataforma de reuniões | Rodrigo Amaral |Leonardo Sauma|
+    |21/04/2025| 1.2 | Alteração cargo Gustavo Gontijo | Gabriel Soares |Leonardo Sauma|

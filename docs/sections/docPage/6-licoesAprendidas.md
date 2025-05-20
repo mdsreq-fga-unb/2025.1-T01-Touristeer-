@@ -8,8 +8,8 @@ Também estabelecemos de forma clara as responsabilidades de cada membro, defini
 
 Essas medidas ajudaram a consolidar uma dinâmica de trabalho mais coesa e eficiente ao longo da unidade. Essas mudanças refletiram positivamente na nossa dinâmica de grupo e serão mantidas e aprimoradas nas próximas unidades, a fim de garantir entregas mais alinhadas e eficientes.  
 
-## Histórico de Versão
-| Data | Versão | Descrição | Autor | Revisores|
-|-|-|-|-|-|
-|21/04/2025| 1.0 | Criação do documento | Mylena Trindade |Gabriel Soares|
-|21/04/2025| 1.1 | Alteração da plataforma de reuniões | Leonardo Sauma |Mylena Trindade|
+??? abstract "Histórico de Versão"
+    | Data | Versão | Descrição | Autor | Revisores|
+    |-|-|-|-|-|
+    |21/04/2025| 1.0 | Criação do documento | Mylena Trindade |Gabriel Soares|
+    |21/04/2025| 1.1 | Alteração da plataforma de reuniões | Leonardo Sauma |Mylena Trindade|

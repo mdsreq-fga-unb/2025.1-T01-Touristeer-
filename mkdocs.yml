@@ -32,6 +32,7 @@ theme:
       - navigation.instant
       - navigation.top
       - navigation.tracking
+      
   
   palette:
   - media: "(prefers-color-scheme: dark)"
@@ -50,3 +51,9 @@ theme:
       icon: material/weather-sunny
       name: Tema escuro
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
