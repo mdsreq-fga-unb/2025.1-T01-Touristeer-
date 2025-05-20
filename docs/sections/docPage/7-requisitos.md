@@ -1,0 +1,38 @@
+## Requisitos Funcionais
+Os requisitos funcionais detalham as funcionalidades essenciais do sistema, alinhadas aos objetivos do Touristeer. Confira a lista inicial:
+
+**RF01** - Cadastrar rotas turísticas: Permitir o registro de rotas turísticas com até 5 pontos turísticos. <br>
+**RF02** - Atualizar rotas turísticas: Permitir a atualização dos pontos turísticos de uma rota. <br>
+**RF03** - Consultar rotas turísticas: Permitir a consulta às rotas turísticas cadastradas, visualizando os pontos turísticos inseridos. <br>
+**RF04** - Exibir rotas turísticas no mapa: Permitir a visualização da rota turística no mapa. <br>
+**RF05** - Excluir rotas turísticas: Permitir a exclusão de rotas turísticas do sistema. <br>
+**RF06** - Cadastrar pontos turísticos: Permitir o registro de pontos turísticos. <br>
+**RF07** - Atualizar pontos turísticos: Permitir a atualização das informações de um ponto turístico. <br>
+**RF08** - Consultar pontos turísticos: Permitir a consulta aos pontos turísticos cadastrados. <br>
+**RF09** - Excluir pontos turísticos: Permitir a exclusão de pontos turísticos. <br>
+**RF10** - Agendar início de rota turística: Permitir agendar o início de uma rota turística informando data e hora. <br>
+**RF11** - Avaliar rota turística: Permitir a avaliação de rotas turísticas, classificando de 0 a 5 estrelas. <br>
+**RF12** - Cadastrar grupos de viajantes: Permitir a criação de grupos de usuários que estão viajando juntos. <br>
+**RF13** - Atualizar grupos de viajantes: Permitir a atualização de informações de grupos de usuários que estão viajando juntos. <br>
+**RF14** - Excluir grupos de viajantes: Permitir a exclusão de grupos de viajantes. <br>
+**RF15** - Convidar para grupos de viajantes: Permitir o envio de convite para grupos de viajantes. <br>
+**RF16** - Sair de grupos de viajantes: Permitir a saída de grupos de viajantes. <br>
+**RF17** - Enviar notificações de início de rota turística: Enviar notificações automáticas por e-mail ao faltar 15 minutos para o início agendado da rota turística. <br>
+**RF18** - Adicionar grupo de viajante à rotas turísticas: Permitir adicionar um grupo de viajante em uma rota turística. <br>
+**RF19** - Obter localização atual: Acessar a geolocalização via navegador. <br>
+**RF20** - Filtrar rotas turísticas: Permitir a filtragem de rotas turísticas por distância. <br>
+**RF21** - Salvar rotas turísticas em PDF: Permitir a exportação de rotas turísticas em PDF. <br>
+**RF22** - Compartilhar rotas turísticas por e-mail: Permitir o compartilhamento de rotas turísticas por e-mail. <br>
+**RF23** - Mudar idioma: Permitir a mudança de idioma durante a execução da aplicação. <br>
+**RF24** - Conversor de moedas: Exibir um conversor de moedas funcional, informando a moeda origem e destino. <br>
+
+
+## Requisitos Não Funcionais
+
+| **U**sabilidade | **R**obustez | **P**erformance | **S**egurança | **+** |
+| - | - | - | - | - |
+| **RNFXX** - A interface deve permitir que os usuários encontrem suas rotas turísticas em até três cliques, sem necessidade de tutorial.| **RNFXX** - | **RNFXX** -  Todas as chamadas à API de geolocalização devem retornar a posição do usuário em até 1 segundo sob conexão 4G. | **RNFXX** - | **RNFXX** - |
+|**RNFXX** - | **RNFXX** -| **RNFXX** -  |**RNFXX** -  |**RNFXX** -  |
+|**RNFXX** - |**RNFXX** -  | **RNFXX** - |**RNFXX** -  |**RNFXX** -  |
+|**RNFXX** - |  **RNFXX** -| **RNFXX** - | **RNFXX** - |**RNFXX** -  |
+|**RNFXX** - | **RNFXX** - |**RNFXX** -  |**RNFXX** -  |**RNFXX** -  |
