@@ -31,11 +31,11 @@ Os requisitos funcionais detalham as funcionalidades essenciais do sistema, alin
 
 | **U**sabilidade | **R**obustez | **P**erformance | **S**egurança | **+** |
 | - | - | - | - | - |
-| **RNFXX** - A interface deve permitir que os usuários encontrem suas rotas turísticas em até três cliques, sem necessidade de tutorial.| **RNFXX** - | **RNFXX** -  Todas as chamadas à API de geolocalização devem retornar a posição do usuário em até 2 segundo sob conexão 4G. | **RNFXX** - Toda comunicação cliente-servidor deve ocorrer via HTTPS/TLS 1.2+, qualquer requisição sem TLS deve ser rejeitada. | **RNFXX** - O aplicativo web deve ser compatível com as |
-|**RNFXX** - A aplicação deve suportar dois idiomas, sendo eles português e inglês, garantindo que todas as mensagens, botões, menus e conteúdos sejam traduzidos adequadamente, sem erros de contexto ou gramática.| **RNFXX** -| **RNFXX** - O carregamento inicial do mapa deve ocorrer em até 4 segundos após a abertura da tela.  |**RNFXX** -  |**RNFXX** -  |
-|**RNFXX** - O sistema deve apresentar responsividade plena, adaptando automaticamente sua interface gráfica a diferentes tamanhos e resoluções de tela (como dispositivos móveis, tablets e desktops), de modo a garantir uma experiência de uso consistente, intuitiva e acessível em todos os dispositivos suportados. |**RNFXX** -  | **RNFXX** - |**RNFXX** -  |**RNFXX** -  |
-|**RNFXX** - Pelo menos 80% dos elementos da interface devem permanecer visíveis e utilizáveis em resoluções mínimas de 360x640 px (dispositivos móveis), 768x1024 px (tablets) e 1366x768 px (desktops). |  **RNFXX** -| **RNFXX** - | **RNFXX** - |**RNFXX** -  |
-|**RNFXX** - | **RNFXX** - |**RNFXX** -  |**RNFXX** -  |**RNFXX** -  |
+| **RNF01** - A interface deve permitir que os usuários encontrem suas rotas turísticas em até três cliques, sem necessidade de tutorial.| **RNFXX05 - O sistema deve exibir uma mensagem de erro e registrar o erro em log para análise posterior sempre que ocorrer uma exceção não tratada. | **RNF06** -  Todas as chamadas à API de geolocalização devem retornar a posição do usuário em até 2 segundo sob conexão 4G. | **RNF08** - Toda comunicação cliente-servidor deve ocorrer via HTTPS/TLS 1.2+, qualquer requisição sem TLS deve ser rejeitada. | **RNF09** - O aplicativo web deve ser compatível com a versão 90+ do Chrome, 88+ do Mozilla Firefox, 90+ do Microsoft Edge e 14+ do Safari.|
+|**RNF02** - A aplicação deve suportar dois idiomas, sendo eles português e inglês, garantindo que todas as mensagens, botões, menus e conteúdos sejam traduzidos adequadamente, sem erros de contexto ou gramática.| | **RNFX07** - O carregamento inicial do mapa deve ocorrer em até 4 segundos após a abertura da tela.  |||
+|**RNF03** - O sistema deve apresentar responsividade plena, adaptando automaticamente sua interface gráfica a diferentes tamanhos e resoluções de tela (como dispositivos móveis, tablets e desktops), de modo a garantir uma experiência de uso consistente, intuitiva e acessível em todos os dispositivos suportados. || | ||
+|**RNF04** - Pelo menos 80% dos elementos da interface devem permanecer visíveis e utilizáveis em resoluções mínimas de 360x640 px (dispositivos móveis), 768x1024 px (tablets) e 1366x768 px (desktops). | | |  ||
+
 
 
 ??? abstract "Histórico de Versão"
