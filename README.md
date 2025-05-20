@@ -1,6 +1,6 @@
 # Touristeer
 
-![Logo Touristeer]()
+![Logo Touristeer](/docs/assets/logo-touristeer.png)
 
 O **Touristeer** é uma aplicação voltada para auxiliar turistas a explorarem novos destinos de forma eficiente, prática e personalizada — como um "Waze para turistas". Com foco na experiência do usuário, o app sugere rotas, pontos de interesse e otimiza a jornada turística com base em preferências individuais.
 
