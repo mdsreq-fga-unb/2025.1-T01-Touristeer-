@@ -1,11 +1,12 @@
 # Touristeer
 
-<img src="docs/assets/logo-touristeer.png" alt="Logo Touristeer" width="200px">
+<p align="center">
+  <img src="docs/assets/logo-touristeer.png" alt="Logo Touristeer" width="200px">
+</p>
 
 O **Touristeer** é uma aplicação voltada para auxiliar turistas a explorarem novos destinos de forma eficiente, prática e personalizada — como um "Waze para turistas". Com foco na experiência do usuário, o app sugere rotas, pontos de interesse e otimiza a jornada turística com base em preferências individuais.
 
-🔗 Acesse a documentação do projeto pelo GitHub Pages:  
-[https://mdsreq-fga-unb.github.io/2025.1-T01-Touristeer-/](https://mdsreq-fga-unb.github.io/2025.1-T01-Touristeer-/)
+[🔗 Acesse a documentação do projeto pelo GitHub Pages](https://mdsreq-fga-unb.github.io/2025.1-T01-Touristeer-/)
 
 ## 👥 Equipe de Desenvolvimento
 
