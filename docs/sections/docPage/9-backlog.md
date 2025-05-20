@@ -29,7 +29,7 @@ Ressalta-se que as histórias de usuário descritas a seguir foram construídas 
 **US24** - Como usuário, quero utilizar um conversor de moedas com seleção de moeda de origem e destino, para não ser pego de surpresa com conversões após os gastos. <br>
 
 ## Priorização do Backlog
-Empregamos a técnica MoSCoW nesta etapa para estabelecer a importância de cada elemento do backlog, dividindo as funcionalidades em quatro grupos primordiais:
+Empregamos a técnica MoSCoW nesta etapa para estabelecer a importância de cada elemento do backlog, dividindo as funcionalidades em quatro grupos primordiais: <br>
 ➤ **Must have**: Recursos indispensáveis para o funcionamento do produto, com entrega obrigatória. <br>
 ➤ **Should have**: Funcionalidades relevantes, cuja implementação pode ocorrer depois das essenciais. <br>
 ➤ **Could have**: Recursos que valorizam o produto, mas não são prioridade nesta fase inicial. <br>
