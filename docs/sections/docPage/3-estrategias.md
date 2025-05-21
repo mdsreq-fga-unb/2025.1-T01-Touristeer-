@@ -23,6 +23,8 @@
 
 ## 3.3 Justificativa
 
+Escolhemos uma abordagem híbrida (que combina a flexibilidade de ciclos ágeis com a disciplina de processos estruturados) para o Touristeer. Dessa forma, podemos prototipar e testar rapidamente novas rotas, filtros e integrações de dados locais, validando no dia a dia o que realmente faz diferença para o turista. Ao mesmo tempo, mantemos revisões de código, testes automatizados e documentação mínima para garantir a estabilidade e a manutenção das funções de GPS, análise de avaliações e armazenamento de conteúdo. Assim, conseguimos inovar rápido sem abrir mão da confiança e do desempenho do aplicativo.
+
 A escolha pelo modelo RAD (Rapid Application Development) foi fundamentada na aplicação de uma adaptação do framework proposto por Gupta, que avalia aspectos críticos relacionados aos requisitos, à equipe de desenvolvimento, aos stakeholders e às características do projeto. As respostas fornecidas pela equipe, encontradas na tabela 1, indicaram que o RAD seria o método ideal devido à sua abordagem iterativa e adaptável, alinhada às demandas do projeto.
 <br><br>
 
