@@ -12,11 +12,11 @@ nav:
     - Estratégias de Engenharia de Software: sections/docPage/3-estrategias.md
     - Cronograma e Entregas: sections/docPage/4-cronograma.md
     - Interação entre Equipe e Cliente: sections/docPage/5-interacaoEqCliente.md
-    - Lições Aprendidas: sections/docPage/6-licoesAprendidas.md
     - Engenharia de Requisitos: sections/docPage/10-engenhariaRequisitos.md
     - Requisitos: sections/docPage/7-requisitos.md
     - DOR e DOD: sections/docPage/8-dor-e-dod.md
     - Backlog do Produto: sections/docPage/9-backlog.md
+    - Lições Aprendidas: sections/docPage/6-licoesAprendidas.md
   - Entregas:
     - Unidade 1: sections/entregas/unidade1.md
 
