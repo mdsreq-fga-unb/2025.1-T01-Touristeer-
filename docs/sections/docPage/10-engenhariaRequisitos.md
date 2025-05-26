@@ -64,3 +64,9 @@
 | **Organização Iterativa**    | Organização dos requisitos por ciclos | Revisão e reclassificação frequente do backlog  | Backlog Dinâmico, Story Mapping                         | Requisitos organizados conforme prioridades evoluem durante o desenvolvimento |
 | **Entrega Incremental**      | Declaração final dos requisitos implementados | Validação incremental em cada entrega parcial   | Critérios de Aceitação, DoR/DoD                         | Funcionalidades validadas e aprovadas ao final de cada ciclo RAD          |
 | **Encerramento**             | Requisitos consolidados e documentados | Reuniões de finalização, análise retroativa     | Documentação final com base em User Stories e protótipos validados | Base formalizada refletindo o produto final                              |
+
+
+??? abstract "Histórico de Versão"
+    | Data | Versão | Descrição | Autor | Revisores|
+    |-|-|-|-|-
+    |21/05/2025| 1.0 | Criação do documento de DoR e DoD | Gabriel Soares | Leonardo Sauma|
