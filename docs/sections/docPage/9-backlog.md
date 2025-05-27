@@ -43,26 +43,26 @@ A priorização buscou assegurar que o desenvolvimento se concentre nas funciona
 
 | ID    | Descrição                                                                         | Prioridade  | MVP |
 |-------|-----------------------------------------------------------------------------------|-------------|-----|
-| US01  | Cadastrar rotas turísticas                                                        | Must have   |  X  |
-| US02  | Atualizar rotas turísticas                                                        | Must have   |  X  |
+| US01  | Criar rotas turísticas                                                        | Must Have   |  X  |
+| US02  | Atualizar rotas turísticas                                                        | Must Have   |  X  |
 | US03  | Consultar rotas turísticas                                                        | Must have   |  X  |
 | US04  | Exibir rotas turísticas no mapa                                                   | Must have   |  X  |
 | US05  | Excluir rotas turísticas                                                          | Should have |     |
-| US06  | Cadastrar pontos turísticos                                                       | Should have |     |
-| US07  | Atualizar pontos turísticos                                                       | Should have |     |
-| US08  | Consultar pontos turísticos                                                       | Should have |     |
-| US09  | Excluir pontos turísticos                                                         | Should have |     |
-| US10  | Agendar início de rota turística                                                  | Must have   |  X  |
+| US06  | Cadastrar pontos turísticos                                                       | Could have |     |
+| US07  | Atualizar pontos turísticos                                                       | Could have |     |
+| US08  | Consultar pontos turísticos                                                       | Must have |  X  |
+| US09  | Excluir pontos turísticos                                                         | Could have |     |
+| US10  | Agendar início de rota turística                                                  | Could have   |    |
 | US11  | Avaliar rota turística                                                            | Could have  |     |
 | US12  | Cadastrar grupos de viajantes                                                     | Should have |     |
 | US13  | Atualizar grupos de viajantes                                                     | Should have |     |
 | US14  | Excluir grupos de viajantes                                                       | Should have |     |
 | US15  | Convidar para grupos de viajantes                                                 | Should have |     |
 | US16  | Sair de grupos de viajantes                                                       | Should have |     |
-| US17  | Enviar notificações de início de rota turística                                   | Must have   |  X  |
+| US17  | Enviar notificações de início de rota turística                                   | Should have   |   |
 | US18  | Adicionar grupo de viajante à rotas turísticas                                    | Should have |     |
 | US19  | Obter localização atual                                                           | Must have   |  X  |
-| US20  | Filtrar rotas turísticas por distância                                            | Should have |     |
+| US20  | Filtrar rotas turísticas por distância                                            | Must have |  X  |
 | US21  | Salvar rotas turísticas em PDF                                                    | Must have   |  X  |
 | US22  | Compartilhar rotas turísticas por e-mail                                          | Could have  |     |
 | US23  | Mudar idioma durante a execução da aplicação                                      | Should have |     |
