@@ -66,10 +66,8 @@
 || **Verificação e Validação de Requisitos** | Verificar e validar os requisitos levantados | Revisão por Pares, Checklists, Feedback do Cliente. | Revisar e alinhar com o cliente sobre os requisitos levantados. |
 | **User Design** | **Representação** | Elaboração de protótipos |  Protótipos de Baixa Fidelidade e Protótipos de Alta Fidelidade. | Design validado com o cliente. |
 || **Verificação e Validação** | Validação dos Requisitos | Feedback do Cliente | Confirmação de que cada requisito foi implementado conforme especificado e atende às necessidades dos usuários. |
-| **Construção** | **Implementação e Teste** | Desenvolvimento de funcionalidades; Testes Unitários e de Integração | DoR e DoD; Code Review em Pull Requests; | Entrega de incrementos de software funcionando, cobertos por testes, prontos para demonstração ao cliente |
-|| **Verificação e Validação** | Revisão por Pares; Testes de Aceitação | Critérios de Aceitação definidos; Integração Contínua; | Cada funcionalidade validada contra requisitos e sem regressões antes de avançar para produção |
-| **Cutover (Implementação Final)** | **Entrega e validação dos requisitos** | Deploy rápido e testes de uso imediato | Verificação de funcionamento; Observação direta e coleta de feedback | Protótipo operacional e aprovado pelo cliente |
-|| **Ajuste e confirmação final dos requisitos após coleta de feedback** | Pequenas correções e deploy incremental | Verificação de conformidade | Protótipo estabilizado e pronto para evolução contínua |
+| **Construção** | **Verificação e Validação** | Revisão por Pares; Testes de Aceitação | Critérios de Aceitação definidos; Integração Contínua; | Cada funcionalidade validada contra requisitos e sem regressões antes de avançar para produção |
+| **Cutover (Implementação Final)** |-|-|-|-
 
 
 ??? abstract "Histórico de Versão"
