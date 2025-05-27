@@ -1,16 +1,17 @@
 ## 1.1 Introdução ao Negócio e Contexto
 
-O **“Touristeer”** é uma aplicação web de navegação móvel voltada ao setor de turismo com enfoque em aproximar o viajante da cultura e costumes locais, disponibilizando espaços próximos do usuário que sejam mais diversificados do que as rotas oferecidas por pacotes de viagem com pontos turísticos.
-
-A principal proposta da aplicação é fornecer rotas otimizadas em tempo real com base em informações de localização e avaliação coletadas pelo usuário e com percursos possíveis de se transitar a curtas distâncias, visando liberdade e flexibilidade no planejamento e corte de gastos nas viagens do usuário.
-
-O setor de atuação do Touristeer está no mercado de tecnologia móvel e serviços de mapas de navegação e de agências de viagem.
+O setor de turismo é um complexo e dinâmico segmento da economia global, englobando todas as atividades relacionadas à viagem, hospedagem e lazer de indivíduos que se deslocam para fora do seu ambiente habitual. Mais do que uma simples movimentação de pessoas, o turismo é um poderoso motor econômico, responsável por impulsionar a geração de empregos, fomentar o comércio local e aumentar significativamente a arrecadação de receitas em destinos ao redor do mundo.
+Nesse contexto, emerge a ideia de explorar a otimização da experiência turística e o bem-estar dos visitantes. Considerando que o turismo é a principal atividade econômica em várias cidades brasileiras, a concepção de uma ferramenta digital que possa oferecer orientação sobre atrativos locais e rotas personalizadas para esse público ganha relevância. O Touristeer atuaria nesse cenário exercendo um papel em alinhar a personalização e preferências dos usuários com os serviços de turismo oferecidos.
 
 ---
 
 ## 1.2 Identificação da Oportunidade ou Problema
 
-Esse projeto surge diante de um contexto em que os viajantes frequentemente se frustram com a rigidez dos serviços de turismo oferecidos, que muitas vezes não atendem às suas vontades, mas acabam sendo as únicas opções disponíveis, diminuindo o aproveitamento das viagens. Essa rigidez foi analisada em profundidade, revelando diversas causas que limitam a flexibilidade e a personalização dos serviços turísticos.
+Este projeto surge do contexto em que muitos viajantes se frustram com a rigidez dos serviços oferecidos ao não atenderem suas expectativas. Essa rigidez foi analisada, revelando causas que reforçam a passividade dos turistas diante de situações desagradáveis. Como resultado, a insatisfação e frustração tornam-se comuns, prejudicando a exploração das atividades disponíveis, evidenciando a importância de serviços mais personalizáveis.
+
+> A figura abaixo apresenta um levantamento feito em 2023 contendo a faixa etária de preferências dos viajantes em relação ao uso de pacotes de viagens.
+![Tabela de experiênicas negativsa](../../assets/tabela_experiencia_negativa.png)
+
 
 - **Ambiente externo**: normas e regulamentações no setor de turismo restringem a adaptação às preferências individuais, enquanto mercados tradicionais continuam a priorizar pacotes fixos e inflexíveis.
 - **Métricas inadequadas**: há uma falta de indicadores que acompanhem a demanda por personalização e controle limitado sobre alterações em roteiros.
@@ -45,24 +46,12 @@ O **Touristeer** será lançado em um cenário dominado por plataformas consolid
 
 ## 1.4 Segmentação de Clientes
 
-O **Touristeer** é voltado para diferentes perfis de turistas que viajam pelo Brasil, com foco em turismo de lazer, cultural e ecológico. Com base em dados sobre comportamento de viagem, destacam-se três segmentos principais:
+A análise do comportamento dos viajantes revela que uma parcela significativa dos entrevistados que optam por serviços de agências de viagem (24,9% do total) pertence a faixas etárias mais experientes. Especificamente, observa-se uma maior adesão a esses serviços tradicionais entre os grupos de 45 a 59 anos (33,9%) e aqueles com 60 anos ou mais (19,3%), indicando uma preferência por intermediários convencionais.
 
-### Turistas em Grandes Centros Urbanos
+> A figura abaixo apresenta um levantamento feito em 2023 contendo a faixa etária de preferências dos viajantes em relação ao uso de pacotes de viagens.
+![Imagem faixa etária](../../assets/faixa_etaria.webp)
 
-Majoritariamente entre **30 e 55 anos**, são profissionais com ensino superior e pertencentes à classe média urbana. Valorizam experiências culturais, históricas e gastronômicas e usam da tecnologia para consultar avaliações de atrações em tempo real e montar roteiros personalizados e flexíveis, embora as viagens costumem ser bem estruturadas. Destinos como **São Paulo**, **Rio de Janeiro** e **Salvador** são recorrentes neste grupo.
-
-### Turistas de Lazer em Viagens Curtas ou de Fim de Semana
-
-Inclui desde casais jovens e amigos universitários até famílias com filhos pequenos. Embora haja presença de jovens entre **18 e 29 anos**, a maior parte ainda está na faixa de **30 a 55 anos**. Esse público realiza viagens em feriados prolongados ou fins de semana para destinos próximos e acessíveis, como **Ouro Preto (MG)**, **Paraty (RJ)** ou **Chapada dos Veadeiros (GO)**. Buscam praticidade e roteiros otimizados, com foco em trilhas leves, visitas guiadas e passeios bate-volta. Valorizam recursos como listas de atrações por tempo disponível e recomendações para diferentes perfis (famílias, casais, etc.). Possuem ensino médio ou superior e pertencem à classe média.
-
-### Moradores em Busca de Lazer Local
-
-Esse grupo inclui jovens adultos entre **18 e 35 anos** que vivem em grandes centros urbanos e desejam redescobrir sua própria cidade ou explorar bairros vizinhos aos finais de semana. São usuários que buscam eventos gratuitos, feiras culturais, espaços alternativos e novas experiências gastronômicas, com pouco planejamento. Para esse público, o **Touristeer** se posiciona como uma ferramenta espontânea de descoberta, sugerindo atividades conforme localização, clima e horário. Em sua maioria, têm ensino médio ou superior completo e pertencem à classe média ou média-baixa.
-
-### Turistas Seniores
-
-Indivíduos aposentados, com tempo livre e renda acumulada, que realizam de **2 a 3 viagens por ano**. Preferem viagens dinâmicas com muitos serviços incluídos, priorizando conforto, segurança e acessibilidade. Valorizam experiências culturais e históricas.
-
+Nesse contexto de mercado, o **Touristeer**, direciona sua estratégia para uma faixa etária complementar: os jovens adultos, que compreendem o público de 16 a 44 anos. Esta segmentação é justificada pela percepção de que esses grupos demográficos (16-24 anos com 11,0%, 25-34 anos com 18,3% e 35-44 anos com 17,4% de uso de agências) demonstram uma menor dependência dos serviços convencionais de agências de viagem. Essa característica indica um potencial significativo para soluções digitais que ofereçam autonomia e personalização na exploração de destinos.
 
 ??? abstract "Histórico de Versão"
     | Data | Versão | Descrição | Autor | Revisores|
@@ -72,3 +61,4 @@ Indivíduos aposentados, com tempo livre e renda acumulada, que realizam de **2 
     |20/04/2025| 1.3 | Reescrita dos tópico 1.1 e 1.2 | Samuel Afonso |Gabriel Soares|
     |21/04/2025| 1.4 | Reescrita dos tópico 1.3 e 1.4 | Gabriel Soares |Leonardo Sauma|
     |21/04/2025| 1.4 | Alteração no tópico 1.1 | Rodrigo Amaral |Leonardo Sauma|
+    |26/05/2025| 1.5 | Alteração nos tópicso 1.1, 1.2 e 1.4 | Rodrigo Amaral |Samuel Afonso|
