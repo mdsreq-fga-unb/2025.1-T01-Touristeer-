@@ -10,9 +10,9 @@ nav:
     - Cenário Atual do Cliente e Negócio: sections/docPage/1-cenarioAtual.md
     - Solução Proposta: sections/docPage/2-solucaoProp.md
     - Estratégias de Engenharia de Software: sections/docPage/3-estrategias.md
+    - Engenharia de Requisitos: sections/docPage/10-engenhariaRequisitos.md
     - Cronograma e Entregas: sections/docPage/4-cronograma.md
     - Interação entre Equipe e Cliente: sections/docPage/5-interacaoEqCliente.md
-    - Engenharia de Requisitos: sections/docPage/10-engenhariaRequisitos.md
     - Requisitos: sections/docPage/7-requisitos.md
     - DOR e DOD: sections/docPage/8-dor-e-dod.md
     - Backlog do Produto: sections/docPage/9-backlog.md
