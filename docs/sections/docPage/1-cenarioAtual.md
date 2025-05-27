@@ -13,6 +13,10 @@ Este projeto surge do contexto em que muitos viajantes se frustram com a rigidez
 ![Tabela de experiênicas negativsa](../../assets/tabela_experiencia_negativa.png)
 
 
+??? abstract "Referências"
+    - MEDEIROS, S. A. DE; GOSLING, M.; VERA, L. A. R. Emoções em Experiências Negativas de Turismo: um estudo sobre a influência na insatisfação. Revista Turismo em Análise, v. 26, n. 1, p. 188–215, 1 mar. 2015.
+
+
 - **Ambiente externo**: normas e regulamentações no setor de turismo restringem a adaptação às preferências individuais, enquanto mercados tradicionais continuam a priorizar pacotes fixos e inflexíveis.
 - **Métricas inadequadas**: há uma falta de indicadores que acompanhem a demanda por personalização e controle limitado sobre alterações em roteiros.
 - **Materiais utilizados**: o uso de guias turísticos impressos com informações fixas e frequentemente desatualizadas, além de uma integração insuficiente com bases de dados dinâmicas.
@@ -50,6 +54,9 @@ A análise do comportamento dos viajantes revela que uma parcela significativa d
 
 > A figura abaixo apresenta um levantamento feito em 2023 contendo a faixa etária de preferências dos viajantes em relação ao uso de pacotes de viagens.
 ![Imagem faixa etária](../../assets/faixa_etaria.webp)
+
+??? abstract "Referências"
+    - CEDEÑO, K. Quem é o público que compra das agências de viagens? Estudo revela. Disponível em: https://www.panrotas.com.br/agencias-de-viagens/mercado/2023/08/quem-e-o-publico-que-compra-das-agencias-de-viagens-estudo-revela_198925.html.
 
 Nesse contexto de mercado, o **Touristeer**, direciona sua estratégia para uma faixa etária complementar: os jovens adultos, que compreendem o público de 16 a 44 anos. Esta segmentação é justificada pela percepção de que esses grupos demográficos (16-24 anos com 11,0%, 25-34 anos com 18,3% e 35-44 anos com 17,4% de uso de agências) demonstram uma menor dependência dos serviços convencionais de agências de viagem. Essa característica indica um potencial significativo para soluções digitais que ofereçam autonomia e personalização na exploração de destinos.
 
