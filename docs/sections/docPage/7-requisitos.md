@@ -1,7 +1,7 @@
 ## Requisitos Funcionais
 Os requisitos funcionais detalham as funcionalidades essenciais do sistema, alinhadas aos objetivos do Touristeer. Confira a lista inicial:
 
-**RF01** - Cadastrar rotas turísticas: Permitir a criação e agendamento de rotas turísticas.  <br>
+**RF01** - Cadastrar rotas turísticas: Permitir a criação e agendamento do horário de início de rotas turísticas.  <br>
 **RF02** - Atualizar rotas turísticas: Permitir a atualização dos pontos turísticos de uma rota. <br>
 **RF03** - Consultar rotas turísticas: Permitir a consulta às rotas turísticas cadastradas, visualizando os pontos turísticos inseridos e permitindo a fitragem. <br>
 **RF04** - Exibir rotas turísticas no mapa: Permitir a visualização da rota turística no mapa. <br>
