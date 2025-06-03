@@ -26,8 +26,7 @@ O backlog do produto é uma lista priorizada e evolutiva de funcionalidades, mel
 **US18** - Como usuário, quero visualizar minha localização em tempo real. <br>
 **US19** - Como usuário, quero salvar rotas turísticas em PDF, para consultá-las posteriormente, mesmo sem conexão com a internet. <br>
 **US20** - Como usuário, quero compartilhar rotas turísticas por e-mail, a fim de enviar sugestões de passeios para amigos ou grupos de viagem. <br>
-**US21** - Como usuário, quero alterar o idioma da aplicação a qualquer momento, para utilizá-la no idioma de minha preferência. <br>
-**US22** - Como usuário, quero utilizar um conversor de moedas com seleção de moeda de origem e destino, para não ser pego de surpresa com conversões após os gastos. <br>
+**US21** - Como usuário, quero utilizar um conversor de moedas com seleção de moeda de origem e destino, para não ser pego de surpresa com conversões após os gastos. <br>
 
 ## Priorização do Backlog
 **MoSCoW**
@@ -54,30 +53,29 @@ WSJF = (Valor do Negócio + Urgência + Redução de Risco) / Tamanho do Trabalh
 <br><br>
 A priorização buscou assegurar que o desenvolvimento se concentre nas funcionalidades mais cruciais, harmonizando o produto com as demandas do negócio e os recursos existentes. A tabela especifica a classificação de cada item do backlog, oferecendo transparência e estrutura para as fases seguintes do projeto.
 
-| ID    | Descrição                                                                         | Prioridade  | WSJF | MVP |
-|-------|-----------------------------------------------------------------------------------|-------------|-----|-----|
-| US01  | Criar rotas turísticas                                                        | Must Have   | 4 |  X  |
-| US02  | Atualizar rotas turísticas                                                        | Must Have   | 14 | X  |
-| US03  | Consultar rotas turísticas                                                        | Must have   | 7 |X  |
-| US04  | Exibir rotas turísticas no mapa                                                   | Must have   | 7 |X  |
-| US05  | Excluir rotas turísticas                                                          | Should have | 12 |    |
-| US06  | Cadastrar pontos turísticos                                                       | Could have | 2 |     |
-| US07  | Atualizar pontos turísticos                                                       | Could have | 5 |    |
-| US08  | Consultar pontos turísticos                                                       | Must have | 7 | X  |
-| US09  | Excluir pontos turísticos                                                         | Could have | 9 |     |
-| US10  | Avaliar rota turística                                                            | Could have  | 5 |     |
-| US11  | Cadastrar grupos de viajantes                                                     | Should have | 5 |     |
-| US12  | Atualizar grupos de viajantes                                                     | Should have | 9 |     |
-| US13  | Excluir grupos de viajantes                                                       | Should have | 9 |     |
-| US14  | Convidar para grupos de viajantes                                                 | Should have | 5 |     |
-| US15  | Sair de grupos de viajantes                                                       | Should have | 9 |     |
-| US16  | Enviar notificações de início de rota turística                                   | Should have   | 4 |   |
-| US17  | Adicionar grupo de viajante à rotas turísticas                                    | Should have | 5 |     |
-| US18  | Obter localização atual                                                           | Must have   | 7 |  X  |
-| US19  | Salvar rotas turísticas em PDF                                                    | Must have   | 7 |  X  |
-| US20  | Compartilhar rotas turísticas por e-mail                                          | Could have  | 8 |     |
-| US21  | Mudar idioma durante a execução da aplicação                                      | Should have | 10 |     |
-| US22  | Exibir um conversor de moedas funcional, informando a moeda origem e destino      | Won't have  | 4 |     |
+| ID    | Descrição                                                                         | Prioridade  | WSJF | MVP | Requisito |
+|-------|-----------------------------------------------------------------------------------|-------------|-----|-----|-----|
+| US01  | Criar rotas turísticas                                                        | Must Have   | 4 | **X** | RF01 |
+| US02  | Atualizar rotas turísticas                                                        | Must Have   | 14 | **X** | RF02 |
+| US03  | Consultar rotas turísticas                                                        | Must have   | 7 | **X** | RF03 |
+| US04  | Exibir rotas turísticas no mapa                                                   | Must have   | 7 |X  | RF04 |
+| US05  | Excluir rotas turísticas                                                          | Should have | 12 |    | RF05 |
+| US06  | Cadastrar pontos turísticos                                                       | Could have | 2 |     | RF06 | 
+| US07  | Atualizar pontos turísticos                                                       | Could have | 5 |    | RF07 |
+| US08  | Consultar pontos turísticos                                                       | Must have | 7 | **X** | RF08 |
+| US09  | Excluir pontos turísticos                                                         | Could have | 9 |     | RF09 |
+| US10  | Avaliar rota turística                                                            | Could have  | 5 |     | RF10 |
+| US11  | Cadastrar grupos de viajantes                                                     | Should have | 5 |     | RF11 |
+| US12  | Atualizar grupos de viajantes                                                     | Should have | 9 |     | RF12 |
+| US13  | Excluir grupos de viajantes                                                       | Should have | 9 |     | RF13 |
+| US14  | Convidar para grupos de viajantes                                                 | Should have | 5 |     | RF14 |
+| US15  | Sair de grupos de viajantes                                                       | Should have | 9 |     | RF15 |
+| US16  | Enviar notificações de início de rota turística                                   | Should have   | 4 |   | RF16 |
+| US17  | Adicionar grupo de viajante à rotas turísticas                                    | Should have | 5 |     | RF17 |
+| US18  | Obter localização atual                                                           | Must have   | 7 | **X** | RF18 |
+| US19  | Salvar rotas turísticas em PDF                                                    | Must have   | 7 | **X** | RF19 |
+| US20  | Compartilhar rotas turísticas por e-mail                                          | Could have  | 8 |     | RF20 |
+| US21  | Exibir um conversor de moedas funcional, informando a moeda origem e destino      | Won't have  | 4 |     | RF21 |
 
 ## Épicos do Projeto 
 
@@ -132,7 +130,6 @@ A priorização buscou assegurar que o desenvolvimento se concentre nas funciona
 
 | Feature            | História de Usuário                                                                                     | Tasks                                                                   |
 |--------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| Idioma             | Como usuário, quero alterar o idioma da aplicação a qualquer momento, para utilizá-la no idioma de minha preferência.                             | - Criar seleção de idioma<br>- Traduzir interface (PT e EN)            |
 | Conversor de Moedas| Como usuário, quero utilizar um conversor de moedas com seleção de moeda de origem e destino, para não ser pego de surpresa com conversões após os gastos.                          | - Criar interface do conversor<br>- Usar API de cotação de moedas      |
 
 ---
