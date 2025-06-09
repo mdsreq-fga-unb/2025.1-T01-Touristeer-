@@ -6,27 +6,26 @@ O backlog do produto é uma lista priorizada e evolutiva de funcionalidades, mel
 
 
 ## Backlog Geral
-**US01** - Como usuário, quero criar rotas turísticas e agendar seu horário de início. <br>
+**US01** - Como usuário, quero criar rotas turísticas e agendar seu horário de início, para otimizar meu planejamento de visitas. <br>
 **US02** - Como usuário, quero atualizar rotas turtísitcas para poder alterar informações sobre essa rota ou modificar os pontos turísticos. <br>
-**US03** - Como usuário, quero consultar **rotas turísticas** e ver suas informações, além de filtrar por distância, para visualizar apenas aquelas que estejam dentro do meu alcance de deslocamento. <br>
-**US04** - Como usuário, quero visualizar a rota turística que eu escolher ver em um mapa. <br>
-**US05** - Como usuário, quero excluir rotas turísticas que eu não achar mais adequadas. <br>
-**US06** - Como administrador, quero criar um ponto turístico. <br>
-**US07** - Como administrador, quero atualizar um ponto turístico para modificar suas informações. <br>
-**US08** - Como usuário, quero consultar os **pontos turísticos** para saber mais informações para possivelmente adicioná-lo em alguma rota turística. <br>
-**US09** - Como administrador, quero excluir pontos turísticos que não achar mais adequados. <br>
-**US10** - Como usuário, quero avaliar uma rota turística feita por mim para que outros usuários tenham esse feedback. <br>
-**US11** - Como usuário, quero criar grupos de viajantes para adicionar as pessoas que estão viajando comigo nesse grupo. <br>
-**US12** - Como usuário, quero atualizar informações de grupos de viajantes, caso haja alguma mudança no grupo durante a viagem. <br>
-**US13** - Como usuário, desejo excluir um grupo de viajantes previamente criado, a fim de encerrar sua utilização quando este não for mais considerado adequado ou necessário. <br>
-**US14** - Como usuário, quero convidar outros viajantes para participar de um grupo, a fim de facilitar a organização conjunta dos roteiros turísticos. <br>
-**US15** - Como usuário, quero sair de um grupo de viajantes quando não desejar mais participar, para manter minha experiência personalizada. <br>
-**US16** - Como usuário, quero receber notificações por e-mail antes do início agendado de uma rota turística. <br>
-**US17** - Como usuário, quero adicionar um grupo de viajantes a uma rota turística, para que possamos realizar a experiência juntos de forma coordenada. <br>
-**US18** - Como usuário, quero visualizar minha localização em tempo real. <br>
-**US19** - Como usuário, quero salvar rotas turísticas em PDF, para consultá-las posteriormente, mesmo sem conexão com a internet. <br>
-**US20** - Como usuário, quero compartilhar rotas turísticas por e-mail, a fim de enviar sugestões de passeios para amigos ou grupos de viagem. <br>
-**US21** - Como usuário, quero utilizar um conversor de moedas com seleção de moeda de origem e destino, para não ser pego de surpresa com conversões após os gastos. <br>
+**US03** - Como usuário, quero consultar rotas turísticas, filtrar por distância para ver apenas as que estão ao meu alcance, e visualizar a rota selecionada em um mapa com todas as suas informações. <br>
+**US04** - Como usuário, quero excluir rotas turísticas que eu não achar mais adequadas. <br>
+**US05** - Como administrador, quero cadastrar novos pontos turísticos, para ampliar o portfólio de destinos. <br>
+**US06** - Como administrador, quero atualizar um ponto turístico para modificar suas informações. <br>
+**US07** - Como usuário, quero consultar os pontos turísticos para saber mais informações para possivelmente adicioná-lo em alguma rota turística. <br>
+**US08** - Como administrador, quero excluir pontos turísticos que não achar mais adequa0dos. <br>
+**US09** - Como usuário, quero avaliar uma rota turística feita por mim para que outros usuários tenham esse feedback. <br>
+**US10** - Como usuário, quero criar grupos de viajantes para adicionar as pessoas que estão viajando comigo nesse grupo. <br>
+**US11** - Como usuário, quero atualizar informações de grupos de viajantes, caso haja alguma mudança no grupo durante a viagem. <br>
+**US12** - Como usuário, desejo excluir um grupo de viajantes previamente criado, a fim de encerrar sua utilização quando este não for mais considerado adequado ou necessário. <br>
+**US13** - Como usuário, quero convidar outros viajantes para participar de um grupo, a fim de facilitar a organização conjunta dos roteiros turísticos. <br>
+**US14** - Como usuário, quero sair de um grupo de viajantes quando não desejar mais participar, para manter minha experiência personalizada. <br>
+**US15** - Como usuário, quero receber notificações por e-mail antes do início agendado de uma rota turística. <br>
+**US16** - Como usuário, quero adicionar um grupo de viajantes a uma rota turística, para que possamos realizar a experiência juntos de forma coordenada. <br>
+**US17** - Como usuário, quero visualizar minha localização em tempo real. <br>
+**US18** - Como usuário, quero salvar rotas turísticas em PDF, para consultá-las posteriormente, mesmo sem conexão com a internet. <br>
+**US19** - Como usuário, quero compartilhar rotas turísticas por e-mail, a fim de enviar sugestões de passeios para amigos ou grupos de viagem. <br>
+**US20** - Como usuário, quero utilizar um conversor de moedas com seleção de moeda de origem e destino, para não ser pego de surpresa com conversões após os gastos. <br>
 
 ## Priorização do Backlog
 **MoSCoW**
@@ -48,34 +47,34 @@ Fatores avaliados:
 - Tamanho do Trabalho: Quanto tempo (dias) para concluir a tarefa
 
 Fórmula:
+Para a fórmula, nós aplicamos um peso maior para o valor de negócio e para a urgência (os dois receberam peso 5), sendo assim, a nota de corte para uma US entrar no MVP é **17**.
 
-WSJF = (Valor do Negócio + Urgência + Redução de Risco) / Tamanho do Trabalho
+WSJF = (5 * Valor do Negócio + 5 * Urgência + Redução de Risco) / Tamanho do Trabalho
 <br><br>
 A priorização buscou assegurar que o desenvolvimento se concentre nas funcionalidades mais cruciais, harmonizando o produto com as demandas do negócio e os recursos existentes. A tabela especifica a classificação de cada item do backlog, oferecendo transparência e estrutura para as fases seguintes do projeto.
 
 | ID    | Descrição                                                                         | Prioridade  | WSJF | MVP | Requisito |
 |-------|-----------------------------------------------------------------------------------|-------------|-----|-----|-----|
-| US01  | Criar rotas turísticas                                                        | Must Have   | 4 | **X** | RF01 |
-| US02  | Atualizar rotas turísticas                                                        | Must Have   | 14 | **X** | RF02 |
-| US03  | Consultar rotas turísticas                                                        | Must have   | 7 | **X** | RF03 |
-| US04  | Exibir rotas turísticas no mapa                                                   | Must have   | 7 |X  | RF04 |
-| US05  | Excluir rotas turísticas                                                          | Should have | 12 |    | RF05 |
-| US06  | Cadastrar pontos turísticos                                                       | Could have | 2 |     | RF06 | 
-| US07  | Atualizar pontos turísticos                                                       | Could have | 5 |    | RF07 |
-| US08  | Consultar pontos turísticos                                                       | Must have | 7 | **X** | RF08 |
-| US09  | Excluir pontos turísticos                                                         | Could have | 9 |     | RF09 |
-| US10  | Avaliar rota turística                                                            | Could have  | 5 |     | RF10 |
-| US11  | Cadastrar grupos de viajantes                                                     | Should have | 5 |     | RF11 |
-| US12  | Atualizar grupos de viajantes                                                     | Should have | 9 |     | RF12 |
-| US13  | Excluir grupos de viajantes                                                       | Should have | 9 |     | RF13 |
-| US14  | Convidar para grupos de viajantes                                                 | Should have | 5 |     | RF14 |
-| US15  | Sair de grupos de viajantes                                                       | Should have | 9 |     | RF15 |
-| US16  | Enviar notificações de início de rota turística                                   | Should have   | 4 |   | RF16 |
-| US17  | Adicionar grupo de viajante à rotas turísticas                                    | Should have | 5 |     | RF17 |
-| US18  | Obter localização atual                                                           | Must have   | 7 | **X** | RF18 |
-| US19  | Salvar rotas turísticas em PDF                                                    | Must have   | 7 | **X** | RF19 |
-| US20  | Compartilhar rotas turísticas por e-mail                                          | Could have  | 8 |     | RF20 |
-| US21  | Exibir um conversor de moedas funcional, informando a moeda origem e destino      | Won't have  | 4 |     | RF21 |
+| US01  | Criar rotas turísticas                                                        | Must Have   | 17 | **X** | RF01 |
+| US02  | Atualizar rotas turísticas                                                        | Must Have   | 25 | **X** | RF02 |
+| US03  | Consultar rotas turísticas                                                        | Must have   | 50 | **X** | RF03 |
+| US04  | Excluir rotas turísticas                                                          | Must have | 45 | **X** | RF04 |
+| US05  | Cadastrar pontos turísticos                                                       | Could have | 8 |     | RF05 | 
+| US06  | Atualizar pontos turísticos                                                       | Could have | 13 |    | RF06 |
+| US07  | Consultar pontos turísticos                                                       | Must have | 23 | **X** | RF07 |
+| US08  | Excluir pontos turísticos                                                         | Could have | 13 |     | RF08 |
+| US09 | Avaliar rota turística                                                            | Could have  | 13 |     | RF09 |
+| US10  | Cadastrar grupos de viajantes                                                     | Should have | 13 |     | RF10 |
+| US11  | Atualizar grupos de viajantes                                                     | Should have | 13 |     | RF11 |
+| US12  | Excluir grupos de viajantes                                                       | Should have | 13 |     | RF12 |
+| US13  | Convidar para grupos de viajantes                                                 | Should have | 13 |     | RF13 |
+| US14  | Sair de grupos de viajantes                                                       | Should have | 13 |     | RF14 |
+| US15  | Enviar notificações de início de rota turística                                   | Should have   | 15 |   | RF15 |
+| US16  | Adicionar grupo de viajante à rotas turísticas                                    | Should have | 13 |     | RF16 |
+| US17  | Obter localização atual                                                           | Must have   | 25 | **X** | RF17 |
+| US18  | Salvar rotas turísticas em PDF                                                    | Must have   | 25 | **X** | RF18 |
+| US19  | Compartilhar rotas turísticas por e-mail                                          | Could have  | 13 |     | RF19 |
+| US20  | Exibir um conversor de moedas funcional, informando a moeda origem e destino      | Won't have  | 8 |     | RF20 |
 
 ## Épicos do Projeto 
 
@@ -83,12 +82,10 @@ A priorização buscou assegurar que o desenvolvimento se concentre nas funciona
 
 | Feature                  | História de Usuário                                                                                                                                     | Tasks                                                                                     |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| CRUD de Rotas            | Como usuário, quero criar rotas turísticas e agendar seu horário de início.                                            | - Criar formulário de cadastro<br>- Validar entradas |
+| CRUD de Rotas            | Como usuário, quero criar rotas turísticas e agendar seu horário de início, para otimizar meu planejamento de visitas.                                            | - Criar formulário de cadastro<br>- Validar entradas |
 | CRUD de Rotas            | Como usuário, quero atualizar rotas turtísitcas para poder alterar informações sobre essa rota ou modificar os pontos turísticos.                                                     | - Criar interface de edição                    |
-| CRUD de Rotas            | Como usuário, quero consultar **rotas turísticas** e ver informações como: nome da rota, distância, pontos turísticos escolhidos.                                  | - Criar listagem de rotas<br>- Mostrar detalhes de cada rota                            |
+| CRUD de Rotas            | Como usuário, quero consultar rotas turísticas, filtrar por distância para ver apenas as que estão ao meu alcance, e visualizar a rota selecionada em um mapa com todas as suas informações.                                  | - Criar listagem de rotas<br>- Mostrar detalhes de cada rota                            |
 | CRUD de Rotas            |Como usuário, quero excluir rotas turísticas que eu não achar mais adequadas.                                                                      | - Implementar botão de exclusão<br>- Criar lógica de confirmação                         |
-| Visualização no Mapa     | Como usuário, quero visualizar a rota turística que eu escolher ver em um mapa.                                                                   | - Integrar API de mapa<br>- Plotar pontos no mapa<br>- Garantir carregamento em até 10s   |
-| Agendamento de Rota      | Como usuário, quero decidir uma data e horário de início para minha rota turística.                                                                                | - Criar formulário de agendamento<br>- Salvar data/hora no backend                       |
 | Avaliação de Rota        | Como usuário, quero avaliar uma rota turística feita por mim para que outros usuários tenham esse feedback.                                                                   | - Criar componente de estrelas<br>- Armazenar avaliação no backend                       |
 
 ---
@@ -97,11 +94,18 @@ A priorização buscou assegurar que o desenvolvimento se concentre nas funciona
 
 | Feature                  | História de Usuário                                                                                     | Tasks                                                                   |
 |--------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| CRUD de Pontos Turísticos| Como administrador, quero criar um ponto turístico.                              | - Criar formulário de cadastro<br>- Validar e salvar informações       |
+| CRUD de Pontos Turísticos| Como administrador, quero cadastrar novos pontos turísticos, para ampliar o portfólio de destinos.                              | - Criar formulário de cadastro<br>- Validar e salvar informações       |
 | CRUD de Pontos Turísticos| Como administrador, quero atualizar um ponto turístico para modificar suas informações.                                    | - Criar tela de edição<br>- Atualizar no banco de dados                |
-| CRUD de Pontos Turísticos| Como administrador, quero consultar os pontos turísticos cadastrados para um fácil acesso para possíveis manutenções.              |
-| CRUD de Pontos Turísticos| Como usuário, quero consultar os **pontos turísticos** para saber mais informações para possivelmente adicioná-lo em alguma rota turística.             |
+| CRUD de Pontos Turísticos| Como usuário, quero consultar os pontos turísticos para saber mais informações para possivelmente adicioná-lo em alguma rota turística.             |
 | CRUD de Pontos Turísticos| Como administrador, quero excluir pontos turísticos que não achar mais adequados.                |
+
+---
+
+### Épico: Filtragem e Localização
+
+| Feature              | História de Usuário                                                                                      | Tasks                                                                   |
+|----------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Localização Atual    |  Como usuário, quero visualizar minha localização em tempo real.                                                     | - Solicitar permissão do navegador<br>- Usar API de geolocalização     |
 
 ---
 
@@ -140,15 +144,6 @@ A priorização buscou assegurar que o desenvolvimento se concentre nas funciona
 |-------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | Exportar PDF            | Como usuário, quero salvar rotas turísticas em PDF, para consultá-las posteriormente, mesmo sem conexão com a internet.                                         | - Gerar PDF com dados da rota<br>- Adicionar botão de download        |
 | Compartilhar por E-mail | Como usuário, quero compartilhar rotas turísticas por e-mail, a fim de enviar sugestões de passeios para amigos ou grupos de viagem.                                               | - Criar formulário de envio<br>- Integrar com serviço de e-mail       |
-
----
-
-### Épico: Filtragem e Localização
-
-| Feature              | História de Usuário                                                                                      | Tasks                                                                   |
-|----------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| Filtrar Rotas        | Como usuário, quero consultar **rotas turísticas** e ver suas informações, além de filtrar por distância, para visualizar apenas aquelas que estejam dentro do meu alcance de deslocamento.                                                        | - Criar campo de filtro por distância<br>- Aplicar lógica de filtro    |
-| Localização Atual    |  Como usuário, quero visualizar minha localização em tempo real.                                                     | - Solicitar permissão do navegador<br>- Usar API de geolocalização     |
 
 ---
 

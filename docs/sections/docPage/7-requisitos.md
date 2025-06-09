@@ -3,25 +3,24 @@ Os requisitos funcionais detalham as funcionalidades essenciais do sistema, alin
 
 **RF01** - Cadastrar rotas turísticas: Permitir a criação e agendamento do horário de início de rotas turísticas.  <br>
 **RF02** - Atualizar rotas turísticas: Permitir a atualização dos pontos turísticos de uma rota. <br>
-**RF03** - Consultar rotas turísticas: Permitir a consulta às rotas turísticas cadastradas, visualizando os pontos turísticos inseridos e permitindo a fitragem. <br>
-**RF04** - Exibir rotas turísticas no mapa: Permitir a visualização da rota turística no mapa. <br>
-**RF05** - Excluir rotas turísticas: Permitir a exclusão de rotas turísticas do sistema. <br>
-**RF06** - Cadastrar pontos turísticos: Permitir o registro de pontos turísticos. <br>
-**RF07** - Atualizar pontos turísticos: Permitir a atualização das informações de um ponto turístico. <br>
-**RF08** - Consultar pontos turísticos: Permitir a consulta aos pontos turísticos cadastrados. <br>
-**RF09** - Excluir pontos turísticos: Permitir a exclusão de pontos turísticos. <br>
-**RF10** - Avaliar rota turística: Permitir a avaliação de rotas turísticas, classificando de 0 a 5 estrelas. <br>
-**RF11** - Cadastrar grupos de viajantes: Permitir a criação de grupos de usuários que estão viajando juntos. <br>
-**RF12** - Atualizar grupos de viajantes: Permitir a atualização de informações de grupos de usuários que estão viajando juntos. <br>
-**RF13** - Excluir grupos de viajantes: Permitir a exclusão de grupos de viajantes. <br>
-**RF14** - Convidar para grupos de viajantes: Permitir o envio de convite para grupos de viajantes. <br>
-**RF15** - Sair de grupos de viajantes: Permitir a saída de grupos de viajantes. <br>
-**RF16** - Enviar notificações de início de rota turística: Enviar notificação por e-mail antes do horário agendado da rota turística. <br>
-**RF17** - Adicionar grupo de viajante à rotas turísticas: Permitir adicionar um grupo de viajante em uma rota turística. <br>
-**RF18** - Rastrear geolocalização: Permitir o usuário a fornecer sua localização atual. <br>
-**RF19** - Salvar rotas turísticas em PDF: Permitir a exportação de rotas turísticas em PDF. <br>
-**RF20** - Compartilhar rotas turísticas por e-mail: Permitir o compartilhamento de rotas turísticas por e-mail. <br>
-**RF21** - Conversor de moedas: Exibir um conversor de moedas funcional, informando a moeda origem e destino. <br>
+**RF03** - Consultar rotas turísticas: O sistema deve permitir a consulta das rotas turísticas cadastradas, exibindo seus pontos e aplicando filtros (ex.: por distância), e apresentar a rota selecionada sobre um mapa interativo. <br>
+**RF04** - Excluir rotas turísticas: Permitir a exclusão de rotas turísticas do sistema. <br>
+**RF05** - Cadastrar pontos turísticos: Permitir o registro de pontos turísticos. <br>
+**RF06** - Atualizar pontos turísticos: Permitir a atualização das informações de um ponto turístico. <br>
+**RF07** - Consultar pontos turísticos: Permitir a consulta aos pontos turísticos cadastrados. <br>
+**RF08** - Excluir pontos turísticos: Permitir a exclusão de pontos turísticos. <br>
+**RF09** - Avaliar rota turística: Permitir a avaliação de rotas turísticas, classificando de 0 a 5 estrelas. <br>
+**RF10** - Cadastrar grupos de viajantes: Permitir a criação de grupos de usuários que estão viajando juntos. <br>
+**RF11** - Atualizar grupos de viajantes: Permitir a atualização de informações de grupos de usuários que estão viajando juntos. <br>
+**RF12** - Excluir grupos de viajantes: Permitir a exclusão de grupos de viajantes. <br>
+**RF13** - Convidar para grupos de viajantes: Permitir o envio de convite para grupos de viajantes. <br>
+**RF14** - Sair de grupos de viajantes: Permitir a saída de grupos de viajantes. <br>
+**RF15** - Enviar notificações de início de rota turística: Enviar notificação por e-mail antes do horário agendado da rota turística. <br>
+**RF16** - Adicionar grupo de viajante à rotas turísticas: Permitir adicionar um grupo de viajante em uma rota turística. <br>
+**RF17** - Rastrear geolocalização: Permitir o usuário a fornecer sua localização atual. <br>
+**RF18** - Salvar rotas turísticas em PDF: Permitir a exportação de rotas turísticas em PDF. <br>
+**RF19** - Compartilhar rotas turísticas por e-mail: Permitir o compartilhamento de rotas turísticas por e-mail. <br>
+**RF20** - Conversor de moedas: Exibir um conversor de moedas funcional, informando a moeda origem e destino. <br>
 
 
 ## Requisitos Não Funcionais
