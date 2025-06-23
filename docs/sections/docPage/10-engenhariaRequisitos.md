@@ -29,8 +29,6 @@
 
 **User Stories**: Optou-se por utilizar User Stories como forma principal de declaração dos requisitos funcionais, por se tratar de uma técnica ágil, centrada no usuário, que favorece a comunicação entre desenvolvedores e stakeholders
 
-**Rastreabilidade de Requisitos**: Foi elaborada a declaração de requisitos no formato de códigos sequenciais (**RF**X) onde "RF" significa "Requisito Funcional" e "X" representa o número do requisito.  Esse formato atribui um identificador único para cada requisito e facilita a referência cruzada com testes, protótipos e funcionalidades implementadas.
-
 
 ## 5. Verificação e Validação de Requisitos
 
@@ -49,6 +47,8 @@
 
 **Backlog de Requisitos**: Requisitos organizados em forma de lista contendo código sequencial e visão da funcionalidade do ponto de vista de usuário, seguindo o formato de *user stories*
 
+**Rastreabilidade de Requisitos**: Foi elaborada a declaração de requisitos no formato de códigos sequenciais (**RF**X) onde "RF" significa "Requisito Funcional" e "X" representa o número do requisito.  Esse formato atribui um identificador único para cada requisito e facilita a referência cruzada com testes, protótipos e funcionalidades implementadas.
+
 **MoSCoW**: Os requisitos são organizados e atualizados por meio de uma tabela detalhada contendo colunas com informações como: <br>
     - **ID:** código sequencial único do requisito <br>
     - **Descrição:** texto explicativo sobre o requisito; <br>
@@ -62,7 +62,7 @@
 | **Planejamento de requisitos** | **Elicitação e descoberta** | Levantamento de Requisitos | Análise Documental, Entrevista e Prompt de IA. | Identificar os requisitos de alto nível do projeto. |
 || **Análise e Consenso** | Refinamento de Requisitos | Priorização, Análise de Viabilidade e Reuniões de Alinhamento. | Lista de requisitos bem definidos e a definição da prioridade dos requisitos. |
 || **Declaração**  | Registro de Requisitos | Critérios de Aceitação, User Stories, Rastrabilidade de Requisitos. | Estabelecer os requisitos; Estabelecer user stories que descrevem funcionalidades do projeto. |
-|| **Organização e Atualização**| Ordenar os requisitos por prioridade | Backlog de Requisitos e Priorização do Backlog. | Lista de requisitos organizada com grau de prioridade. |
+|| **Organização e Atualização**| Ordenar os requisitos por prioridade | Backlog de Requisitos, Priorização do Backlog e Rastreabilidade de requisitos. | Lista de requisitos organizada com grau de prioridade. |
 || **Verificação e Validação de Requisitos** | Verificar e validar os requisitos levantados | Revisão por Pares, Checklists, Feedback do Cliente. | Revisar e alinhar com o cliente sobre os requisitos levantados. |
 | **User Design** | **Representação** | Elaboração de protótipos |  Protótipos de Baixa Fidelidade e Protótipos de Alta Fidelidade. | Design validado com o cliente. |
 || **Verificação e Validação** | Validação dos Requisitos | Feedback do Cliente | Confirmação de que cada requisito foi implementado conforme especificado e atende às necessidades dos usuários. |

@@ -21,9 +21,9 @@
     | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
     | **Contempla os requisitos estabelecidos?**| - Validar se a funcionalidade cumpre com os requisitos estabelecidos.|
     | **Entrega um incremento do produto?**| - Código desenvolvido e integrado. <br> - Deve agragar valor ao produto como um todo. <br> - Funcionalidade deve ser implementada por completo e respeitar requisitos estabelecidos.|
-    | **Testes Realizados?**| - Testes em unidades individuais do código de forma isolada.  <br>- Testes de integração com APIs (Google Maps, Firebase).  |
-    | **Documentação Atualizada?** | - A documentação deve estar atualizada e disponível, garantindo que qualquer pessoa possa entender como a funcionalidade deve ser usada ou mantida.<br> - O código deve ser documentado, para facilitar sua manutenção|
-    | **Código e Funcionalidade Revisada?**| - Funcionalidade e código revisado pela equipe de QA.|
+    | **Testes Realizados?**| - Testes de unidade serão implementados para as funcionalidades do Produto Mínimo Viável (MVP), garantindo a validação isolada do código para as features essenciais.  <br>- Testes de integração com APIs (Google Maps, Firebase).  |
+    | **Documentação Atualizada?** | - A documentação do sistema será voltada para o usuário final, explicando como utilizar as funcionalidades. Já a documentação técnica será para os desenvolvedores, detalhando a arquitetura, o design e as APIs do projeto.<br> - O código será documentado internamente utilizando comentários inline para lógicas específicas e docstrings/JSDoc para funções, classes e módulos.<br> - O padrão de documentação seguirá as convenções e melhores práticas específicas para Node.js. |
+    | **Código e Funcionalidade Revisada?**| - Funcionalidade e código revisado pela equipe de QA.<br> - Evidências da revisão incluem relatórios de teste, aprovações de Pull Requests e checklists.|
     
 
 ??? abstract "Histórico de Versão"
