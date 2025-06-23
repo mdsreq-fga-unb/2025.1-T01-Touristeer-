@@ -9,7 +9,7 @@
     | **Requisitos em forma de user story?**   | Com o objetivo de facilitar o entendimento para a equipe, representar os requisitos em forma de user story no formato:<br> - _"Como [usuário], quero [ação] para [objetivo]"_.|
     | **Critérios de aceitação definidos?**  | Condições específicas e mensuráveis para validar o requisito devem estar presentes para garantir que o requisito esteja claramente definido.|
     | **Dependências resolvidas?**| APIs, designs e recursos externos necessários já estão disponíveis.|
-    | **Validação do PO**| Aprovação do Product Owner em reunião formal. Exemplo: _PO validou a priorização da precisão sobre velocidade_.|
+    | **Validação do PO** | Aprovação formal do Product Owner de que o item de backlog cumpre todos os requisitos para ser considerado pronto e apto para desenvolvimento. |
 
 === "Definition of Done (DoD)"
 
