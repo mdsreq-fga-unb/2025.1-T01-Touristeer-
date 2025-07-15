@@ -20,6 +20,7 @@ nav:
     - Estudos de Casos: 
       - PBB: sections/docPage/PBB.md
       - USM: sections/docPage/USM.md
+      - UC: sections/docPage/UC.md
   - Entregas:
     - Unidade 1: sections/entregas/unidade1.md
     - Unidade 2: sections/entregas/unidade2.md 
