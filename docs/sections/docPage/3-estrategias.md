@@ -41,8 +41,71 @@ A equipe de desenvolvimento possui experiência em ciclos rápidos e uma dinâmi
 
 Por fim, o escopo do projeto é de complexidade moderada, favorecendo a aplicação de um modelo que prioriza entregas rápidas e incrementais. A capacidade do RAD de mitigar riscos por meio de validações precoces e de integrar mudanças de forma eficiente torna-o a escolha mais adequada, permitindo otimizar o tempo e a qualidade do desenvolvimento.
 
+## 3.4 Reflexão sobre o Processo Realmente Seguido
+
+### 3.4.1 Contexto dos Desafios Enfrentados
+
+Embora tenhamos planejado seguir o modelo RAD conforme justificado na seção anterior, durante a execução do projeto enfrentamos desafios que impactaram significativamente nossa capacidade de manter os ciclos rápidos e o feedback contínuo que caracterizam essa metodologia.
+
+### 3.4.2 O Problema da Validação do MVP
+
+O principal obstáculo enfrentado foi o **atraso na validação do MVP (Minimum Viable Product)**. O que inicialmente estava previsto para ser validado em um tempo menor, acabou levando mais tempo que o esperado
+
+- **Disponibilidade limitada da equipe:** Conflitos de agenda e prioridades concorrentes
+- **Dependências externas:** Integrações com APIs de mapas e dados locais que demandaram mais tempo
+- **Refinamento de requisitos:** Necessidade de ajustes frequentes na priorização do MVP
+
+### 3.4.3 Impacto no Modelo RAD Planejado
+
+O problema citado acima sobre o MVP criou um **efeito cascata** que comprometeu os princípios fundamentais do RAD:
+
+| Princípio RAD | Impacto Observado | Consequência |
+|---------------|-------------------|--------------|
+| **Ciclos curtos de desenvolvimento** | Falha no entendimento da equipe | execução de maneira dirigida por plano |
+| **Prototipagem rápida** | Protótipos ficaram obsoletos durante a espera | Necessidade de retrabalho significativo |
+
+### 3.4.4 Padrão Emergente: Semelhança com o Modelo Cascata
+
+**Importante:** Não houve uma **decisão consciente** de abandonar o RAD em favor do Cascata. O que aconteceu foi uma **adaptação natural** às circunstâncias, resultando em um padrão de trabalho que, retrospectivamente, assemelha-se ao modelo Cascata tradicional.
+
+### 3.4.5 Rastro das Adaptações Realizadas
+
+| Data | Evento | Adaptação Realizada | Justificativa |
+|------|--------|-------------------|---------------|
+| 28/04/2025 | Início do projeto | Aplicação do RAD conforme planejado | Seguindo análise do framework Gupta |
+| 12/05/2025 | Primeiro atraso na validação | Extensão da fase de análise | Aproveitar tempo para detalhar requisitos |
+| 09/06/2025 | MVP ainda não validado | Início do design detalhado | Evitar paralisia total da equipe |
+| 16/06/2025 | Repositórios liberados | Início da implementação com atraso | Necessidade de cumprir cronograma acadêmico |
+
+### 3.4.6 Características do Padrão Seguido vs. Cascata Tradicional
+
+| Aspecto | Cascata Tradicional | Padrão Seguido no Projeto |
+|---------|-------------------|---------------------------|
+| **Sequencialidade** | Planejada e rígida | Emergente devido a circunstâncias |
+| **Documentação** | Extensa por design | Extensa por compensação |
+| **Flexibilidade** | Baixa por princípio | Baixa por limitações externas |
+| **Validação** | Ao final de cada fase | Concentrada no final do projeto |
+| **Revisões** | Formais e estruturadas | Informais e adaptativas |
+
+### 3.4.7 Aprendizados e Reflexões
+
+1. **Dependência de Stakeholders:** A eficácia do RAD depende criticamente da disponibilidade e engajamento dos stakeholders
+2. **Adaptabilidade da Equipe:** A equipe demonstrou capacidade de se adaptar às circunstâncias, mesmo quando diferentes do planejado
+3. **Importância do Contexto:** Fatores externos podem forçar mudanças no processo, independentemente da metodologia escolhida
+
+### 3.4.8 Resultados Obtidos
+
+Apesar de não seguirmos o modelo RAD conforme planejado, o padrão emergente que se assemelhou ao Cascata permitiu:
+
+- **Entrega dentro do prazo acadêmico:** Cumprimento parcial dos marcos estabelecidos pela disciplina
+- **Produto funcional:** MVP implemtado com os requisitos estabelecidos em seu escopo
+- **Aprendizado metodológico:** Experiência prática com adaptação de processos
+
+**Conclusão:** Embora não tenhamos conseguido aplicar o RAD conforme planejado devido aos atrasos na validação do MVP, a equipe demonstrou maturidade ao se adaptar às circunstâncias, resultando em um padrão de trabalho que, embora diferente do idealizado, foi eficaz para o contexto e limitações enfrentadas.
+
 
 ??? abstract "Histórico de Versão"
     | Data | Versão | Descrição | Autor | Revisores|
     |-|-|-|-|-
     |21/04/2025| 1.0 | Criação do documento |Rodrigo Amaral| Todos os integrantes do grupo|
+    |15/07/2025| 2.0 | Adição de reflexão sobre o processo realmente seguido devido aos atrasos na validação do MVP |Mylena Mendonça | Rodrigo Amaral|
