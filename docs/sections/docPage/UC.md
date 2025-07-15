@@ -30,41 +30,41 @@ O projeto "ConnectCare" foi concebido para atender a comunidades remotas com ace
 ![diagrama de casos de uso paciente](../../assets/paciente.png)
 
 - [UC01: Registrar Perfil do Paciente](#uc01-registrar-perfil-do-paciente)
-- [UC02: Buscar Serviços de Saúde](#uc02-buscar-serviços-de-saúde)
+- [UC02: Buscar Serviços de Saúde](#uc02-buscar-servicos-de-saude)
 - [UC03: Agendar Consulta](#uc03-agendar-consulta)
-- [UC06: Avaliar Consulta](#uc06-avaliar-consulta)
+- [UC04: Avaliar Consulta](#uc04-avaliar-consulta)
 
 ### 3.2 Profissional de Saúde
 
 ![diagrama de casos de uso profissional de saúde](../../assets/profissional_agente.png)
 
-- [UC07: Registrar Perfil Profissional](#uc07-registrar-perfil-profissional)
-- [UC08: Visualizar Agenda de Consultas](#uc08-visualizar-agenda-de-consultas)
-- [UC09: Realizar Atendimento](#uc09-realizar-atendimento)
+- [UC05: Registrar Perfil Profissional](#uc05-registrar-perfil-profissional)
+- [UC06: Visualizar Agenda de Consultas](#uc06-visualizar-agenda-de-consultas)
+- [UC07: Realizar Atendimento](#uc07-realizar-atendimento)
 
 ### 3.3 Agente Comunitário
 
 ![diagrama de casos de uso profissional de saúde](../../assets/profissional_agente.png)
 
-- [UC10: Registrar Visita Domiciliar](#uc10-registrar-visita-domiciliar)
-- [UC11: Criar Relatório de Atendimento](#uc11-criar-relatório-de-atendimento)
+- [UC08: Registrar Visita Domiciliar](#uc08-registrar-visita-domiciliar)
+- [UC09: Criar Relatório de Atendimento](#uc09-criar-relatorio-de-atendimento)
 
 ### 3.4 Organização Parceira
 
 ![diagrama de casos de uso organização parceira](../../assets/organizacao.png)
 
-- [UC12: Registrar Campanha de Saúde](#uc12-registrar-campanha-de-saúde)
-- [UC14: Divulgar Campanha para Público-Alvo](#uc14-divulgar-campanha-para-público-alvo)
-- [UC15: Visualizar Relatórios de Impacto](#uc15-visualizar-relatórios-de-impacto)
+- [UC10: Registrar Campanha de Saúde](#uc10-registrar-campanha-de-saude)
+- [UC11: Divulgar Campanha para Público-Alvo](#uc11-divulgar-campanha-para-publico-alvo)
+- [UC12: Visualizar Relatórios de Impacto](#uc12-visualizar-relatorios-de-impacto)
 
 ### 3.5 Administrador do Sistema
 
 ![diagrama de casos de uso administrador do sistema](../../assets/administrador.png)
 
-- [UC16: Monitorar Indicadores de Desempenho](#uc16-monitorar-indicadores-de-desempenho)
-- [UC17: Gerenciar Painel Analítico de Consultas e Exames](#uc17-gerenciar-painel-analítico-de-consultas-e-exames)
-- [UC18: Atualizar Informações de Parceiros](#uc18-atualizar-informações-de-parceiros)
-- [UC19: Responder Dúvidas e Reclamações de Pacientes](#uc19-responder-dúvidas-e-reclamações-de-pacientes)
+- [UC13: Monitorar Indicadores de Desempenho](#uc13-monitorar-indicadores-de-desempenho)
+- [UC14: Gerenciar Painel Analítico de Consultas e Exames](#uc14-gerenciar-painel-analitico-de-consultas-e-exames)
+- [UC15: Atualizar Informações de Parceiros](#uc15-atualizar-informacoes-de-parceiros)
+- [UC16: Responder Dúvidas e Reclamações de Pacientes](#uc16-responder-duvidas-e-reclamacoes-de-pacientes)
 
 ## 4. Especificação dos Casos de Uso
 
