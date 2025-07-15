@@ -16,6 +16,7 @@ nav:
     - Requisitos: sections/docPage/7-requisitos.md
     - DOR e DOD: sections/docPage/8-dor-e-dod.md
     - Backlog do Produto: sections/docPage/9-backlog.md
+    - Protótipos: sections/docPage/11-prototipos.md
     - Lições Aprendidas: sections/docPage/6-licoesAprendidas.md
     - Estudos de Casos: 
       - PBB: sections/docPage/PBB.md
