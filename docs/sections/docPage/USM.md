@@ -84,6 +84,7 @@ A solução da EduConnect foi concebida considerando a colaboração de diferent
 * **Como** aluno, **quero** buscar projetos **para** encontrar oportunidades que me interessem.
 
 * **Como** aluno, **quero** participar de discussões e debates **para** enriquecer meu aprendizado por meio de interações.
+
 ---
 
 ## Persona 02: Professor
@@ -132,6 +133,7 @@ A solução da EduConnect foi concebida considerando a colaboração de diferent
 * **Como** professor, **quero** enviar feedbacks individuais aos alunos **para** que cada aluno saiba como está se saindo.
 
 * **Como** professor, **quero** compartilhar resultados com a comunidade escolar **para** promover uma cultura de transparência e aprendizado.
+
 ---
 
 ## Persona 03: Coordenadores
@@ -179,6 +181,7 @@ A solução da EduConnect foi concebida considerando a colaboração de diferent
 * **Como** coordenador, **quero** registrar feedback de alunos **para** melhorar os processos futuros.
 
 * **Como** coordenador, **quero** visualizar métricas de projetos **para** avaliar o sucesso e impacto das iniciativas.
+
 ---
 
 ### Persona 04: Pais e Responsáveis
