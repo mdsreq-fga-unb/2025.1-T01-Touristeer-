@@ -1,8 +1,8 @@
 # Protótipos Desenvolvidos
 
-A equipe desenvolvou protótipos da aplicação utilizando a plataforma figma. Foram desenvolvidos dois protótipos, um focado na aplicação voltada a smartphones, outro para telas de computadores e notebooks.
+A equipe desenvolvou protótipos da aplicação utilizando a plataforma Figma. Foram desenvolvidos dois protótipos de alta fidelidade e um de baixa fidelidade, os protótipos foram validados com o cliente, que optou pela segunda variação para a equipe desenvolver o projeto em cima.
 
-## Protótipo 1 - Smartphone
+## Protótipo Alta Fidelidade [1.0] 
 
 ### Home
 
@@ -23,3 +23,12 @@ A equipe desenvolvou protótipos da aplicação utilizando a plataforma figma. F
 ### Rotas
 
 ![Rotas](../../assets/prototipo_rota.png)
+
+## Protótipo Alta Fidelidade [2.0] 
+![Rotas](../../assets/prototip-alta-rotas.png)
+![Criar Rotas](../../assets/prototip-alta-criar.png)
+![Ver Pontos Turísticos](../../assets/prototip-alta-busca.png)
+
+## Protótipo Baixa Fidelidade [1.0]
+
+![Protótipo Baixa Fidelidade](../../assets/prototip-baixa.png)
