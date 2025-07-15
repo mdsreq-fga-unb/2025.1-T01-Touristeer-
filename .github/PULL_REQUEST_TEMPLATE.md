@@ -28,16 +28,12 @@
 ### ✔️ Documentação Atualizada?
 - [ ] A documentação do sistema voltada para o usuário final foi atualizada.
 - [ ] A documentação técnica (arquitetura, design e APIs) foi atualizada para os desenvolvedores.
-- [ ] O código possui comentários inline explicando lógicas específicas.
-- [ ] Foram adicionadas docstrings/JSDoc para funções, classes e módulos.
-- [ ] O padrão de documentação segue as melhores práticas para Node.js.
 
 ---
 
 ### ✔️ Código e Funcionalidade Revisada?
 - [ ] A funcionalidade foi revisada pela equipe de QA.
 - [ ] O código passou por revisão e aprovação via Pull Request.
-- [ ] Relatórios de teste ou outras evidências de revisão foram anexadas.
 
 ---
 
