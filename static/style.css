@@ -1,0 +1,918 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #000000 0%, #161616 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 20px;
+}
+
+.header h1 {
+    color: #000000;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.header h1 i {
+    margin-right: 0.5rem;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-btn {
+    background: transparent;
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-btn:hover,
+.nav-btn.active {
+    background: #000000;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Main Content */
+.main-content {
+    padding: 2rem 0;
+    min-height: calc(100vh - 100px);
+}
+
+.section {
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.section.active {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section h2 {
+    color: #333;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Grids */
+.routes-grid,
+.spots-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.route-card,
+.spot-card {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.route-card:hover,
+.spot-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.card-date {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.card-description {
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.card-spots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.spot-tag {
+    background: #e7f3ff;
+    color: #0066cc;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.card-actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+/* Buttons */
+.btn {
+    background: #4c6ef5;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #364fc7;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(76, 110, 245, 0.4);
+}
+
+.btn-secondary {
+    background: #6c757d;
+}
+
+.btn-secondary:hover {
+    background: #5a6268;
+}
+
+.btn-danger {
+    background: #dc3545;
+}
+
+.btn-danger:hover {
+    background: #c82333;
+}
+
+.btn-small {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+/* Forms */
+.form {
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #4c6ef5;
+    box-shadow: 0 0 0 3px rgba(76, 110, 245, 0.1);
+}
+
+.form-group.error input,
+.form-group.error select {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+.form-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+/* Search */
+.search-bar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 2px solid #e9ecef;
+    border-radius: 50px;
+    font-size: 1rem;
+}
+
+.search-bar button {
+    background: #4c6ef5;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Selected Spots */
+.selected-spots {
+    min-height: 100px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 2px dashed #dee2e6;
+    border-radius: 10px;
+    padding: 1rem;
+    background: #f8f9fa;
+}
+
+.selected-spot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.spot-info {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.spot-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.spot-order {
+    background: #4c6ef5;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.spot-name {
+    flex: 1;
+    font-weight: 500;
+}
+
+.btn-reorder {
+    background: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.75rem;
+}
+
+.btn-reorder:hover:not(:disabled) {
+    background: #5a6268;
+    transform: translateY(-1px);
+}
+
+.btn-reorder:disabled {
+    background: #dee2e6;
+    color: #6c757d;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.btn-remove {
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.75rem;
+}
+
+.btn-remove:hover {
+    background: #c82333;
+    transform: translateY(-1px);
+}
+
+/* Localização do usuário */
+.user-location {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.user-location-marker {
+    position: relative;
+    z-index: 1000;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.active {
+    display: flex;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 800px;
+    max-height: 80vh;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h3 {
+    margin: 0;
+    color: #333;
+}
+
+.close-modal {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #6c757d;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.close-modal:hover {
+    background: #f8f9fa;
+    color: #333;
+}
+
+.modal-body {
+    padding: 2rem;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.modal-search {
+    padding: 1.5rem 2rem 1rem 2rem;
+    border-bottom: 1px solid #e9ecef;
+    background: #f8f9fa;
+}
+
+.modal-search .search-bar {
+    max-width: 100%;
+}
+
+.modal-search .search-hint {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #666;
+    font-style: italic;
+}
+
+.modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.modal-spots-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.modal-spot-card {
+    background: white;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.modal-spot-card:hover {
+    border-color: #4c6ef5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(76, 110, 245, 0.2);
+}
+
+.modal-spot-card.selected {
+    border-color: #28a745;
+    background: #f8fff9;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.2);
+}
+
+.modal-spot-card.selected::after {
+    content: '✓';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #28a745;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.modal-spot-card h4 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.modal-spot-card p {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Notifications */
+.notifications {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2000;
+}
+
+.notification {
+    background: #4c6ef5;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    animation: slideIn 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    max-width: 350px;
+}
+
+.notification.success {
+    background: #28a745;
+}
+
+.notification.error {
+    background: #dc3545;
+}
+
+.notification.warning {
+    background: #ffc107;
+    color: #333;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Loading */
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    color: #6c757d;
+    min-height: 200px;
+}
+
+.loading i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #4c6ef5;
+}
+
+/* Estilos para pontos turísticos externos */
+.spot-tag.external {
+    background: #e7f3ff;
+    color: #0066cc;
+    border: 1px solid #b3d9ff;
+}
+
+.external-indicator {
+    background: #28a745 !important;
+    color: white !important;
+    font-size: 0.7rem !important;
+    padding: 0.2rem 0.5rem !important;
+}
+
+.spot-card:has(.external-indicator) {
+    border-left: 4px solid #28a745;
+}
+
+.spot-card:has(.external-indicator):hover {
+    border-left-color: #1e7e34;
+}
+
+/* Estilos para funcionalidades de rota */
+.route-stats {
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.stat-item i {
+    color: #4c6ef5;
+    width: 20px;
+}
+
+.route-sequence {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 1rem;
+    background: #fafafa;
+}
+
+.sequence-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.sequence-number {
+    background: #4c6ef5;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+.sequence-name {
+    font-weight: 500;
+    color: #333;
+}
+
+.sequence-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6c757d;
+    margin: 0.5rem 0;
+}
+
+.sequence-arrow i {
+    font-size: 1.2rem;
+}
+
+.sequence-arrow small {
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+}
+
+.modal-content.large {
+    width: 95%;
+    max-width: 900px;
+    max-height: 90vh;
+}
+
+.route-info {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.route-points {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.point-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background: #fafafa;
+}
+
+.point-number {
+    background: #28a745;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+    flex-shrink: 0;
+}
+
+.point-details {
+    flex: 1;
+}
+
+.point-details strong {
+    color: #333;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.point-details p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Botão para visualizar rota */
+.btn-view-route {
+    background: #17a2b8;
+    color: white;
+}
+
+.btn-view-route:hover {
+    background: #138496;
+}
+
+/* Indicador de rota otimizada */
+.route-optimized {
+    background: linear-gradient(45deg, #28a745, #20c997);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.route-optimized i {
+    font-size: 1rem;
+}
+
+/* Estilo para mapa simples */
+#route-map,
+#route-detail-map {
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Loading para cálculos de rota */
+.route-calculating {
+    text-align: center;
+    padding: 2rem;
+    color: #6c757d;
+}
+
+.route-calculating i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #4c6ef5;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .routes-grid,
+    .spots-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .search-bar {
+        flex-direction: column;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .modal-content {
+        width: 95%;
+        margin: 20px;
+    }
+
+    .modal-spot-card {
+        padding: 0.8rem;
+    }
+
+    .selected-spot {
+        padding: 0.6rem;
+    }
+
+    .spot-order {
+        width: 25px;
+        height: 25px;
+        font-size: 0.8rem;
+        margin-right: 0.8rem;
+    }
+
+    .btn-remove {
+        width: 24px;
+        height: 24px;
+    }
+}

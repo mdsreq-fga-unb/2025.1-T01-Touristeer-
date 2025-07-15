@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "nome": "Cristo Redentor",
+    "localizacao": {
+      "latitude": -22.951916,
+      "longitude": -43.210487
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg/800px-Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+    "descricao": "Estátua icônica do Cristo Redentor no topo do Corcovado, uma das Sete Maravilhas do Mundo Moderno."
+  },
+  {
+    "id": 2,
+    "nome": "Pão de Açúcar",
+    "localizacao": {
+      "latitude": -22.948658,
+      "longitude": -43.157444
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sugarloaf_Mountain_Rio_de_Janeiro.jpg/800px-Sugarloaf_Mountain_Rio_de_Janeiro.jpg",
+    "descricao": "Famoso morro localizado na Urca, acessível por bondinho, oferecendo vista panorâmica da cidade."
+  },
+  {
+    "id": 3,
+    "nome": "Copacabana",
+    "localizacao": {
+      "latitude": -22.971177,
+      "longitude": -43.182543
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Copacabana_Beach_Rio_de_Janeiro_Brazil.jpg/800px-Copacabana_Beach_Rio_de_Janeiro_Brazil.jpg",
+    "descricao": "Uma das praias mais famosas do mundo, conhecida por sua areia branca e calçadão icônico."
+  },
+  {
+    "id": 4,
+    "nome": "Ipanema",
+    "localizacao": {
+      "latitude": -22.984219,
+      "longitude": -43.196827
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Ipanema_Beach_Rio_de_Janeiro_Brazil.jpg/800px-Ipanema_Beach_Rio_de_Janeiro_Brazil.jpg",
+    "descricao": "Praia sofisticada famosa pela música 'Garota de Ipanema' e pelo pôr do sol no Arpoador."
+  },
+  {
+    "id": 5,
+    "nome": "Maracanã",
+    "localizacao": {
+      "latitude": -22.912168,
+      "longitude": -43.230164
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Maracana_Stadium_in_Rio_de_Janeiro.jpg/800px-Maracana_Stadium_in_Rio_de_Janeiro.jpg",
+    "descricao": "Estádio icônico que sediou finais de Copa do Mundo e Olimpíadas, templo do futebol brasileiro."
+  },
+  {
+    "id": 6,
+    "nome": "Santa Teresa",
+    "localizacao": {
+      "latitude": -22.924444,
+      "longitude": -43.188611
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Santa_Teresa_Rio_de_Janeiro_Brazil.jpg/800px-Santa_Teresa_Rio_de_Janeiro_Brazil.jpg",
+    "descricao": "Bairro boêmio com arquitetura colonial, ateliês de artistas e vista privilegiada da cidade."
+  },
+  {
+    "id": 7,
+    "nome": "Lapa",
+    "localizacao": {
+      "latitude": -22.913056,
+      "longitude": -43.179722
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Arcos_da_Lapa_Rio_de_Janeiro_Brazil.jpg/800px-Arcos_da_Lapa_Rio_de_Janeiro_Brazil.jpg",
+    "descricao": "Famosa pelos Arcos da Lapa e vida noturna vibrante, centro da boemia carioca."
+  },
+  {
+    "id": 8,
+    "nome": "Jardim Botânico",
+    "localizacao": {
+      "latitude": -22.966944,
+      "longitude": -43.225278
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jardim_Botanico_Rio_de_Janeiro_Brazil.jpg/800px-Jardim_Botanico_Rio_de_Janeiro_Brazil.jpg",
+    "descricao": "Oásis verde com mais de 6.500 espécies de plantas, incluindo as famosas palmeiras imperiais."
+  },
+  {
+    "id": 9,
+    "nome": "Museu do Amanhã",
+    "localizacao": {
+      "latitude": -22.895833,
+      "longitude": -43.178611
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Museum_of_Tomorrow_Rio_de_Janeiro_Brazil.jpg/800px-Museum_of_Tomorrow_Rio_de_Janeiro_Brazil.jpg",
+    "descricao": "Museu de ciências com arquitetura futurística, explorando possibilidades para o futuro da humanidade."
+  },
+  {
+    "id": 10,
+    "nome": "Lagoa Rodrigo de Freitas",
+    "localizacao": {
+      "latitude": -22.971944,
+      "longitude": -43.205556
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Lagoa_Rodrigo_de_Freitas_Rio_de_Janeiro_Brazil.jpg/800px-Lagoa_Rodrigo_de_Freitas_Rio_de_Janeiro_Brazil.jpg",
+    "descricao": "Lagoa cercada por montanhas, ideal para atividades ao ar livre e contemplação da natureza."
+  },
+  {
+    "id": 11,
+    "nome": "Congresso Nacional",
+    "localizacao": {
+      "latitude": -15.799722,
+      "longitude": -47.864167
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Congresso_Nacional_do_Brasil_Brasilia.jpg/800px-Congresso_Nacional_do_Brasil_Brasilia.jpg",
+    "descricao": "Sede do Poder Legislativo brasileiro, com arquitetura modernista icônica de Oscar Niemeyer."
+  },
+  {
+    "id": 12,
+    "nome": "Catedral de Brasília",
+    "localizacao": {
+      "latitude": -15.798056,
+      "longitude": -47.875833
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Catedral_de_Brasilia.jpg/800px-Catedral_de_Brasilia.jpg",
+    "descricao": "Catedral Metropolitana com design futurista de Oscar Niemeyer, símbolo arquitetônico de Brasília."
+  },
+  {
+    "id": 13,
+    "nome": "Palácio da Alvorada",
+    "localizacao": {
+      "latitude": -15.791667,
+      "longitude": -47.834444
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Palacio_da_Alvorada_Brasilia.jpg/800px-Palacio_da_Alvorada_Brasilia.jpg",
+    "descricao": "Residência oficial da Presidência da República, marco da arquitetura modernista brasileira."
+  },
+  {
+    "id": 14,
+    "nome": "Esplanada dos Ministérios",
+    "localizacao": {
+      "latitude": -15.802778,
+      "longitude": -47.871111
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Esplanada_dos_Ministerios_Brasilia.jpg/800px-Esplanada_dos_Ministerios_Brasilia.jpg",
+    "descricao": "Grande eixo monumental que abriga os ministérios do governo federal, coração político do Brasil."
+  },
+  {
+    "id": 15,
+    "nome": "Ponte JK",
+    "localizacao": {
+      "latitude": -15.816667,
+      "longitude": -47.831111
+    },
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ponte_JK_Brasilia.jpg/800px-Ponte_JK_Brasilia.jpg",
+    "descricao": "Ponte estaiada sobre o Lago Paranoá, uma das mais belas pontes do Brasil e cartão-postal de Brasília."
+  }
+]
