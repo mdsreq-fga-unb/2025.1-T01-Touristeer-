@@ -53,7 +53,7 @@ A solução da EduConnect foi concebida considerando a colaboração de diferent
 - **Desenvolver** atividades do projeto
 - **Visualizar** resultados
 
-### MIP
+### MVP
 - **Visualizar** projetos
 - **Selecionar** projeto
 - **Visualizar** materiais disponibilizados pelo projeto
@@ -64,6 +64,10 @@ A solução da EduConnect foi concebida considerando a colaboração de diferent
 - **Inserir** dados de inscrição para posterior análise
 - **Consultar** pré-requisitos para participar de projetos
 - **Verificar** confirmação de inscrição
+- **Interagir** com especialistas 
+- **Participar** de discussões e dabates
+- **Documentar** progresso
+- **Submeter** entregas requeridas
 
 ## Histórias de Usuário (User Stories)
 
@@ -80,7 +84,6 @@ A solução da EduConnect foi concebida considerando a colaboração de diferent
 * **Como** aluno, **quero** buscar projetos **para** encontrar oportunidades que me interessem.
 
 * **Como** aluno, **quero** participar de discussões e debates **para** enriquecer meu aprendizado por meio de interações.
-
 ---
 
 ## Persona 02: Professor
@@ -88,22 +91,33 @@ A solução da EduConnect foi concebida considerando a colaboração de diferent
 ![alt text](../../assets/persona02.png)
 
 ### Tarefas
-- **Visualizar** a apresentação de projetos
-- **Organizar** rotinas de atividades
+- **Viabilizar** a elaboração de projetos
+- **Organizar** roteiro de atividades
 - **Gerenciar** escopo dos projetos
 - **Validar** inscrições de alunos
-- **Criar** rotinas de trabalho
-- **Compartilhar** feedbacks frequentemente aos alunos
-- **Examinar** projeto interdisciplina
+- **Criar** roteiros de trabalho
+- **Compartilhar** feedbacks das tarefas
+- **Conduzir** atividades e avaliações
+- **Oferecer** feedbacks frequentemente aos alunos
+- **Finalizar** projeto interdisciplina
 
-### Outras Tarefas
+### MVP
 - **Cadastrar** projeto
-- **Consultar** lista de projetos
 - **Registrar** riscos e plano de ação
-- **Adotar** práticas de avaliações e únicas
 - **Definir** critérios de êxito para avaliações
 - **Notificar** aluno sobre respostas
 - **Encerrar** projeto
+- **Compartilhar** resultados com a comunidade escolar
+- **Enviar**  feedback individualizado
+- **Adicionar** prazos de avaliação e entrega
+- **Participar** de reuniões de alinhamento
+- **Estabelecer** normas de comunicação
+- **Preparar** materiais de apoio adaptados a diferentes públicos
+- **Enviar** cronograma aos participantes
+- **Consultar**  lista de inscritos
+- **Cadastrar** alunos nos projetos
+- **Definir** objetivos pedagógicos e competências a desenvolver nos alunos
+- **Definir** requisitos de aprovação
 
 ## Histórias de Usuário (User Stories)
 
@@ -118,7 +132,6 @@ A solução da EduConnect foi concebida considerando a colaboração de diferent
 * **Como** professor, **quero** enviar feedbacks individuais aos alunos **para** que cada aluno saiba como está se saindo.
 
 * **Como** professor, **quero** compartilhar resultados com a comunidade escolar **para** promover uma cultura de transparência e aprendizado.
-
 ---
 
 ## Persona 03: Coordenadores
@@ -130,16 +143,22 @@ A solução da EduConnect foi concebida considerando a colaboração de diferent
 - **Criar** canais de comunicação
 - **Divulgar** início do projeto
 - **Documentar** projeto
-- **Aguardar** reuniões de alinhamento
-- **Enviar** comunicação para responsáveis
+- **Agendar** reuniões de alinhamento
+- **Enviar** comunicado para responsáveis
+- **Gerenciar** sessões de apresentação
 
-### Outras Tarefas
+### MVP
 - **Enviar** notificações para alunos e responsáveis de início de projeto
 - **Registrar** feedback de alunos
 - **Criar** reunião de alinhamento
 - **Visualizar** métricas de projetos
-- **Enviar** notificações de início de reunião para pais e integrantes
-- **Excluir** sessões de apresentações
+- **Enviar** notificações de início de reunião para os integrantes
+- **Gerar** histórico de projetos
+- **Escalar** professores integrantes da reunião
+- **Criar** comunicado
+- **Enviar** comunicado para lista de destinatários
+- **Criar** sessão de apresentação
+- **Editar** sessão de apresentação
 
 ## Histórias de Usuário (User Stories)
 
@@ -160,7 +179,6 @@ A solução da EduConnect foi concebida considerando a colaboração de diferent
 * **Como** coordenador, **quero** registrar feedback de alunos **para** melhorar os processos futuros.
 
 * **Como** coordenador, **quero** visualizar métricas de projetos **para** avaliar o sucesso e impacto das iniciativas.
-
 ---
 
 ### Persona 04: Pais e Responsáveis
@@ -172,13 +190,13 @@ A solução da EduConnect foi concebida considerando a colaboração de diferent
 - **Participar** do processo inicial do projeto
 - **Acompanhar** o desenvolvimento das atividades
 
-### Outras Tarefas
+### MVP
 - **Visualizar** informações detalhadas e pertinentes do projeto
 - **Visualizar** progresso dos filhos
 - **Receber** atualizações, feedbacks e observações do desempenho do filho
 - **Confirmar** inscrição do aluno
 - **Participar** de reuniões de alinhamento
-- **Compartilhar** conhecimentos e experiências próprias
+- **Participar** ativamente para compartilhar conhecimentos e experiências próprias
 
 ## Histórias de Usuário (User Stories)
 
