@@ -143,7 +143,7 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 **E** deve sugerir alternativas ou períodos disponíveis para o mesmo técnico ou outros.
 
 ---
-##Conciliar automaticamente a disponibilidade dos técnicos com os pedidos de serviço no sistema de agendamento.
+## Conciliar automaticamente a disponibilidade dos técnicos com os pedidos de serviço no sistema de agendamento.
 
 ## História de usuário:
 "Como um Atendente, eu quero ter um sistema que concilie automaticamente a disponibilidade dos técnicos com os pedidos de serviço, para reduzir conflitos de agenda."
@@ -172,7 +172,7 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 **E** deve sugerir que eu revise as opções de horário ou busque por outros técnicos.
 
 ---
-##Assegurar que o técnico agendado possui a especialidade necessária na solicitação de serviço
+## Assegurar que o técnico agendado possui a especialidade necessária na solicitação de serviço
 
 ## História de usuário:
 "Como um Cliente Corporativo, eu quero ter a certeza de que o técnico agendado possui a especialidade necessária para meu problema, para garantir a resolução eficiente"
@@ -202,7 +202,7 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 **E** devo poder solicitar a substituição por um técnico com a especialidade correta.
 
 ---
-##Informar a disponibilidade em tempo real do técnico no aplicativo móvel.
+## Informar a disponibilidade em tempo real do técnico no aplicativo móvel.
 
 ## História de usuário:
 "Como um Técnico de Campo, eu quero informar minha disponibilidade em tempo real, para evitar agendamentos conflitantes."
@@ -233,7 +233,7 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 
 ---
 
-##Monitorar a conformidade dos agendamentos com as especialidades dos técnicos no dashboard de gestão
+## Monitorar a conformidade dos agendamentos com as especialidades dos técnicos no dashboard de gestão
 
 ## História de usuário:
 "Como uma Diretora de Operações, eu quero monitorar a conformidade dos agendamentos com as especialidades dos técnicos, para garantir a eficiência da equipe."
@@ -250,7 +250,7 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 
 **E** devo conseguir exportar esse relatório para análise.
 
-## enário 02: Diretora identifica baixa conformidade e busca detalhes
+## Cenário 02: Diretora identifica baixa conformidade e busca detalhes
 
 **Dado**  que sou a Diretora de Operações e acesso o dashboard de gestão.
 
@@ -263,7 +263,7 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 **E** devo conseguir identificar os motivos ou os atendentes responsáveis por essas atribuições.
 
 ---
-##Acessar um portal online para acompanhar o status em tempo real das solicitações o cliente corporativo
+## Acessar um portal online para acompanhar o status em tempo real das solicitações o cliente corporativo
 
 ## História de usuário:
 " Como um Cliente Corporativo, eu quero acessar um portal online, para acompanhar o status em tempo real das minhas solicitações."
@@ -280,7 +280,7 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 
 **E** para a solicitação em questão, devo ver o status atual (ex: "Em Atendimento", "Aguardando Peça", "Concluído") em tempo real.
 
-##Cenário 02: Cliente corporativo acessa o portal e vê o status de uma solicitação concluída
+## Cenário 02: Cliente corporativo acessa o portal e vê o status de uma solicitação concluída
 
 **Dado** que sou um cliente corporativo e tenho credenciais válidas para o portal do cliente.
 
@@ -296,10 +296,10 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 
 ## Solicitar serviços diretamente pelo portal o cliente corporativo.
 
-##História de usuário:
+## História de usuário:
 " Como um Cliente Corporativo, eu quero solicitar serviços diretamente pelo portal, para agilizar o processo."
 
-##Cenário 01: Cliente corporativo solicita um novo serviço padrão pelo portal
+## Cenário 01: Cliente corporativo solicita um novo serviço padrão pelo portal
 
 **Dado** que sou um cliente corporativo e estou logado no portal do cliente.
 
@@ -311,7 +311,7 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 
 **E** devo receber uma confirmação imediata da solicitação via portal e e-mail.
 
-##Cenário 02: Cliente corporativo solicita um serviço emergencial pelo portal
+## Cenário 02: Cliente corporativo solicita um serviço emergencial pelo portal
 
 **Dado** que sou um cliente corporativo e estou logado no portal do cliente.
 
@@ -325,12 +325,12 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 
 ---
 
-##Visualizar o histórico de serviços e relatórios detalhados no portal do cliente
+## Visualizar o histórico de serviços e relatórios detalhados no portal do cliente
 
-##História de usuário:
+## História de usuário:
 "Como um Cliente Corporativo, eu quero visualizar meu histórico de serviços e relatórios detalhados, para planejamento futuro e auditoria."
 
-##Cenário 01: Cliente corporativo acessa histórico completo de serviços
+## Cenário 01: Cliente corporativo acessa histórico completo de serviços
 
 **Dado** que sou um cliente corporativo e estou logado no portal do cliente.
 
@@ -340,7 +340,7 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 
 **E** devo poder filtrar ou buscar por serviços específicos (ex: por data, tipo de serviço, equipamento).
 
-##Cenário 02: Cliente corporativo baixa relatório detalhado de uma intervenção
+## Cenário 02: Cliente corporativo baixa relatório detalhado de uma intervenção
 
 **Dado**  que sou um cliente corporativo e estou visualizando meu histórico de serviços no portal.
 
@@ -354,12 +354,12 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 
 ---
 
-##Direcionar clientes para o autoatendimento de status no portal do cliente
+## Direcionar clientes para o autoatendimento de status no portal do cliente
 
-##História de usuário:
+## História de usuário:
 " Como um Atendente, eu quero direcionar os clientes para o portal para autoatendimento de status, para reduzir o volume de chamadas."
 
-##Cenário 01: Atendente informa cliente sobre funcionalidade de autoatendimento do portal
+## Cenário 01: Atendente informa cliente sobre funcionalidade de autoatendimento do portal
 
 **Dado** que sou um atendente e recebo uma chamada de um cliente perguntando sobre o status de uma solicitação.
 
@@ -371,7 +371,7 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 
 **E** a ligação deve ser concluída mais rapidamente, sem a necessidade de eu buscar manualmente o status.
 
-##Cenário 02: Atendente verifica que o cliente usou o portal para autoatendimento
+## Cenário 02: Atendente verifica que o cliente usou o portal para autoatendimento
 
 **Dado** que sou um atendente e um cliente me liga para perguntar sobre o status de um serviço.
 
@@ -385,9 +385,9 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 
 ---
 
-##Monitorar a utilização do portal pelo cliente através de relatórios do portal
+## Monitorar a utilização do portal pelo cliente através de relatórios do portal
 
-##História de usuário:
+## História de usuário:
 "Como uma Diretora de Operações, eu quero monitorar a utilização do portal pelo cliente, para avaliar a satisfação e engajamento."
 
 ## Cenário 01: Diretora visualiza o número de acessos e usuários ativos do portal
@@ -400,7 +400,7 @@ A solução para a TechFix foi concebida considerando as necessidades e expectat
 
 **E** devo ver o número de usuários únicos ativos no portal.
 
-##Cenário 02: Diretora analisa as funcionalidades mais utilizadas no portal
+## Cenário 02: Diretora analisa as funcionalidades mais utilizadas no portal
 
 **Dado** que sou a Diretora de Operações e estou monitorando o uso do portal.
 
