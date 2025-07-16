@@ -25,7 +25,8 @@ nav:
   - Entregas:
     - Unidade 1: sections/entregas/unidade1.md
     - Unidade 2: sections/entregas/unidade2.md 
-    - Unidade 3: sections/entregas/unidade3.md 
+    - Unidade 3: sections/entregas/unidade3.md
+    - Unidade 4: sections/entregas/unidade4.md
 
 theme: 
   name: material
