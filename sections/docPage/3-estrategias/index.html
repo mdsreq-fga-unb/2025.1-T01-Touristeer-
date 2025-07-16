@@ -1,0 +1,1436 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../2-solucaoProp/">
+      
+      
+        <link rel="next" href="../10-engenhariaRequisitos/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Estratégias de Engenharia de Software - Touristeer</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="2c3094" data-md-color-accent="2c3094">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#31-estrategia-priorizada" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Touristeer" class="md-header__button md-logo" aria-label="Touristeer" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Touristeer
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Estratégias de Engenharia de Software
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="2c3094" data-md-color-accent="2c3094"  aria-label="Tema claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Tema claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="2c3094" data-md-color-accent="2c3094"  aria-label="Tema escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Tema escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mdsreq-fga-unb/2025.1-T01-Touristeer-" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Github Touristeer
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Touristeer" class="md-nav__button md-logo" aria-label="Touristeer" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Touristeer
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mdsreq-fga-unb/2025.1-T01-Touristeer-" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Github Touristeer
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Visão de Produto e Projeto
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Visão de Produto e Projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1-cenarioAtual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenário Atual do Cliente e Negócio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2-solucaoProp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Solução Proposta
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Estratégias de Engenharia de Software
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Estratégias de Engenharia de Software
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31-estrategia-priorizada" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Estratégia Priorizada
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-quadro-comparativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Quadro Comparativo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#33-justificativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Justificativa
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#34-reflexao-sobre-o-processo-realmente-seguido" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Reflexão sobre o Processo Realmente Seguido
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Reflexão sobre o Processo Realmente Seguido">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#341-contexto-dos-desafios-enfrentados" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.1 Contexto dos Desafios Enfrentados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#342-o-problema-da-validacao-do-mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.2 O Problema da Validação do MVP
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#343-impacto-no-modelo-rad-planejado" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.3 Impacto no Modelo RAD Planejado
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#344-padrao-emergente-semelhanca-com-o-modelo-cascata" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.4 Padrão Emergente: Semelhança com o Modelo Cascata
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#345-rastro-das-adaptacoes-realizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.5 Rastro das Adaptações Realizadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#346-caracteristicas-do-padrao-seguido-vs-cascata-tradicional" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.6 Características do Padrão Seguido vs. Cascata Tradicional
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#347-aprendizados-e-reflexoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.7 Aprendizados e Reflexões
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#348-resultados-obtidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.8 Resultados Obtidos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-engenhariaRequisitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Engenharia de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4-cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma e Entregas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5-interacaoEqCliente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Interação entre Equipe e Cliente
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7-requisitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8-dor-e-dod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DOR e DOD
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9-backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-prototipos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protótipos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6-licoesAprendidas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lições Aprendidas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_12" id="__nav_2_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Estudos de Casos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_12">
+            <span class="md-nav__icon md-icon"></span>
+            Estudos de Casos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PBB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PBB
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../USM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    USM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UC
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Entregas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Entregas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/unidade1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/unidade2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/unidade3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/unidade4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31-estrategia-priorizada" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Estratégia Priorizada
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-quadro-comparativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Quadro Comparativo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#33-justificativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Justificativa
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#34-reflexao-sobre-o-processo-realmente-seguido" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Reflexão sobre o Processo Realmente Seguido
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Reflexão sobre o Processo Realmente Seguido">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#341-contexto-dos-desafios-enfrentados" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.1 Contexto dos Desafios Enfrentados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#342-o-problema-da-validacao-do-mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.2 O Problema da Validação do MVP
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#343-impacto-no-modelo-rad-planejado" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.3 Impacto no Modelo RAD Planejado
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#344-padrao-emergente-semelhanca-com-o-modelo-cascata" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.4 Padrão Emergente: Semelhança com o Modelo Cascata
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#345-rastro-das-adaptacoes-realizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.5 Rastro das Adaptações Realizadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#346-caracteristicas-do-padrao-seguido-vs-cascata-tradicional" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.6 Características do Padrão Seguido vs. Cascata Tradicional
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#347-aprendizados-e-reflexoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.7 Aprendizados e Reflexões
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#348-resultados-obtidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4.8 Resultados Obtidos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>Estratégias de Engenharia de Software</h1>
+
+<h2 id="31-estrategia-priorizada">3.1 Estratégia Priorizada</h2>
+<p><strong>Abordagem de Desenvolvimento de Software:</strong> Híbrido <br>
+<strong>Ciclo de Vida:</strong> Adaptativo <br>
+<strong>Processo de Engenharia de Software:</strong> RAD <br></p>
+<h2 id="32-quadro-comparativo">3.2 Quadro Comparativo</h2>
+<table>
+<thead>
+<tr>
+<th>Características</th>
+<th>RAD</th>
+<th>Scrum XP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Abordagem Geral</strong></td>
+<td>Iterativo e incremental, com ciclos curtos de desenvolvimento e prototipagem rápida.</td>
+<td>Iterativo e incremental com foco em entregas rápidas e feedback contínuo.</td>
+</tr>
+<tr>
+<td><strong>Foco em Arquitetura</strong></td>
+<td>Inicialmente superficial, priorizando funcionalidade; arquitetura é ajustada com base no feedback.</td>
+<td>Menor foco na arquitetura inicialmente, com evolução da arquitetura ao longo do tempo e conforme a necessidade.</td>
+</tr>
+<tr>
+<td><strong>Estrutura de Processos</strong></td>
+<td>Baseada em protótipos rápidos, feedback frequente e fases curtas de desenvolvimento.</td>
+<td>Focado em sprints curtos e flexíveis (2-4 semanas) com entregas incrementais e adaptação contínua durante o projeto.</td>
+</tr>
+<tr>
+<td><strong>Flexibilidade de Requisitos</strong></td>
+<td>Alta, com capacidade de acomodar mudanças rapidamente durante o ciclo de desenvolvimento.</td>
+<td>Alta flexibilidade para mudanças contínuas de requisitos a cada sprint. Adaptável a feedback frequente do cliente.</td>
+</tr>
+<tr>
+<td><strong>Colaboração com Cliente</strong></td>
+<td>Contato frequente com o cliente para obter feedback e ajustar os protótipos.</td>
+<td>Envolvimento constante do cliente, com feedback ao final de cada sprint, garantindo que os requisitos estejam sempre atualizados.</td>
+</tr>
+<tr>
+<td><strong>Complexidade do Processo</strong></td>
+<td>Relativamente simples, com ênfase em reduzir tempo e esforço, mas pode faltar estrutura em projetos complexos.</td>
+<td>Mais leve e ágil, com menos documentação formal e mais foco na entrega funcional, facilitando a adaptação contínua.</td>
+</tr>
+<tr>
+<td><strong>Qualidade Técnica</strong></td>
+<td>Pode ser sacrificada para priorizar velocidade, com qualidade refinada após o feedback.</td>
+<td>Alta ênfase na qualidade técnica, com práticas como TDD, pair programming e integração contínua para garantir um código limpo e funcional.</td>
+</tr>
+<tr>
+<td><strong>Práticas de Desenvolvimento</strong></td>
+<td>Protótipos rápidos e entregas iterativas; menos foco em práticas robustas de desenvolvimento.</td>
+<td>Inclui práticas técnicas robustas como TDD, refatoração contínua, integração contínua e pair programming, promovendo alta qualidade no código.</td>
+</tr>
+<tr>
+<td><strong>Adaptação ao Projeto da Touristeer</strong></td>
+<td>Adequado para projetos com ênfase em resultados rápidos e requisitos em evolução constante.</td>
+<td>Ideal para projetos onde a interação constante com o cliente e a evolução contínua do produto são fundamentais. Adaptável a mudanças frequentes e feedback.</td>
+</tr>
+<tr>
+<td><strong>Documentação</strong></td>
+<td>Mínima, geralmente centrada no essencial para acompanhar o progresso dos protótipos.</td>
+<td>Minimiza a documentação formal, com foco em comunicação e feedback rápido. A documentação é apenas o essencial.</td>
+</tr>
+<tr>
+<td><strong>Controle de Qualidade</strong></td>
+<td>Baseado em revisões e testes iterativos após os protótipos.</td>
+<td>Controle de qualidade embutido nas práticas do XP, como TDD e integração contínua, garantindo que o software seja testado a cada nova funcionalidade.</td>
+</tr>
+<tr>
+<td><strong>Escalabilidade</strong></td>
+<td>Limitada a equipes pequenas e projetos menos complexos.</td>
+<td>Escalável, mas mais indicado para equipes menores e médias devido à sua abordagem colaborativa e interativa constante.</td>
+</tr>
+<tr>
+<td><strong>Suporte a Equipes de Desenvolvimento</strong></td>
+<td>Melhor para equipes menores, com menos necessidade de coordenação complexa.</td>
+<td>Suporta equipes menores e mais colaborativas, com papéis mais flexíveis, permitindo maior adaptação ao ritmo do projeto.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="33-justificativa">3.3 Justificativa</h2>
+<p>Escolhemos uma abordagem híbrida (que combina a flexibilidade de ciclos ágeis com a disciplina de processos estruturados) para o Touristeer. Dessa forma, podemos prototipar e testar rapidamente novas rotas, filtros e integrações de dados locais, validando no dia a dia o que realmente faz diferença para o turista. Ao mesmo tempo, mantemos revisões de código, testes automatizados e documentação mínima para garantir a estabilidade e a manutenção das funções de GPS, análise de avaliações e armazenamento de conteúdo. Assim, conseguimos inovar rápido sem abrir mão da confiança e do desempenho do aplicativo.</p>
+<p>A escolha pelo modelo RAD (Rapid Application Development) foi fundamentada na aplicação de uma adaptação do framework proposto por Gupta, que avalia aspectos críticos relacionados aos requisitos, à equipe de desenvolvimento, aos stakeholders e às características do projeto. As respostas fornecidas pela equipe, encontradas na tabela 1, indicaram que o RAD seria o método ideal devido à sua abordagem iterativa e adaptável, alinhada às demandas do projeto.
+<br><br></p>
+<p align="center">Figura 1 - Escolha do processo através do framework Gupta adaptado</p>
+
+<p><img alt="Captura de tela de uma planilha com os tópicos para escolha do processo" src="../../../assets/planilhaprocesso.png" /></p>
+<p align="center">Fonte: Elaborado pelos autores (2025)</p>
+
+<p>Os requisitos do projeto apresentam um nível médio de estabilidade, necessitando de ajustes frequentes com base no feedback dos stakeholders. O RAD se destaca nesse contexto por possibilitar a entrega de protótipos rápidos, permitindo validações contínuas e adaptações ágeis durante o desenvolvimento. Essa flexibilidade é essencial para projetos onde as necessidades dos clientes podem evoluir rapidamente.</p>
+<p>A equipe de desenvolvimento possui experiência em ciclos rápidos e uma dinâmica colaborativa, fatores que são fundamentais para o sucesso do RAD. Além disso, os stakeholders demonstraram alta disponibilidade e envolvimento, garantindo o feedback constante e as validações necessárias para o progresso iterativo. Essa proximidade com os stakeholders também reduz os riscos de desalinhamento entre o produto entregue e as expectativas do cliente.</p>
+<p>Por fim, o escopo do projeto é de complexidade moderada, favorecendo a aplicação de um modelo que prioriza entregas rápidas e incrementais. A capacidade do RAD de mitigar riscos por meio de validações precoces e de integrar mudanças de forma eficiente torna-o a escolha mais adequada, permitindo otimizar o tempo e a qualidade do desenvolvimento.</p>
+<h2 id="34-reflexao-sobre-o-processo-realmente-seguido">3.4 Reflexão sobre o Processo Realmente Seguido</h2>
+<h3 id="341-contexto-dos-desafios-enfrentados">3.4.1 Contexto dos Desafios Enfrentados</h3>
+<p>Embora tenhamos planejado seguir o modelo RAD conforme justificado na seção anterior, durante a execução do projeto enfrentamos desafios que impactaram significativamente nossa capacidade de manter os ciclos rápidos e o feedback contínuo que caracterizam essa metodologia.</p>
+<h3 id="342-o-problema-da-validacao-do-mvp">3.4.2 O Problema da Validação do MVP</h3>
+<p>O principal obstáculo enfrentado foi o <strong>atraso na validação do MVP (Minimum Viable Product)</strong>. O que inicialmente estava previsto para ser validado em um tempo menor, acabou levando mais tempo que o esperado</p>
+<ul>
+<li><strong>Disponibilidade limitada da equipe:</strong> Conflitos de agenda e prioridades concorrentes</li>
+<li><strong>Dependências externas:</strong> Integrações com APIs de mapas e dados locais que demandaram mais tempo</li>
+<li><strong>Refinamento de requisitos:</strong> Necessidade de ajustes frequentes na priorização do MVP</li>
+</ul>
+<h3 id="343-impacto-no-modelo-rad-planejado">3.4.3 Impacto no Modelo RAD Planejado</h3>
+<p>O problema citado acima sobre o MVP criou um <strong>efeito cascata</strong> que comprometeu os princípios fundamentais do RAD:</p>
+<table>
+<thead>
+<tr>
+<th>Princípio RAD</th>
+<th>Impacto Observado</th>
+<th>Consequência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ciclos curtos de desenvolvimento</strong></td>
+<td>Falha no entendimento da equipe</td>
+<td>execução de maneira dirigida por plano</td>
+</tr>
+<tr>
+<td><strong>Prototipagem rápida</strong></td>
+<td>Protótipos ficaram obsoletos durante a espera</td>
+<td>Necessidade de retrabalho significativo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="344-padrao-emergente-semelhanca-com-o-modelo-cascata">3.4.4 Padrão Emergente: Semelhança com o Modelo Cascata</h3>
+<p><strong>Importante:</strong> Não houve uma <strong>decisão consciente</strong> de abandonar o RAD em favor do Cascata. O que aconteceu foi uma <strong>adaptação natural</strong> às circunstâncias, resultando em um padrão de trabalho que, retrospectivamente, assemelha-se ao modelo Cascata tradicional.</p>
+<h3 id="345-rastro-das-adaptacoes-realizadas">3.4.5 Rastro das Adaptações Realizadas</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Evento</th>
+<th>Adaptação Realizada</th>
+<th>Justificativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>28/04/2025</td>
+<td>Início do projeto</td>
+<td>Aplicação do RAD conforme planejado</td>
+<td>Seguindo análise do framework Gupta</td>
+</tr>
+<tr>
+<td>12/05/2025</td>
+<td>Primeiro atraso na validação</td>
+<td>Extensão da fase de análise</td>
+<td>Aproveitar tempo para detalhar requisitos</td>
+</tr>
+<tr>
+<td>09/06/2025</td>
+<td>MVP ainda não validado</td>
+<td>Início do design detalhado</td>
+<td>Evitar paralisia total da equipe</td>
+</tr>
+<tr>
+<td>16/06/2025</td>
+<td>Repositórios liberados</td>
+<td>Início da implementação com atraso</td>
+<td>Necessidade de cumprir cronograma acadêmico</td>
+</tr>
+</tbody>
+</table>
+<h3 id="346-caracteristicas-do-padrao-seguido-vs-cascata-tradicional">3.4.6 Características do Padrão Seguido vs. Cascata Tradicional</h3>
+<table>
+<thead>
+<tr>
+<th>Aspecto</th>
+<th>Cascata Tradicional</th>
+<th>Padrão Seguido no Projeto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sequencialidade</strong></td>
+<td>Planejada e rígida</td>
+<td>Emergente devido a circunstâncias</td>
+</tr>
+<tr>
+<td><strong>Documentação</strong></td>
+<td>Extensa por design</td>
+<td>Extensa por compensação</td>
+</tr>
+<tr>
+<td><strong>Flexibilidade</strong></td>
+<td>Baixa por princípio</td>
+<td>Baixa por limitações externas</td>
+</tr>
+<tr>
+<td><strong>Validação</strong></td>
+<td>Ao final de cada fase</td>
+<td>Concentrada no final do projeto</td>
+</tr>
+<tr>
+<td><strong>Revisões</strong></td>
+<td>Formais e estruturadas</td>
+<td>Informais e adaptativas</td>
+</tr>
+</tbody>
+</table>
+<h3 id="347-aprendizados-e-reflexoes">3.4.7 Aprendizados e Reflexões</h3>
+<ol>
+<li><strong>Dependência de Stakeholders:</strong> A eficácia do RAD depende criticamente da disponibilidade e engajamento dos stakeholders</li>
+<li><strong>Adaptabilidade da Equipe:</strong> A equipe demonstrou capacidade de se adaptar às circunstâncias, mesmo quando diferentes do planejado</li>
+<li><strong>Importância do Contexto:</strong> Fatores externos podem forçar mudanças no processo, independentemente da metodologia escolhida</li>
+</ol>
+<h3 id="348-resultados-obtidos">3.4.8 Resultados Obtidos</h3>
+<p>Apesar de não seguirmos o modelo RAD conforme planejado, o padrão emergente que se assemelhou ao Cascata permitiu:</p>
+<ul>
+<li><strong>Entrega dentro do prazo acadêmico:</strong> Cumprimento parcial dos marcos estabelecidos pela disciplina</li>
+<li><strong>Produto funcional:</strong> MVP implemtado com os requisitos estabelecidos em seu escopo</li>
+<li><strong>Aprendizado metodológico:</strong> Experiência prática com adaptação de processos</li>
+</ul>
+<p><strong>Conclusão:</strong> Embora não tenhamos conseguido aplicar o RAD conforme planejado devido aos atrasos na validação do MVP, a equipe demonstrou maturidade ao se adaptar às circunstâncias, resultando em um padrão de trabalho que, embora diferente do idealizado, foi eficaz para o contexto e limitações enfrentadas.</p>
+<details class="abstract">
+<summary>Histórico de Versão</summary>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisores</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>21/04/2025</td>
+<td>1.0</td>
+<td>Criação do documento</td>
+<td>Rodrigo Amaral</td>
+<td>Todos os integrantes do grupo</td>
+</tr>
+<tr>
+<td>15/07/2025</td>
+<td>2.0</td>
+<td>Adição de reflexão sobre o processo realmente seguido devido aos atrasos na validação do MVP</td>
+<td>Mylena Mendonça</td>
+<td>Rodrigo Amaral</td>
+</tr>
+</tbody>
+</table>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate - content.tabs.link - header.autohide - navigation.instant - navigation.top - navigation.tracking"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>

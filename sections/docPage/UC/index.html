@@ -1,0 +1,5464 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../USM/">
+      
+      
+        <link rel="next" href="../../entregas/unidade1/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>UC - Touristeer</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="2c3094" data-md-color-accent="2c3094">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#uc" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Touristeer" class="md-header__button md-logo" aria-label="Touristeer" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Touristeer
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              UC
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="2c3094" data-md-color-accent="2c3094"  aria-label="Tema claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Tema claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="2c3094" data-md-color-accent="2c3094"  aria-label="Tema escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Tema escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mdsreq-fga-unb/2025.1-T01-Touristeer-" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Github Touristeer
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Touristeer" class="md-nav__button md-logo" aria-label="Touristeer" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Touristeer
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mdsreq-fga-unb/2025.1-T01-Touristeer-" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Github Touristeer
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Visão de Produto e Projeto
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Visão de Produto e Projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1-cenarioAtual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenário Atual do Cliente e Negócio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2-solucaoProp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Solução Proposta
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3-estrategias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Estratégias de Engenharia de Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-engenhariaRequisitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Engenharia de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4-cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma e Entregas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5-interacaoEqCliente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Interação entre Equipe e Cliente
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7-requisitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8-dor-e-dod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DOR e DOD
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9-backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-prototipos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protótipos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6-licoesAprendidas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lições Aprendidas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_12" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_12" id="__nav_2_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Estudos de Casos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_12_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_12">
+            <span class="md-nav__icon md-icon"></span>
+            Estudos de Casos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PBB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PBB
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../USM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    USM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    UC
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    UC
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-contexto-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Contexto do Projeto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-atores-do-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores do Sistema
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-indice-de-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Índice de Casos de Uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Índice de Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-paciente" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Paciente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-profissional-de-saude" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Profissional de Saúde
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-agente-comunitario" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Agente Comunitário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-organizacao-parceira" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Organização Parceira
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-administrador-do-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5 Administrador do Sistema
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-especificacao-dos-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Especificação dos Casos de Uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Especificação dos Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uc01-registrar-perfil-do-paciente" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC01: Registrar Perfil do Paciente
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC01: Registrar Perfil do Paciente">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc02-buscar-servicos-de-saude" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC02: Buscar Serviços de Saúde
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC02: Buscar Serviços de Saúde">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc03-agendar-consulta" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC03: Agendar Consulta
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC03: Agendar Consulta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc04-avaliar-consulta" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC04: Avaliar Consulta
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC04: Avaliar Consulta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-relacao-de-extensao" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Relação de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxo-principal-de-eventos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-alternativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-fluxos-de-excecao" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-requisitos-especiais" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-regras-de-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pre-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pos-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc05-registrar-perfil-profissional" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC05: Registrar Perfil Profissional
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC05: Registrar Perfil Profissional">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc06-visualizar-agenda-de-consultas" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC06: Visualizar Agenda de Consultas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC06: Visualizar Agenda de Consultas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc07-realizar-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC07: Realizar Atendimento
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC07: Realizar Atendimento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-fluxos-de-excecao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-requisitos-especiais_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-regras-de-negocio_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pre-condicoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pos-condicoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc08-registrar-visita-domiciliar" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC08: Registrar Visita Domiciliar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC08: Registrar Visita Domiciliar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc09-criar-relatorio-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC09: Criar Relatório de Atendimento
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC09: Criar Relatório de Atendimento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-relacao-de-extensao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Relação de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxo-principal-de-eventos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-alternativos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-fluxos-de-excecao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-requisitos-especiais_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-regras-de-negocio_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pre-condicoes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pos-condicoes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc10-registrar-campanha-de-saude" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC10: Registrar Campanha de Saúde
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC10: Registrar Campanha de Saúde">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc11-divulgar-campanha-para-publico-alvo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC11: Divulgar Campanha para Público-Alvo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC11: Divulgar Campanha para Público-Alvo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc12-visualizar-relatorios-de-impacto" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC12: Visualizar Relatórios de Impacto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC12: Visualizar Relatórios de Impacto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-relacao-de-extensao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Relação de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxo-principal-de-eventos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-alternativos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-fluxos-de-excecao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-requisitos-especiais_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-regras-de-negocio_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pre-condicoes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pos-condicoes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc13-monitorar-indicadores-de-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC13: Monitorar Indicadores de Desempenho
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC13: Monitorar Indicadores de Desempenho">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc14-gerenciar-painel-analitico-de-consultas-e-exames" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC14: Gerenciar Painel Analítico de Consultas e Exames
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC14: Gerenciar Painel Analítico de Consultas e Exames">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-relacao-de-extensao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Relação de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxo-principal-de-eventos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-alternativos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-fluxos-de-excecao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-requisitos-especiais_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-regras-de-negocio_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pre-condicoes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pos-condicoes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc15-atualizar-informacoes-de-parceiros" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC15: Atualizar Informações de Parceiros
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC15: Atualizar Informações de Parceiros">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos-caminho-feliz" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos ("Caminho Feliz")
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc16-responder-duvidas-e-reclamacoes-de-pacientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC16: Responder Dúvidas e Reclamações de Pacientes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC16: Responder Dúvidas e Reclamações de Pacientes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Entregas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Entregas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/unidade1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/unidade2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/unidade3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/unidade4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-contexto-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Contexto do Projeto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-atores-do-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores do Sistema
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-indice-de-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Índice de Casos de Uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Índice de Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-paciente" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Paciente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-profissional-de-saude" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Profissional de Saúde
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-agente-comunitario" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Agente Comunitário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-organizacao-parceira" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Organização Parceira
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-administrador-do-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.5 Administrador do Sistema
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-especificacao-dos-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Especificação dos Casos de Uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Especificação dos Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uc01-registrar-perfil-do-paciente" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC01: Registrar Perfil do Paciente
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC01: Registrar Perfil do Paciente">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc02-buscar-servicos-de-saude" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC02: Buscar Serviços de Saúde
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC02: Buscar Serviços de Saúde">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc03-agendar-consulta" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC03: Agendar Consulta
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC03: Agendar Consulta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc04-avaliar-consulta" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC04: Avaliar Consulta
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC04: Avaliar Consulta">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-relacao-de-extensao" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Relação de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxo-principal-de-eventos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-alternativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-fluxos-de-excecao" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-requisitos-especiais" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-regras-de-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pre-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pos-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc05-registrar-perfil-profissional" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC05: Registrar Perfil Profissional
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC05: Registrar Perfil Profissional">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc06-visualizar-agenda-de-consultas" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC06: Visualizar Agenda de Consultas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC06: Visualizar Agenda de Consultas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc07-realizar-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC07: Realizar Atendimento
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC07: Realizar Atendimento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-fluxos-de-excecao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-requisitos-especiais_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-regras-de-negocio_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pre-condicoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pos-condicoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc08-registrar-visita-domiciliar" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC08: Registrar Visita Domiciliar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC08: Registrar Visita Domiciliar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc09-criar-relatorio-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC09: Criar Relatório de Atendimento
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC09: Criar Relatório de Atendimento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-relacao-de-extensao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Relação de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxo-principal-de-eventos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-alternativos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-fluxos-de-excecao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-requisitos-especiais_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-regras-de-negocio_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pre-condicoes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pos-condicoes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc10-registrar-campanha-de-saude" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC10: Registrar Campanha de Saúde
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC10: Registrar Campanha de Saúde">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc11-divulgar-campanha-para-publico-alvo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC11: Divulgar Campanha para Público-Alvo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC11: Divulgar Campanha para Público-Alvo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc12-visualizar-relatorios-de-impacto" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC12: Visualizar Relatórios de Impacto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC12: Visualizar Relatórios de Impacto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-relacao-de-extensao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Relação de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxo-principal-de-eventos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-alternativos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-fluxos-de-excecao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-requisitos-especiais_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-regras-de-negocio_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pre-condicoes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pos-condicoes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc13-monitorar-indicadores-de-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC13: Monitorar Indicadores de Desempenho
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC13: Monitorar Indicadores de Desempenho">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pontos-de-extensao_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pontos de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc14-gerenciar-painel-analitico-de-consultas-e-exames" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC14: Gerenciar Painel Analítico de Consultas e Exames
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC14: Gerenciar Painel Analítico de Consultas e Exames">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-relacao-de-extensao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Relação de Extensão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxo-principal-de-eventos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-alternativos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-fluxos-de-excecao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-requisitos-especiais_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-regras-de-negocio_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pre-condicoes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-pos-condicoes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc15-atualizar-informacoes-de-parceiros" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC15: Atualizar Informações de Parceiros
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC15: Atualizar Informações de Parceiros">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos-caminho-feliz" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos ("Caminho Feliz")
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc16-responder-duvidas-e-reclamacoes-de-pacientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC16: Responder Dúvidas e Reclamações de Pacientes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UC16: Responder Dúvidas e Reclamações de Pacientes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-breve-descricao_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Breve Descrição
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-atores_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Atores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fluxo-principal-de-eventos_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Fluxo Principal de Eventos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fluxos-alternativos_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fluxos Alternativos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fluxos-de-excecao_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Fluxos de Exceção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-requisitos-especiais_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Requisitos Especiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-regras-de-negocio_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-pre-condicoes_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Pré-Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-pos-condicoes_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Pós-Condições
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="uc">UC</h1>
+<h2 id="1-contexto-do-projeto">1. Contexto do Projeto</h2>
+<p>O projeto "ConnectCare" foi concebido para atender a comunidades remotas com acesso limitado a serviços de saúde, como a Vila Esperança. A plataforma foi projetada para superar barreiras como a falta de transporte e informações, facilitando o acesso dos moradores a cuidados médicos de forma eficiente e acessível.</p>
+<p><strong>Missão Principal:</strong> Garantir que comunidades vulneráveis tenham acesso facilitado e eficiente a serviços de saúde, promovendo bem-estar social e impacto positivo por meio da tecnologia.</p>
+<p><strong>Objetivos Específicos:</strong></p>
+<ul>
+<li>Expandir o acesso aos serviços de saúde, permitindo que pacientes localizem e agendem consultas com facilidade.</li>
+<li>Automatizar processos de atendimento, como agendamento online e gerenciamento de prontuários.</li>
+<li>Promover campanhas de saúde comunitária, como vacinação e palestras educacionais.</li>
+<li>Monitorar o impacto social e operacional através de ferramentas analíticas.</li>
+</ul>
+<h2 id="2-atores-do-sistema">2. Atores do Sistema</h2>
+<ul>
+<li><strong>Paciente:</strong> Público principal, utiliza a plataforma para acessar serviços de saúde.</li>
+<li><strong>Profissional de Saúde:</strong> Médicos e enfermeiros que gerenciam atendimentos e prontuários.</li>
+<li><strong>Agente Comunitário:</strong> Realiza visitas domiciliares e coleta dados de saúde da comunidade.</li>
+<li><strong>Organização Parceira:</strong> ONGs, hospitais e instituições que divulgam e gerenciam iniciativas de saúde.</li>
+<li><strong>Administrador do Sistema:</strong> Responsável pela manutenção, monitoramento e gerenciamento da plataforma.</li>
+</ul>
+<p><img alt="diagrama de casos de uso" src="../../../assets/estudo_de_caso_uc.png" /></p>
+<h2 id="3-indice-de-casos-de-uso">3. Índice de Casos de Uso</h2>
+<h3 id="31-paciente">3.1 Paciente</h3>
+<p><img alt="diagrama de casos de uso paciente" src="../../../assets/paciente.png" /></p>
+<ul>
+<li><a href="#uc01-registrar-perfil-do-paciente">UC01: Registrar Perfil do Paciente</a></li>
+<li><a href="#uc02-buscar-servicos-de-saude">UC02: Buscar Serviços de Saúde</a></li>
+<li><a href="#uc03-agendar-consulta">UC03: Agendar Consulta</a></li>
+<li><a href="#uc04-avaliar-consulta">UC04: Avaliar Consulta</a></li>
+</ul>
+<h3 id="32-profissional-de-saude">3.2 Profissional de Saúde</h3>
+<p><img alt="diagrama de casos de uso profissional de saúde" src="../../../assets/profissional_agente.png" /></p>
+<ul>
+<li><a href="#uc05-registrar-perfil-profissional">UC05: Registrar Perfil Profissional</a></li>
+<li><a href="#uc06-visualizar-agenda-de-consultas">UC06: Visualizar Agenda de Consultas</a></li>
+<li><a href="#uc07-realizar-atendimento">UC07: Realizar Atendimento</a></li>
+</ul>
+<h3 id="33-agente-comunitario">3.3 Agente Comunitário</h3>
+<p><img alt="diagrama de casos de uso profissional de saúde" src="../../../assets/profissional_agente.png" /></p>
+<ul>
+<li><a href="#uc08-registrar-visita-domiciliar">UC08: Registrar Visita Domiciliar</a></li>
+<li><a href="#uc09-criar-relatorio-de-atendimento">UC09: Criar Relatório de Atendimento</a></li>
+</ul>
+<h3 id="34-organizacao-parceira">3.4 Organização Parceira</h3>
+<p><img alt="diagrama de casos de uso organização parceira" src="../../../assets/organizacao.png" /></p>
+<ul>
+<li><a href="#uc10-registrar-campanha-de-saude">UC10: Registrar Campanha de Saúde</a></li>
+<li><a href="#uc11-divulgar-campanha-para-publico-alvo">UC11: Divulgar Campanha para Público-Alvo</a></li>
+<li><a href="#uc12-visualizar-relatorios-de-impacto">UC12: Visualizar Relatórios de Impacto</a></li>
+</ul>
+<h3 id="35-administrador-do-sistema">3.5 Administrador do Sistema</h3>
+<p><img alt="diagrama de casos de uso administrador do sistema" src="../../../assets/administrador.png" /></p>
+<ul>
+<li><a href="#uc13-monitorar-indicadores-de-desempenho">UC13: Monitorar Indicadores de Desempenho</a></li>
+<li><a href="#uc14-gerenciar-painel-analitico-de-consultas-e-exames">UC14: Gerenciar Painel Analítico de Consultas e Exames</a></li>
+<li><a href="#uc15-atualizar-informacoes-de-parceiros">UC15: Atualizar Informações de Parceiros</a></li>
+<li><a href="#uc16-responder-duvidas-e-reclamacoes-de-pacientes">UC16: Responder Dúvidas e Reclamações de Pacientes</a></li>
+</ul>
+<h2 id="4-especificacao-dos-casos-de-uso">4. Especificação dos Casos de Uso</h2>
+<hr />
+<h3 id="uc01-registrar-perfil-do-paciente">UC01: Registrar Perfil do Paciente</h3>
+<h4 id="1-breve-descricao"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que um novo <strong>Paciente</strong> crie seu perfil básico na plataforma ConnectCare. O registro é o primeiro passo para que o usuário possa acessar os demais serviços do sistema, como a busca e o agendamento de consulta.</p>
+<h4 id="2-atores"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Paciente</li>
+</ul>
+<h4 id="3-fluxo-principal-de-eventos"><strong>3. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando um novo usuário seleciona a opção para se registrar na plataforma.</p>
+<ul>
+<li><strong>3.1.</strong> O sistema apresenta ao <strong>Paciente</strong> um formulário de registro.</li>
+<li><strong>3.2.</strong> O <strong>Paciente</strong> preenche as informações solicitadas no formulário. <strong>[RN01]</strong></li>
+<li><strong>3.3.</strong> O <strong>Paciente</strong> submete o formulário para criar seu perfil.</li>
+<li><strong>3.4.</strong> O sistema valida as informações preenchidas. <strong>[RN01] [FE01]</strong></li>
+<li><strong>3.5.</strong> O sistema cria um novo perfil de paciente, armazenando as informações de forma segura. <strong>[RE01] [FE02]</strong></li>
+<li><strong>3.6.</strong> O sistema exibe uma mensagem confirmando que o registro foi realizado com sucesso.</li>
+<li><strong>3.7.</strong> O caso de uso é encerrado.</li>
+</ul>
+<h4 id="4-fluxos-alternativos"><strong>4. Fluxos Alternativos</strong></h4>
+<ul>
+<li>Nenhum fluxo alternativo foi identificado para esta versão do caso de uso.</li>
+</ul>
+<h4 id="5-fluxos-de-excecao"><strong>5. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Validação de Informações</strong><ul>
+<li>No passo 3.4 do Fluxo Principal, se o sistema detectar que uma ou mais informações do formulário são inválidas (ex: campo obrigatório em branco, formato incorreto), ele exibirá uma mensagem de erro indicando os campos a serem corrigidos. O fluxo retorna ao passo 3.2 para que o <strong>Paciente</strong> possa revisar e corrigir os dados.</li>
+</ul>
+</li>
+<li><strong>[FE02] Falha na Criação do Perfil</strong><ul>
+<li>No passo 3.5 do Fluxo Principal, se ocorrer um erro técnico que impeça o sistema de salvar o novo perfil (ex: falha no banco de dados), o sistema deverá exibir uma mensagem de erro ao usuário, informando sobre a instabilidade e sugerindo que tente novamente mais tarde. O erro técnico deve ser registrado para análise do administrador. O fluxo retorna para o passo 3.7.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-requisitos-especiais"><strong>6. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Segurança da Informação:</strong> OO sistema deve garantir a segurança das informações armazenadas, estando em conformidade com as regulamentações de proteção de dados, para promover um ambiente seguro e confiável.</li>
+<li><strong>[RE02] usabilidade:</strong> OA interface de registro deve ser simples e projetada para funcionar em dispositivos com capacidades limitadas.</li>
+</ul>
+<h4 id="7-regras-de-negocio"><strong>7. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Campos de Registro:</strong> As informações que o formulário de registro devem constar são as seguintes:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Nome do Campo</th>
+<th>Formato</th>
+<th>Obrigatoriedade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome do Paciente</td>
+<td>Texto</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>Idade</td>
+<td>Número Inteiro</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>Condições de Saúde/Alergias</td>
+<td>Texto</td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>[RN02] Notificações Pré-Consulta:</strong> Antes da data da consulta, o sistema deve enviar notificações ao paciente com lembretes e informações relevantes, como a necessidade de levar documentos de identificação e o uso de máscara no local.</li>
+</ul>
+<h4 id="8-pre-condicoes"><strong>8. Pré-Condições</strong></h4>
+<ul>
+<li>O usuário que inicia este caso de uso não deve possuir um cadastro prévio ou estar autenticado no sistema.</li>
+</ul>
+<h4 id="9-pos-condicoes"><strong>9. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Perfil do Paciente Criado:</strong> Um novo registro de paciente existe no banco de dados do sistema.</li>
+<li><strong>[PCO02] Paciente Autenticado:</strong> Ao final do processo, o paciente está logado na plataforma e pode acessar outras funcionalidades.</li>
+</ul>
+<h4 id="10-pontos-de-extensao"><strong>10. Pontos de Extensão</strong></h4>
+<ul>
+<li>Nenhum ponto de extensão foi identificado para esta versão do caso de uso.</li>
+</ul>
+<hr />
+<h3 id="uc02-buscar-servicos-de-saude">UC02: Buscar Serviços de Saúde</h3>
+<h4 id="1-breve-descricao_1"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que o <strong>Paciente</strong> localize serviços de saúde essenciais na plataforma. O sistema pode mapear e listar clínicas, hospitais e campanhas de saúde próximas, facilitando o acesso do usuário aos cuidados médicos.</p>
+<h4 id="2-atores_1"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Paciente</li>
+</ul>
+<h4 id="3-fluxo-principal-de-eventos_1"><strong>3. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando o <strong>Paciente</strong>, já logado, seleciona a opção para buscar serviços de saúde.</p>
+<ul>
+<li><strong>3.1.</strong> O sistema apresenta uma interface de busca.  </li>
+<li><strong>3.2.</strong> O <strong>Paciente</strong> utiliza os filtros para refinar sua busca, podendo informar critérios como localização, tipo de atendimento e disponibilidade. <strong>[FA01]</strong>  </li>
+<li><strong>3.3.</strong> O <strong>Paciente</strong> aciona o comando para realizar a busca.  </li>
+<li><strong>3.4.</strong> O sistema processa os critérios e exibe uma lista de serviços de saúde, como a unidade mais próxima com os horários disponíveis. <strong>[FE01]</strong>  </li>
+<li><strong>3.5.</strong> O <strong>Paciente</strong> seleciona um serviço da lista para visualizar mais detalhes.  </li>
+<li><strong>3.6.</strong> O caso de uso é encerrado, podendo ser estendido. <strong>[PE01]</strong></li>
+</ul>
+<h4 id="4-fluxos-alternativos_1"><strong>4. Fluxos Alternativos</strong></h4>
+<ul>
+<li><strong>[FA01] Indicação de Falta de Transporte</strong><ul>
+<li>No passo 3.2, caso o paciente indique que não possui acesso a transporte, o sistema pode incluir nos resultados da busca campanhas móveis de atendimento ou agentes comunitários disponíveis para visitas domiciliares. </li>
+</ul>
+</li>
+</ul>
+<h4 id="5-fluxos-de-excecao_1"><strong>5. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Nenhum Serviço Encontrado</strong>  <ul>
+<li>No passo 3.4, se a busca não encontrar nenhum serviço que corresponda aos filtros informados, o sistema exibirá uma mensagem informativa. O fluxo retorna ao passo 3.2 para que o <strong>Paciente</strong> possa alterar os critérios da busca.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-requisitos-especiais_1"><strong>6. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Integração com Mapa:</strong> O sistema deve ser capaz de exibir os resultados em um mapa simplificado, que pode ser acessado offline para ajudar o paciente a encontrar a unidade de saúde. </li>
+</ul>
+<h4 id="8-pre-condicoes_1"><strong>8. Pré-Condições</strong></h4>
+<ul>
+<li>O <strong>Paciente</strong> deve estar logado na plataforma. </li>
+</ul>
+<h4 id="9-pos-condicoes_1"><strong>9. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Informação Obtida:</strong> O <strong>Paciente</strong> visualizou uma lista de serviços de saúde que atendem aos seus critérios de busca.</li>
+</ul>
+<h4 id="10-pontos-de-extensao_1"><strong>10. Pontos de Extensão</strong></h4>
+<ul>
+<li><strong>[PE01] Estender o Caso de Uso: Agendar Consulta</strong>  <ul>
+<li><strong>Local:</strong> No passo 3.6, após o paciente visualizar os detalhes de um serviço de saúde.  </li>
+<li><strong>Condição:</strong> O sistema deve oferecer a opção de iniciar o caso de uso <strong>"Agendar Consulta"</strong> para que o paciente possa marcar um horário no serviço selecionado.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="uc03-agendar-consulta">UC03: Agendar Consulta</h3>
+<h4 id="1-breve-descricao_2"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que o ator <strong>Paciente</strong> agende consultas (online ou presenciais) de forma simples e rápida através da plataforma ConnectCare. Para isso, o paciente primeiro busca por serviços de saúde disponíveis e depois seleciona um horário para o agendamento.</p>
+<h4 id="2-atores_2"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Paciente</li>
+</ul>
+<h4 id="3-fluxo-principal-de-eventos_2"><strong>3. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando o <strong>Paciente</strong>, já logado, seleciona a opção para agendar uma nova consulta.</p>
+<ul>
+<li><strong>3.1.</strong> O sistema apresenta um menu com os tipos de serviços de saúde ou especialidades disponíveis (ex: Clínica Geral, Pediatria, Campanhas de Vacinação). <strong>[RN01]</strong>  </li>
+<li><strong>3.2.</strong> O Paciente seleciona o serviço desejado no menu.  </li>
+<li><strong>3.3.</strong> O sistema exibe uma lista de unidades de saúde e/ou profissionais que oferecem o serviço selecionado, juntamente com os horários disponíveis. <strong>[FE01] [FA01]</strong>  </li>
+<li><strong>3.4.</strong> O Paciente seleciona a unidade e o horário desejado e solicita o agendamento.  </li>
+<li><strong>3.5.</strong> O sistema salva a consulta, associa ao histórico do Paciente e exibe uma mensagem de confirmação com detalhes do agendamento (local, data, horário). <strong>[FE02]</strong>  </li>
+<li><strong>3.6.</strong> O sistema programa o envio de notificações futuras com informações relevantes sobre a consulta. <strong>[RN02]</strong>  </li>
+<li><strong>3.7.</strong> O caso de uso é encerrado. <strong>[PE01]</strong></li>
+</ul>
+<h4 id="4-fluxos-alternativos_2"><strong>4. Fluxos Alternativos</strong></h4>
+<ul>
+<li><strong>[FA01] Paciente com dificuldade de transporte</strong>  <ul>
+<li>Durante a execução do passo 3.3, caso o <strong>Paciente</strong> indique dificuldade de transporte, o sistema, além dos resultados padrão, pode indicar campanhas móveis de atendimento ou a disponibilidade de agentes comunitários para visitas domiciliares. O fluxo então retorna ao passo 3.3, com a lista de opções ajustada.</li>
+</ul>
+</li>
+</ul>
+<h4 id="5-fluxos-de-excecao_2"><strong>5. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Nenhum serviço encontrado</strong>  <ul>
+<li>No passo 3.3 do Fluxo Principal, se para o serviço selecionado não houver nenhum horário disponível, o sistema exibirá uma mensagem informativa. O fluxo retorna ao passo 3.1 para que o <strong>Paciente</strong> possa selecionar outro serviço.  </li>
+</ul>
+</li>
+<li><strong>[FE02] Falha ao Salvar Agendamento</strong>  <ul>
+<li>No passo 3.5 do Fluxo Principal, se ocorrer um erro técnico que impeça o sistema de salvar a consulta (ex: falha no banco de dados), o sistema deverá exibir uma mensagem de erro ao paciente, informando sobre a instabilidade e solicitando que tente novamente. O erro técnico deve ser registrado para análise do administrador. O fluxo retoma ao 3.7</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-requisitos-especiais_2"><strong>6. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Usabilidade e Desempenho:</strong> O aplicativo deve ser projetado para funcionar em dispositivos simples e com conexões de internet limitadas.  </li>
+<li><strong>[RE02] Acessibilidade:</strong> O sistema deve fornecer um mapa simplificado, que possa ser acessado offline, para ajudar o paciente a encontrar a unidade de saúde.</li>
+</ul>
+<h4 id="7-regras-de-negocio_1"><strong>7. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Lógica de Sugestão de Serviços:</strong> Para sugerir a unidade de saúde mais adequada, o sistema utiliza algoritmos que consideram o perfil do paciente (idade, condições preexistentes) e os dados da busca (localização, sintomas).  </li>
+<li><strong>[RN02] Notificações Pré-Consulta:</strong> Antes da data da consulta, o sistema deve enviar notificações ao paciente com lembretes e informações relevantes, como a necessidade de levar documentos de identificação e o uso de máscara no local.</li>
+</ul>
+<h4 id="8-pre-condicoes_2"><strong>8. Pré-Condições</strong></h4>
+<ul>
+<li><strong>[PC01] Paciente Autenticado:</strong> O Paciente deve estar logado no sistema para iniciar este caso de uso.</li>
+</ul>
+<h4 id="9-pos-condicoes_2"><strong>9. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Consulta Agendada:</strong> Uma nova consulta é registrada no sistema e fica disponível na agenda do profissional de saúde e no histórico do paciente.  </li>
+<li><strong>[PCO02] Confirmação Gerada:</strong> O paciente recebe a confirmação do agendamento com os detalhes necessários.</li>
+</ul>
+<h4 id="10-pontos-de-extensao_2"><strong>10. Pontos de Extensão</strong></h4>
+<ul>
+<li><strong>[PE01] Estender o Caso de Uso: Avaliar Consulta</strong>  <ul>
+<li><strong>Local:</strong> Após a finalização da consulta agendada (evento que ocorre após o término deste caso de uso).  </li>
+<li><strong>Condição:</strong> O sistema deve estender o caso de uso <strong>"Avaliar Consulta"</strong>, solicitando ao paciente que avalie o atendimento recebido, podendo oferecer incentivos como pontos de fidelidade.  </li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="uc04-avaliar-consulta">UC04: Avaliar Consulta</h3>
+<h4 id="1-breve-descricao_3"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que o <strong>Paciente</strong> forneça feedback sobre uma consulta realizada. O paciente pode atribuir notas para a qualidade do serviço e para a eficiência do aplicativo, contribuindo para a melhoria contínua dos serviços oferecidos e para a geração de indicadores de satisfação.</p>
+<h4 id="2-atores_3"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Paciente</li>
+</ul>
+<h4 id="3-relacao-de-extensao"><strong>3. Relação de Extensão</strong></h4>
+<ul>
+<li>Este caso de uso se estende do caso de uso <strong>"Agendar Consulta" (UC03)</strong>.  </li>
+<li><strong>Ponto de Extensão:</strong> [PE01] - Ocorre após a consulta, que foi agendada previamente, ser finalizada.  </li>
+<li><strong>Condição:</strong> O sistema solicita ao paciente que avalie o atendimento recebido.</li>
+</ul>
+<h4 id="4-fluxo-principal-de-eventos"><strong>4. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando o sistema, após uma consulta ser concluída, solicita ao <strong>Paciente</strong> que realize uma avaliação.</p>
+<ul>
+<li><strong>4.1.</strong> O <strong>Paciente</strong> aceita o convite para avaliar a consulta.  </li>
+<li><strong>4.2.</strong> O sistema apresenta um formulário de avaliação.  </li>
+<li><strong>4.3.</strong> O <strong>Paciente</strong> atribui notas à qualidade do serviço e à eficiência do aplicativo.  </li>
+<li><strong>4.4.</strong> O <strong>Paciente</strong> submete a avaliação.  </li>
+<li><strong>4.5.</strong> O sistema valida os dados inseridos <strong>[FE01]</strong>.  </li>
+<li><strong>4.6.</strong> O sistema registra a avaliação, associando-a à consulta correspondente. <strong>[FE02] [RN01]</strong> <strong>[RN02]</strong>  </li>
+<li><strong>4.7.</strong> O sistema exibe uma mensagem de agradecimento ao <strong>Paciente</strong>.  </li>
+<li><strong>4.8.</strong> O caso de uso é encerrado.</li>
+</ul>
+<h4 id="5-fluxos-alternativos"><strong>5. Fluxos Alternativos</strong></h4>
+<ul>
+<li>Nenhum fluxo alternativo foi identificado para esta versão do caso de uso.</li>
+</ul>
+<h4 id="6-fluxos-de-excecao"><strong>6. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Dados de Avaliação Inválidos</strong>  <ul>
+<li>No passo 4.5 do Fluxo Principal, se o <strong>Paciente</strong> submeter o formulário sem preencher os campos de nota obrigatórios, o sistema exibirá uma mensagem de erro solicitando o preenchimento. O fluxo retorna ao passo 4.3.  </li>
+</ul>
+</li>
+<li><strong>[FE02] Falha ao Registrar Avaliação</strong>  <ul>
+<li>No passo 4.6 do Fluxo Principal, se ocorrer um erro técnico que impeça o sistema de salvar a avaliação (ex: falha no banco de dados), o sistema deverá exibir uma mensagem de erro ao paciente, informando sobre a instabilidade e solicitando que tente novamente mais tarde. O erro técnico deve ser registrado para análise do administrador. O fluxo retorna para o passo 4.8 e nenhum ponto de fidelidade é concedido.</li>
+</ul>
+</li>
+</ul>
+<h4 id="7-requisitos-especiais"><strong>7. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Anonimato (Opcional):</strong> Deve-se avaliar a necessidade de permitir que as avaliações sejam enviadas de forma anônima para encorajar feedbacks mais sinceros.</li>
+</ul>
+<h4 id="8-regras-de-negocio"><strong>8. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Utilização dos Dados de Avaliação:</strong> As avaliações dos usuários são utilizadas para gerar relatórios e métricas de impacto, que podem ser monitorados por organizações parceiras e pelo administrador do sistema para tomada de decisões estratégicas.  </li>
+<li><strong>[RN02] Incentivo por Feedback:</strong> Como incentivo, ao completar uma avaliação, o paciente ganha pontos de fidelidade que podem ser utilizados para descontos em farmácias parceiras listadas no "ConnectCare".</li>
+</ul>
+<h4 id="9-pre-condicoes"><strong>9. Pré-Condições</strong></h4>
+<ul>
+<li>O <strong>Paciente</strong> deve estar autenticado no sistema.  </li>
+<li>Deve existir no histórico do <strong>Paciente</strong> o registro de uma consulta recentemente concluída.</li>
+</ul>
+<h4 id="10-pos-condicoes"><strong>10. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Avaliação Registrada:</strong> A avaliação do <strong>Paciente</strong> é armazenada de forma segura no sistema.  </li>
+<li><strong>[PCO02] Pontos de Fidelidade Atualizados:</strong> O saldo de pontos de fidelidade do <strong>Paciente</strong> é atualizado.  </li>
+<li><strong>[PCO03] Dados Analíticos Disponíveis:</strong> A nova avaliação contribui para os indicadores de satisfação do paciente e de qualidade do serviço.  </li>
+</ul>
+<hr />
+<h3 id="uc05-registrar-perfil-profissional">UC05: Registrar Perfil Profissional</h3>
+<h4 id="1-breve-descricao_4"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que profissionais da saúde, como médicos, enfermeiros e agentes comunitários, criem um perfil profissional na plataforma ConnectCare. O registro é um pré-requisito para que possam gerenciar seus atendimentos, disponibilizar horários na agenda e interagir com os pacientes do sistema.</p>
+<h4 id="2-atores_4"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Profissional de Saúde</li>
+</ul>
+<h4 id="3-fluxo-principal-de-eventos_3"><strong>3. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando um novo Profissional de Saúde acessa a plataforma e seleciona a opção para criar um perfil profissional.</p>
+<ul>
+<li><strong>3.1.</strong> O sistema apresenta um formulário de registro profissional. <strong>[RN01]</strong>  </li>
+<li><strong>3.2.</strong> O <strong>Profissional de Saúde</strong> preenche as informações solicitadas, incluindo dados pessoais, número de licença profissional (ex: CRM/COREN), suas especializações e seus horários de disponibilidade.  </li>
+<li><strong>3.3.</strong> O <strong>Profissional de Saúde</strong> submete o formulário para criação do perfil.  </li>
+<li><strong>3.4.</strong> O sistema valida as informações fornecidas conforme as regras de negócio. <strong>[RN01] [FE01]</strong> </li>
+<li><strong>3.5.</strong> O sistema cria o novo perfil profissional, que fica pendente de ativação para aparecer nas buscas de pacientes. <strong>[FE02]</strong>  </li>
+<li><strong>3.6.</strong> O sistema exibe uma mensagem de sucesso, informando que o cadastro foi realizado e que o profissional pode acessar suas ferramentas.  </li>
+<li><strong>3.7.</strong> O caso de uso é encerrado.</li>
+</ul>
+<h4 id="4-fluxos-alternativos_3"><strong>4. Fluxos Alternativos</strong></h4>
+<ul>
+<li>Nenhum fluxo alternativo foi identificado para esta versão do caso de uso.</li>
+</ul>
+<h4 id="5-fluxos-de-excecao_3"><strong>5. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Dados de Registro Inválidos</strong>  <ul>
+<li>No passo 3.4 do Fluxo Principal, se o sistema detectar que uma ou mais informações são inválidas (ex: campo obrigatório em branco, formato de licença incorreto), ele exibirá uma mensagem de erro indicando os campos a serem corrigidos. O fluxo retorna ao passo 3.2.  </li>
+</ul>
+</li>
+<li><strong>[FE02] Falha na Criação do Perfil</strong>  <ul>
+<li>No passo 3.5 do Fluxo Principal, se ocorrer um erro técnico que impeça o sistema de salvar o novo perfil (ex: falha no banco de dados), o sistema deverá exibir uma mensagem de erro ao usuário, informando sobre a instabilidade e sugerindo que tente novamente mais tarde. O erro técnico deve ser registrado para análise do administrador. O fluxo retorna para o passo 3.7.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-requisitos-especiais_3"><strong>6. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Verificação de Credenciais:</strong> O sistema deve prever um mecanismo para a verificação das credenciais profissionais (diploma, licença de atuação) para garantir a segurança e a confiabilidade da plataforma.  </li>
+<li><strong>[RE02] Segurança da Informação:</strong> Os dados do profissional devem ser armazenados de forma segura, em conformidade com as regulamentações de proteção de dados.</li>
+</ul>
+<h4 id="7-regras-de-negocio_2"><strong>7. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Campos Profissionais:</strong> As informações do formulário de registro devem constar as seguintes informações:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Nome do Campo</th>
+<th style="text-align: left;">Formato</th>
+<th style="text-align: left;">Obrigatoriedade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Nome Completo</td>
+<td style="text-align: left;">Texto</td>
+<td style="text-align: left;">Sim</td>
+</tr>
+<tr>
+<td style="text-align: left;">ID Profissional (CRM/COREN)</td>
+<td style="text-align: left;">Texto Formatado</td>
+<td style="text-align: left;">Sim</td>
+</tr>
+<tr>
+<td style="text-align: left;">Especializações</td>
+<td style="text-align: left;">Texto</td>
+<td style="text-align: left;">Sim</td>
+</tr>
+<tr>
+<td style="text-align: left;">Horários de Disponibilidade</td>
+<td style="text-align: left;">Estrutura de data/hora</td>
+<td style="text-align: left;">Sim</td>
+</tr>
+</tbody>
+</table>
+<h4 id="8-pre-condicoes_3"><strong>8. Pré-Condições</strong></h4>
+<ul>
+<li>O usuário que inicia este caso de uso deve ser um profissional da área da saúde que ainda não possui um perfil na plataforma.</li>
+</ul>
+<h4 id="9-pos-condicoes_3"><strong>9. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Perfil Profissional Criado:</strong> Um novo perfil para o Profissional de Saúde existe no banco de dados do sistema.  </li>
+<li><strong>[PCO02] Acesso às Ferramentas:</strong> Uma vez integrado ao sistema, o profissional pode acessar funcionalidades como a visualização da agenda de consultas e a organização do seu fluxo de trabalho.  </li>
+<li><strong>[PCO03] Perfil Habilitado para Atendimento:</strong> Após a devida verificação (conforme [RE01]), o perfil do profissional se torna público para que pacientes possam agendar consultas.</li>
+</ul>
+<h4 id="10-pontos-de-extensao_3"><strong>10. Pontos de Extensão</strong></h4>
+<ul>
+<li>Nenhum ponto de extensão foi identificado para esta versão do caso de uso.</li>
+</ul>
+<hr />
+<h3 id="uc06-visualizar-agenda-de-consultas">UC06: Visualizar Agenda de Consultas</h3>
+<h4 id="1-breve-descricao_5"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que o <strong>Profissional de Saúde</strong> visualize sua agenda de consultas e organize seu fluxo de trabalho. O sistema exibe os agendamentos confirmados, permitindo que o profissional acesse os detalhes de cada atendimento planejado.</p>
+<h4 id="2-atores_5"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Profissional de Saúde</li>
+</ul>
+<h4 id="3-fluxo-principal-de-eventos_4"><strong>3. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando o <strong>Profissional de Saúde</strong>, já logado, seleciona a opção para visualizar sua agenda.</p>
+<ul>
+<li><strong>3.1.</strong> O sistema recupera e exibe a agenda de consultas do <strong>Profissional de Saúde</strong>, mostrando os agendamentos do dia por padrão. <strong>[RN01]</strong></li>
+<li><strong>3.2.</strong> O <strong>Profissional de Saúde</strong> pode navegar pela agenda, visualizando consultas de outros períodos (ex: semana, mês). <strong>[RN02]</strong>  </li>
+<li><strong>3.3.</strong> O <strong>Profissional de Saúde</strong> seleciona uma consulta específica na lista para ver mais informações.  </li>
+<li><strong>3.4.</strong> O sistema exibe os detalhes da consulta selecionada, incluindo o nome do paciente, horário e o motivo do atendimento. <strong>[FE01]</strong></li>
+<li><strong>3.5.</strong> O caso de uso é encerrado.</li>
+</ul>
+<h4 id="4-fluxos-alternativos_4"><strong>4. Fluxos Alternativos</strong></h4>
+<ul>
+<li>Nenhum fluxo alternativo foi identificado para esta versão do caso de uso.</li>
+</ul>
+<h4 id="5-fluxos-de-excecao_4"><strong>5. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Consulta sem Detalhes</strong>  <ul>
+<li>No passo 3.4 do Fluxo Principal, se uma consulta não possuir detalhes adicionais (além do nome e horário), o sistema apenas exibirá as informações básicas disponíveis.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-requisitos-especiais_4"><strong>6. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Sincronização em Tempo Real:</strong> A agenda deve ser atualizada em tempo real para refletir novos agendamentos ou cancelamentos feitos pelos pacientes.  </li>
+<li><strong>[RE02] Privacidade dos Dados:</strong> O acesso aos detalhes da consulta e ao histórico do paciente deve ser restrito e seguro, garantindo a confidencialidade das informações.</li>
+</ul>
+<h4 id="7-regras-de-negocio_3"><strong>7. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Exibição de Consultas:</strong> A agenda deve exibir apenas as consultas que foram confirmadas e que estão associadas ao perfil do <strong>Profissional de Saúde</strong> que está logado.  </li>
+<li><strong>[RN02] Filtrar Agenda:</strong> Pode ser aplicado filtros para refinar a visualização da agenda, como por um intervalo de datas específico ou pelo nome de um paciente. O sistema então atualiza a lista de consultas exibida de acordo com os filtros aplicados.</li>
+</ul>
+<h4 id="8-pre-condicoes_4"><strong>8. Pré-Condições</strong></h4>
+<ul>
+<li>O <strong>Profissional de Saúde</strong> deve estar autenticado no sistema.  </li>
+<li>O <strong>Profissional de Saúde</strong> deve possuir um perfil profissional ativo na plataforma.</li>
+</ul>
+<h4 id="9-pos-condicoes_4"><strong>9. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Informações Visualizadas:</strong> O <strong>Profissional de Saúde</strong> obteve as informações sobre seus agendamentos.</li>
+</ul>
+<h4 id="10-pontos-de-extensao_4"><strong>10. Pontos de Extensão</strong></h4>
+<ul>
+<li>Nenhum ponto de extensão foi identificado para esta versão do caso de uso.</li>
+</ul>
+<hr />
+<h3 id="uc07-realizar-atendimento">UC07: Realizar Atendimento</h3>
+<h4 id="1-breve-descricao_6"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que o <strong>Profissional de Saúde</strong> conduza um atendimento, acesse o histórico médico do paciente e atualize o prontuário digital em tempo real, registrando diagnósticos, prescrições e orientações. O objetivo é garantir um atendimento mais preciso, eficiente e com menos chances de erros.</p>
+<h4 id="2-atores_6"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Profissional de Saúde.</li>
+</ul>
+<h4 id="3-fluxo-principal-de-eventos_5"><strong>3. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando o <strong>Profissional de Saúde</strong> seleciona a opção para iniciar um atendimento agendado.</p>
+<ul>
+<li><strong>3.1.</strong> O sistema exibe o histórico médico do paciente, que inclui registros de consultas anteriores, resultados de exames e outros dados relevantes.  </li>
+<li><strong>3.2.</strong> O <strong>Profissional de Saúde</strong> realiza o atendimento.  </li>
+<li><strong>3.3.</strong> Durante ou após o atendimento, o <strong>Profissional de Saúde</strong> acessa a área de atualização do prontuário digital do paciente.  </li>
+<li><strong>3.4.</strong> O <strong>Profissional de Saúde</strong> registra as novas informações, como diagnósticos, prescrições de medicamentos e orientações de cuidados. <strong>[FA01]</strong>  </li>
+<li><strong>3.5.</strong> O <strong>Profissional de Saúde</strong> salva as atualizações no prontuário.  </li>
+<li><strong>3.6.</strong> O sistema valida e armazena as novas informações no prontuário do paciente em tempo real.  </li>
+<li><strong>3.7.</strong> O sistema atualiza o status da consulta para "Concluída" e disponibiliza as novas orientações para o paciente no aplicativo.  </li>
+<li><strong>3.8.</strong> O caso de uso é encerrado.</li>
+</ul>
+<h4 id="4-fluxos-alternativos_5"><strong>4. Fluxos Alternativos</strong></h4>
+<ul>
+<li><strong>[FA01] Registrar Visita Domiciliar (para Agentes Comunitários)</strong>  <ul>
+<li>No passo 3.4, se o ator for um <strong>Agente Comunitário</strong>, o sistema pode apresentar funcionalidades específicas para o registro de visitas domiciliares e a criação de relatórios sobre as condições de saúde observadas na comunidade.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-fluxos-de-excecao_1"><strong>6. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Falha ao Salvar</strong>  <ul>
+<li>Se ocorrer um erro de sistema durante o passo 3.6 (ex: perda de conexão), o sistema deve notificar o <strong>Profissional de Saúde</strong> sobre a falha e, se possível, manter os dados inseridos para uma nova tentativa de salvamento.</li>
+</ul>
+</li>
+</ul>
+<h4 id="7-requisitos-especiais_1"><strong>7. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Integridade dos Dados:</strong> O sistema deve garantir que todas as atualizações no prontuário sejam salvas de forma íntegra e associadas corretamente ao paciente e à consulta.  </li>
+<li><strong>[RE02] Acesso em Tempo Real:</strong> As informações do prontuário devem ser acessíveis e atualizadas em tempo real para garantir que o profissional tenha sempre os dados mais recentes durante o atendimento.</li>
+</ul>
+<h4 id="8-regras-de-negocio_1"><strong>8. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Auditoria:</strong> Todas as alterações realizadas no prontuário de um paciente devem ser registradas (quem alterou, o quê e quando) para fins de auditoria e segurança.</li>
+</ul>
+<h4 id="9-pre-condicoes_1"><strong>9. Pré-Condições</strong></h4>
+<ul>
+<li>O <strong>Profissional de Saúde</strong> deve estar autenticado no sistema.  </li>
+<li>O atendimento deve ter sido iniciado a partir de uma consulta agendada e ativa.</li>
+</ul>
+<h4 id="10-pos-condicoes_1"><strong>10. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Prontuário do Paciente Atualizado:</strong> O prontuário digital do paciente contém as novas informações do atendimento recém-realizado.  </li>
+<li><strong>[PCO02] Consulta Finalizada:</strong> O status da consulta na agenda é alterado para "Concluída".  </li>
+<li><strong>[PCO03] Orientações Disponíveis ao Paciente:</strong> As prescrições e orientações ficam disponíveis para o paciente em seu perfil no aplicativo.  </li>
+</ul>
+<hr />
+<h3 id="uc08-registrar-visita-domiciliar">UC08: Registrar Visita Domiciliar</h3>
+<h4 id="1-breve-descricao_7"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que o <strong>Agente Comunitário</strong> utilize ferramentas específicas para registrar visitas domiciliares. O registro dessas informações é fundamental para a identificação de áreas prioritárias e para a organização de campanhas preventivas na comunidade. </p>
+<h4 id="2-atores_7"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Agente Comunitário</li>
+</ul>
+<h4 id="3-fluxo-principal-de-eventos_6"><strong>3. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando o <strong>Agente Comunitário</strong>, após realizar uma visita, acessa a plataforma para registrar as informações.</p>
+<ul>
+<li><strong>3.1.</strong> O <strong>Agente Comunitário</strong> seleciona a opção para registrar uma nova visita domiciliar.  </li>
+<li><strong>3.2.</strong> O sistema solicita a identificação do paciente ou da família visitada.  </li>
+<li><strong>3.3.</strong> O <strong>Agente Comunitário</strong> insere os dados de identificação.  </li>
+<li><strong>3.4.</strong> O sistema exibe o formulário de registro de visita domiciliar.  </li>
+<li><strong>3.5.</strong> O <strong>Agente Comunitário</strong> preenche as informações sobre a visita, incluindo observações sobre as condições de saúde encontradas.  </li>
+<li><strong>3.6.</strong> O <strong>Agente Comunitário</strong> submete o formulário.  </li>
+<li><strong>3.7.</strong> O sistema valida as informações inseridas. <strong>[FE01]</strong>  </li>
+<li><strong>3.8.</strong> O sistema armazena o registro da visita, associando-o ao paciente, se aplicável, e disponibilizando os dados para análise.  </li>
+<li><strong>3.9.</strong> O sistema exibe uma mensagem de confirmação de que a visita foi registrada com sucesso.  </li>
+<li><strong>3.10.</strong> O caso de uso é encerrado, podendo ser estendido. <strong>[PE01]</strong></li>
+</ul>
+<h4 id="4-fluxos-alternativos_6"><strong>4. Fluxos Alternativos</strong></h4>
+<ul>
+<li>Nenhum fluxo alternativo foi identificado para esta versão do caso de uso.</li>
+</ul>
+<h4 id="5-fluxos-de-excecao_5"><strong>5. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Dados Incompletos</strong>  <ul>
+<li>No passo 3.7 do Fluxo Principal, se campos obrigatórios (como a data da visita ou a identificação do paciente) não forem preenchidos, o sistema exibirá uma mensagem de erro e solicitará o preenchimento. O fluxo retorna ao passo 3.5.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-requisitos-especiais_5"><strong>6. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Funcionalidade Offline:</strong> O aplicativo deve permitir que o <strong>Agente Comunitário</strong> registre os dados da visita em modo offline, com sincronização automática assim que uma conexão com a internet for restabelecida, visto que as visitas podem ocorrer em áreas com conectividade limitada. </li>
+</ul>
+<h4 id="7-regras-de-negocio_4"><strong>7. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Estrutura dos Dados para Análise:</strong> As informações coletadas durante a visita devem ser estruturadas de forma a facilitar a criação de relatórios e a análise de dados para identificar áreas prioritárias na comunidade. </li>
+</ul>
+<h4 id="8-pre-condicoes_5"><strong>8. Pré-Condições</strong></h4>
+<ul>
+<li>O <strong>Agente Comunitário</strong> deve estar autenticado no sistema.  </li>
+<li>Uma visita domiciliar deve ter sido realizada fisicamente.</li>
+</ul>
+<h4 id="9-pos-condicoes_5"><strong>9. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Registro da Visita Armazenado:</strong> As informações sobre a visita domiciliar são salvas no sistema.   </li>
+<li><strong>[PCO02] Dados Disponíveis para Planejamento:</strong> As informações registradas podem ser utilizadas para ajudar na organização de campanhas preventivas e na identificação de prioridades de saúde na comunidade. </li>
+</ul>
+<h4 id="10-pontos-de-extensao_5"><strong>10. Pontos de Extensão</strong></h4>
+<ul>
+<li><strong>[PE01] Estender o Caso de Uso: Criar Relatório de Atendimento</strong>  <ul>
+<li><strong>Local:</strong> No passo 3.9, após registrar uma ou mais visitas.  </li>
+<li><strong>Condição:</strong> O <strong>Agente Comunitário</strong> pode iniciar o caso de uso <strong>"Criar Relatório de Atendimento"</strong> para consolidar as informações das visitas e gerar um relatório sobre as condições de saúde da comunidade.   </li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="uc09-criar-relatorio-de-atendimento">UC09: Criar Relatório de Atendimento</h3>
+<h4 id="1-breve-descricao_8"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que o <strong>Agente Comunitário</strong> crie relatórios consolidados sobre as condições de saúde nas comunidades atendidas. Estes relatórios são gerados a partir dos dados coletados nas visitas domiciliares e servem como uma ferramenta estratégica para o planejamento de ações de saúde. </p>
+<h4 id="2-atores_8"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Agente Comunitário</li>
+</ul>
+<h4 id="3-relacao-de-extensao_1"><strong>3. Relação de Extensão</strong></h4>
+<ul>
+<li>Este caso de uso <strong>estende</strong> o caso de uso <strong>"Registrar Visita Domiciliar" (UC10)</strong>.  </li>
+<li><strong>Ponto de Extensão:</strong> [PE01] - Ocorre após o agente ter registrado uma ou mais visitas.  </li>
+<li><strong>Condição:</strong> O <strong>Agente Comunitário</strong> decide consolidar as informações registradas em um relatório formal.</li>
+</ul>
+<h4 id="4-fluxo-principal-de-eventos_1"><strong>4. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando o <strong>Agente Comunitário</strong> seleciona a opção para criar um novo relatório.</p>
+<ul>
+<li><strong>4.1.</strong> O sistema solicita que o <strong>Agente Comunitário</strong> defina os parâmetros para o relatório (ex: período de tempo, área da comunidade).  </li>
+<li><strong>4.2.</strong> O <strong>Agente Comunitário</strong> insere os parâmetros desejados.  </li>
+<li><strong>4.3.</strong> O sistema busca e agrupa os dados das visitas domiciliares que correspondem aos parâmetros informados. <strong>[FE01]</strong>  </li>
+<li><strong>4.4.</strong> O sistema gera um rascunho do relatório, consolidando as informações.  </li>
+<li><strong>4.5.</strong> O <strong>Agente Comunitário</strong> revisa o relatório gerado e pode adicionar notas ou conclusões.  </li>
+<li><strong>4.6.</strong> O <strong>Agente Comunitário</strong> finaliza e salva o relatório.  </li>
+<li><strong>4.7.</strong> O sistema armazena o relatório final como um documento, que pode ser acessado por gestores e organizações parceiras.  </li>
+<li><strong>4.8.</strong> O sistema exibe uma mensagem de confirmação de que o relatório foi criado com sucesso.  </li>
+<li><strong>4.9.</strong> O caso de uso é encerrado.</li>
+</ul>
+<h4 id="5-fluxos-alternativos_1"><strong>5. Fluxos Alternativos</strong></h4>
+<ul>
+<li><strong>[FA01] Exportar Relatório</strong>  <ul>
+<li>No passo 4.7, o <strong>Agente Comunitário</strong> pode ter a opção de exportar o relatório em um formato como PDF, para compartilhamento externo ou impressão.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-fluxos-de-excecao_2"><strong>6. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Nenhum Dado Encontrado</strong>  <ul>
+<li>No passo 4.3, se não houver registros de visitas para os parâmetros informados, o sistema exibirá uma mensagem informativa. O fluxo retorna ao passo 4.1 para que o agente possa definir novos parâmetros.</li>
+</ul>
+</li>
+</ul>
+<h4 id="7-requisitos-especiais_2"><strong>7. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Formato do Relatório:</strong> Os relatórios gerados devem ser claros, bem estruturados e de fácil interpretação para que sejam eficazes como ferramenta de planejamento.</li>
+</ul>
+<h4 id="8-regras-de-negocio_2"><strong>8. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Agregação de Dados:</strong> A lógica do sistema deve agregar corretamente os dados de múltiplas visitas para fornecer uma visão resumida e precisa das condições de saúde da comunidade.  </li>
+<li><strong>[RN02] Controle de Acesso:</strong> Os relatórios gerados, por conterem dados sensíveis da comunidade, devem ter seu acesso restrito a usuários autorizados (gestores, administradores).</li>
+</ul>
+<h4 id="9-pre-condicoes_2"><strong>9. Pré-Condições</strong></h4>
+<ul>
+<li>O <strong>Agente Comunitário</strong> deve estar autenticado no sistema.  </li>
+<li>Deve existir pelo menos um registro de visita domiciliar no sistema para os parâmetros desejados.</li>
+</ul>
+<h4 id="10-pos-condicoes_2"><strong>10. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Relatório Criado:</strong> Um novo documento de relatório consolidado é armazenado no sistema.  </li>
+<li><strong>[PCO02] Suporte à Decisão:</strong> O relatório está disponível para auxiliar na identificação de áreas prioritárias e na organização de campanhas preventivas.   </li>
+</ul>
+<hr />
+<h3 id="uc10-registrar-campanha-de-saude">UC10: Registrar Campanha de Saúde</h3>
+<h4 id="1-breve-descricao_9"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que <strong>Organizações Parceiras</strong> (ONGs, hospitais, instituições governamentais) registrem suas iniciativas de saúde na plataforma. O registro pode incluir campanhas de vacinação, mutirões de atendimento ou ações educativas.</p>
+<h4 id="2-atores_9"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Organização Parceira</li>
+</ul>
+<h4 id="3-fluxo-principal-de-eventos_7"><strong>3. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando um representante da <strong>Organização Parceira</strong>, já logado, seleciona a opção para registrar uma nova campanha de saúde.</p>
+<ul>
+<li><strong>3.1.</strong> O sistema apresenta o formulário de registro de campanha.  </li>
+<li><strong>3.2.</strong> A <strong>Organização Parceira</strong> preenche as informações da iniciativa, detalhando o público-alvo, a localização e a duração.   </li>
+<li><strong>3.3.</strong> A <strong>Organização Parceira</strong> submete o formulário.  </li>
+<li><strong>3.4.</strong> O sistema valida as informações fornecidas. <strong>[FE01]</strong>  </li>
+<li><strong>3.5.</strong> O sistema cria um novo registro para a campanha de saúde na plataforma.  </li>
+<li><strong>3.6.</strong> O sistema exibe uma mensagem de confirmação de que a campanha foi registrada com sucesso.  </li>
+<li><strong>3.7.</strong> O caso de uso é encerrado, podendo ser estendido. <strong>[PE01]</strong></li>
+</ul>
+<h4 id="4-fluxos-alternativos_7"><strong>4. Fluxos Alternativos</strong></h4>
+<ul>
+<li>Nenhum fluxo alternativo foi identificado para esta versão do caso de uso.</li>
+</ul>
+<h4 id="5-fluxos-de-excecao_6"><strong>5. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Dados Incompletos</strong>  <ul>
+<li>No passo 3.4 do Fluxo Principal, se campos obrigatórios (como localização ou duração) não forem preenchidos, o sistema exibirá uma mensagem de erro e solicitará o preenchimento. O fluxo retorna ao passo 3.2.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-requisitos-especiais_6"><strong>6. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Aprovação de Campanhas:</strong> O sistema deve prever um mecanismo onde um administrador possa aprovar novas campanhas antes que elas sejam divulgadas, garantindo a legitimidade e a segurança das iniciativas promovidas na plataforma.</li>
+</ul>
+<h4 id="7-regras-de-negocio_5"><strong>7. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Estrutura de Dados para Divulgação:</strong> As informações registradas, especialmente o público-alvo, devem ser estruturadas para permitir que a plataforma promova a campanha para os usuários mais relevantes. </li>
+</ul>
+<h4 id="8-pre-condicoes_6"><strong>8. Pré-Condições</strong></h4>
+<ul>
+<li>O usuário deve ser um representante de uma <strong>Organização Parceira</strong> autenticado no sistema.</li>
+</ul>
+<h4 id="9-pos-condicoes_6"><strong>9. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Campanha Registrada:</strong> Uma nova campanha de saúde é armazenada no sistema.   </li>
+<li><strong>[PCO02] Pronta para Divulgação:</strong> Após o cadastro, a campanha está pronta para ser promovida aos usuários da plataforma. </li>
+</ul>
+<h4 id="10-pontos-de-extensao_6"><strong>10. Pontos de Extensão</strong></h4>
+<ul>
+<li><strong>[PE01] Estender para os Casos de Uso: Segmentar e Divulgar Campanha</strong>  <ul>
+<li><strong>Local:</strong> No passo 3.7, após o registro bem-sucedido da campanha.  </li>
+<li><strong>Condição:</strong> A <strong>Organização Parceira</strong> pode iniciar o caso de uso <strong>"Divulgar Campanha para Público-Alvo"</strong> para definir e alcançar os pacientes corretos com a iniciativa.   </li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="uc11-divulgar-campanha-para-publico-alvo">UC11: Divulgar Campanha para Público-Alvo</h3>
+<h4 id="1-breve-descricao_10"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que a <strong>Organização Parceira</strong> promova ativamente uma campanha de saúde para os usuários relevantes da plataforma. Utilizando os critérios de segmentação definidos anteriormente, o sistema envia notificações e alertas para o público-alvo, garantindo que a informação chegue a quem mais precisa.</p>
+<h4 id="2-atores_10"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Organização Parceira</li>
+</ul>
+<h4 id="3-fluxo-principal-de-eventos_8"><strong>3. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado pela <strong>Organização Parceira</strong> após uma campanha ter sido registrada e devidamente segmentada.</p>
+<ul>
+<li><strong>3.1.</strong> A <strong>Organização Parceira</strong> seleciona a campanha que deseja divulgar.  </li>
+<li><strong>3.2.</strong> O sistema recupera os critérios de segmentação associados a essa campanha (ex: localização, faixa etária, condições de saúde).  </li>
+<li><strong>3.3.</strong> A <strong>Organização Parceira</strong> aciona o comando para iniciar a divulgação.  </li>
+<li><strong>3.4.</strong> O sistema identifica todos os pacientes na plataforma que correspondem ao público-alvo definido. <strong>[FE01]</strong>  </li>
+<li><strong>3.5.</strong> O sistema envia notificações e alertas personalizados sobre a campanha para os pacientes identificados. <strong>[RN01]</strong>  </li>
+<li><strong>3.6.</strong> O sistema exibe uma mensagem de confirmação para a <strong>Organização Parceira</strong>, informando que a divulgação foi iniciada com sucesso.  </li>
+<li><strong>3.7.</strong> O caso de uso é encerrado. <strong>[PE01]</strong></li>
+</ul>
+<h4 id="4-fluxos-alternativos_8"><strong>4. Fluxos Alternativos</strong></h4>
+<ul>
+<li>Nenhum fluxo alternativo foi identificado para esta versão do caso de uso.</li>
+</ul>
+<h4 id="5-fluxos-de-excecao_7"><strong>5. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Público-Alvo Vazio</strong>  <ul>
+<li>No passo 3.4, se o sistema não encontrar nenhum paciente que corresponda aos critérios de segmentação, ele exibirá uma mensagem informativa à <strong>Organização Parceira</strong>. O fluxo retorna ao passo 3.1, sugerindo a revisão da segmentação da campanha.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-requisitos-especiais_7"><strong>6. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Canal de Notificação:</strong> As notificações devem ser enviadas por um canal eficaz dentro do aplicativo, garantindo alta visibilidade para os pacientes.</li>
+</ul>
+<h4 id="7-regras-de-negocio_6"><strong>7. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Conteúdo da Notificação:</strong> A notificação enviada ao paciente deve conter as informações essenciais da campanha, como o objetivo, a data, o local e o público-alvo, de forma clara e concisa.</li>
+</ul>
+<h4 id="8-pre-condicoes_7"><strong>8. Pré-Condições</strong></h4>
+<ul>
+<li>O usuário da <strong>Organização Parceira</strong> deve estar autenticado no sistema.  </li>
+<li>A campanha de saúde já deve ter sido registrada e segmentada na plataforma.</li>
+</ul>
+<h4 id="9-pos-condicoes_7"><strong>9. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Pacientes Notificados:</strong> O público-alvo da campanha recebeu a notificação sobre a iniciativa.  </li>
+<li><strong>[PCO02] Aumento do Engajamento Esperado:</strong> Espera-se um aumento na participação da comunidade na campanha divulgada.</li>
+</ul>
+<h4 id="10-pontos-de-extensao_7"><strong>10. Pontos de Extensão</strong></h4>
+<ul>
+<li><strong>[PE01] Estender o Caso de Uso: Visualizar Relatórios de Impacto</strong>  <ul>
+<li><strong>Local:</strong> Após a divulgação da campanha (passo 3.7).  </li>
+<li><strong>Condição:</strong> A <strong>Organização Parceira</strong> pode iniciar o caso de uso <strong>"Visualizar Relatórios de Impacto"</strong> para monitorar o alcance e a eficácia de suas ações, utilizando métricas como o número de participantes e as avaliações dos usuários.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="uc12-visualizar-relatorios-de-impacto">UC12: Visualizar Relatórios de Impacto</h3>
+<h4 id="1-breve-descricao_11"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que a <strong>Organização Parceira</strong> monitore o impacto de suas ações por meio de relatórios gerados pela plataforma. Os relatórios apresentam métricas que ajudam a organização a avaliar a eficácia de suas campanhas de saúde.</p>
+<h4 id="2-atores_11"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Organização Parceira</li>
+</ul>
+<h4 id="3-relacao-de-extensao_2"><strong>3. Relação de Extensão</strong></h4>
+<ul>
+<li>Este caso de uso <strong>estende</strong> o caso de uso <strong>"Divulgar Campanha para Público-Alvo" (UC14)</strong>.  </li>
+<li><strong>Ponto de Extensão:</strong> [PE01] - Ocorre após uma campanha ter sido divulgada.  </li>
+<li><strong>Condição:</strong> A <strong>Organização Parceira</strong> deseja analisar os resultados e o alcance da iniciativa.</li>
+</ul>
+<h4 id="4-fluxo-principal-de-eventos_2"><strong>4. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando um representante da <strong>Organização Parceira</strong> seleciona a opção para visualizar os relatórios de impacto de suas campanhas.</p>
+<ul>
+<li><strong>4.1.</strong> O sistema exibe uma lista das campanhas realizadas pela <strong>Organização Parceira</strong>.  </li>
+<li><strong>4.2.</strong> A <strong>Organização Parceira</strong> seleciona a campanha da qual deseja visualizar o relatório.  </li>
+<li><strong>4.3.</strong> O sistema gera e apresenta o relatório de impacto para a campanha selecionada. <strong>[FE01]</strong>  </li>
+<li><strong>4.4.</strong> O relatório exibe métricas como o número de participantes e as avaliações dos usuários.   </li>
+<li><strong>4.5.</strong> A <strong>Organização Parceira</strong> analisa os dados do relatório.  </li>
+<li><strong>4.6.</strong> O caso de uso é encerrado.</li>
+</ul>
+<h4 id="5-fluxos-alternativos_2"><strong>5. Fluxos Alternativos</strong></h4>
+<ul>
+<li><strong>[FA01] Exportar Relatório</strong>  <ul>
+<li>No passo 4.4, o sistema pode oferecer à <strong>Organização Parceira</strong> a opção de exportar o relatório (ex: em formato PDF) para uso externo.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-fluxos-de-excecao_3"><strong>6. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Dados Insuficientes para Relatório</strong>  <ul>
+<li>No passo 4.3, se uma campanha for muito recente e ainda não houver dados suficientes para gerar um relatório significativo, o sistema exibirá uma mensagem informativa. O fluxo retorna ao passo 4.1.</li>
+</ul>
+</li>
+</ul>
+<h4 id="7-requisitos-especiais_3"><strong>7. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Visualização de Dados:</strong> Os relatórios devem utilizar elementos visuais, como gráficos e painéis, para apresentar as métricas de forma clara e de fácil interpretação.  </li>
+<li><strong>[RE02] Precisão dos Dados:</strong> O sistema deve garantir que as métricas apresentadas nos relatórios sejam precisas e reflitam fielmente os dados coletados pela plataforma.</li>
+</ul>
+<h4 id="8-regras-de-negocio_3"><strong>8. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Cálculo de Métricas:</strong> O sistema deve ter uma lógica de cálculo bem definida para cada métrica do relatório, como a contagem de "número de participantes" e a média das "avaliações dos usuários".</li>
+</ul>
+<h4 id="9-pre-condicoes_3"><strong>9. Pré-Condições</strong></h4>
+<ul>
+<li>O usuário da <strong>Organização Parceira</strong> deve estar autenticado no sistema.  </li>
+<li>A organização deve ter pelo menos uma campanha de saúde registrada e divulgada na plataforma.</li>
+</ul>
+<h4 id="10-pos-condicoes_3"><strong>10. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Impacto da Campanha Analisado:</strong> A <strong>Organização Parceira</strong> obteve acesso e analisou os dados de desempenho de sua iniciativa de saúde.  </li>
+<li><strong>[PCO02] Base para Decisões Estratégicas:</strong> As informações do relatório auxiliam a organização na formulação de futuras ações e políticas.   </li>
+</ul>
+<hr />
+<h3 id="uc13-monitorar-indicadores-de-desempenho">UC13: Monitorar Indicadores de Desempenho</h3>
+<h4 id="1-breve-descricao_12"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que o <strong>Administrador do Sistema</strong> monitore o funcionamento e o impacto da plataforma ConnectCare. Utilizando painéis analíticos, o administrador acompanha indicadores chave para garantir a saúde do sistema, identificar tendências e subsidiar decisões estratégicas.</p>
+<h4 id="2-atores_12"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Administrador do Sistema</li>
+</ul>
+<h4 id="3-fluxo-principal-de-eventos_9"><strong>3. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando o <strong>Administrador do Sistema</strong>, já logado, acessa o painel de monitoramento.</p>
+<ul>
+<li><strong>3.1.</strong> O sistema exibe o painel analítico principal (dashboard).  </li>
+<li><strong>3.2.</strong> O painel apresenta, por padrão, os principais indicadores de desempenho em tempo real ou referentes ao período atual.   </li>
+<li><strong>3.3.</strong> Os indicadores exibidos incluem o número de usuários ativos, o volume de agendamentos e a taxa de satisfação dos pacientes. <strong>[RN01] [RN02]</strong>  </li>
+<li><strong>3.4.</strong> O <strong>Administrador do Sistema</strong> analisa os gráficos e os números apresentados.  </li>
+<li><strong>3.5.</strong> O <strong>Administrador do Sistema</strong> pode selecionar um indicador específico para ver mais detalhes ou dados históricos. <strong>[RN03]</strong>  </li>
+<li><strong>3.6.</strong> O caso de uso é encerrado.</li>
+</ul>
+<h4 id="4-fluxos-alternativos_9"><strong>4. Fluxos Alternativos</strong></h4>
+<ul>
+<li>Nenhum fluxo alternativo foi identificado para esta versão do caso de uso.</li>
+</ul>
+<h4 id="5-fluxos-de-excecao_8"><strong>5. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Falha na Carga de Dados</strong>  <ul>
+<li>Se ocorrer um erro ao carregar os dados para o painel no passo 3.2 (ex: falha na conexão com o banco de dados analítico), o sistema exibirá uma mensagem de erro e oferecerá uma opção para tentar recarregar os dados.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-requisitos-especiais_8"><strong>6. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Visualização de Dados (Dashboard):</strong> Os indicadores devem ser apresentados em um painel com elementos visuais claros, como gráficos e medidores, para facilitar a interpretação rápida e intuitiva dos dados.  </li>
+<li><strong>[RE02] Desempenho do Painel:</strong> O carregamento dos dados e a atualização do painel devem ser rápidos para não comprometer a agilidade na tomada de decisão do administrador.</li>
+</ul>
+<h4 id="7-regras-de-negocio_7"><strong>7. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Definição de Indicadores:</strong> O sistema deve ter regras claras para o cálculo de cada indicador:  <ul>
+<li><strong>Usuários Ativos:</strong> Contagem de usuários únicos que realizaram login no último mês.  </li>
+<li><strong>Taxa de Satisfação:</strong> Média das notas atribuídas pelos pacientes no caso de uso "Avaliar Consulta".  </li>
+</ul>
+</li>
+<li><strong>[RN02] Alertas Automáticos:</strong> O sistema pode ser configurado para gerar alertas automáticos para o administrador caso algum indicador atinja um limiar crítico (ex: queda abrupta no número de agendamentos).  </li>
+<li><strong>[RN03] Filtrar Indicadores:</strong> Pode-se aplicar filtros para visualizar os indicadores de um período de tempo específico (ex: última semana, último mês) ou de uma região/comunidade específica. O sistema atualiza o painel com os dados filtrados.</li>
+</ul>
+<h4 id="8-pre-condicoes_8"><strong>8. Pré-Condições</strong></h4>
+<ul>
+<li>O <strong>Administrador do Sistema</strong> deve estar autenticado na plataforma com as devidas permissões de acesso.</li>
+</ul>
+<h4 id="9-pos-condicoes_8"><strong>9. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Desempenho do Sistema Analisado:</strong> O <strong>Administrador do Sistema</strong> obteve uma visão clara sobre o desempenho atual e o impacto da plataforma.  </li>
+<li><strong>[PCO02] Base para Ações Administrativas:</strong> A análise dos indicadores fornece a base para que o administrador possa tomar ações corretivas, como corrigir erros técnicos ou realizar ajustes no sistema. </li>
+</ul>
+<h4 id="10-pontos-de-extensao_8"><strong>10. Pontos de Extensão</strong></h4>
+<ul>
+<li>Nenhum ponto de extensão foi identificado para esta versão do caso de uso.</li>
+</ul>
+<hr />
+<h3 id="uc14-gerenciar-painel-analitico-de-consultas-e-exames">UC14: Gerenciar Painel Analítico de Consultas e Exames</h3>
+<h4 id="1-breve-descricao_13"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que o <strong>Administrador do Sistema</strong> acesse um painel detalhado para visualizar e gerenciar o fluxo de consultas e exames que ocorrem na plataforma. É uma ferramenta essencial para supervisão operacional e resolução de inconsistências.</p>
+<h4 id="2-atores_13"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Administrador do Sistema</li>
+</ul>
+<h4 id="3-relacao-de-extensao_3"><strong>3. Relação de Extensão</strong></h4>
+<ul>
+<li>Nenhum ponto de extensão foi identificado para esta versão do caso de uso.</li>
+</ul>
+<h4 id="4-fluxo-principal-de-eventos_3"><strong>4. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando o <strong>Administrador do Sistema</strong> seleciona a opção para gerenciar o painel de consultas e exames.</p>
+<ul>
+<li><strong>4.1.</strong> O sistema exibe o painel analítico com a listagem de todas as consultas e exames registrados. <strong>[RN01]</strong>  </li>
+<li><strong>4.2.</strong> O <strong>Administrador do Sistema</strong> utiliza as ferramentas do painel para localizar um registro específico. <strong>[FA01]</strong>  </li>
+<li><strong>4.3.</strong> O <strong>Administrador do Sistema</strong> seleciona um registro para visualizar seus detalhes completos.  </li>
+<li><strong>4.4.</strong> O sistema exibe todas as informações associadas ao registro selecionado (paciente, profissional, datas, status, etc.). <strong>[FE01]</strong>  </li>
+<li><strong>4.5.</strong> Após a análise, o administrador pode realizar uma ação de gerenciamento, se necessário. <strong>[FA02]</strong>  </li>
+<li><strong>4.6.</strong> O caso de uso é encerrado.</li>
+</ul>
+<h4 id="5-fluxos-alternativos_3"><strong>5. Fluxos Alternativos</strong></h4>
+<ul>
+<li><strong>[FA01] Buscar e Filtrar Registros</strong>  <ul>
+<li>No passo 4.2 do Fluxo Principal, o <strong>Administrador do Sistema</strong> pode aplicar filtros para refinar a lista de registros, utilizando critérios como intervalo de datas, status (agendado, concluído, cancelado), profissional ou paciente.  </li>
+</ul>
+</li>
+<li><strong>[FA02] Realizar Ajuste no Sistema</strong>  <ul>
+<li>No passo 4.5, caso seja identificada uma inconsistência em um registro (ex: uma consulta travada em um status incorreto), o <strong>Administrador do Sistema</strong> pode realizar um ajuste manual, como a alteração do status do registro. </li>
+</ul>
+</li>
+</ul>
+<h4 id="6-fluxos-de-excecao_4"><strong>6. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Registro Não Encontrado</strong>  <ul>
+<li>No passo 4.4, se a busca ou filtro aplicado pelo administrador não retornar nenhum resultado, o sistema exibirá uma mensagem informativa. O fluxo retorna ao passo 4.2.</li>
+</ul>
+</li>
+</ul>
+<h4 id="7-requisitos-especiais_4"><strong>7. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Auditoria de Ações:</strong> Todas as ações de gerenciamento realizadas pelo administrador neste painel (ex: alteração manual de status) devem ser registradas em um log de auditoria detalhado para garantir a rastreabilidade e a segurança.  </li>
+<li><strong>[RE02] Privacidade de Dados:</strong> O painel deve, por padrão, proteger informações sensíveis dos pacientes, que só devem ser totalmente expostas se for estritamente necessário para uma ação de gerenciamento.</li>
+</ul>
+<h4 id="8-regras-de-negocio_4"><strong>8. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Fonte de Dados:</strong> O painel deve ser alimentado com dados precisos e em tempo real, refletindo o estado atual de todas as consultas e exames registrados na plataforma.</li>
+</ul>
+<h4 id="9-pre-condicoes_4"><strong>9. Pré-Condições</strong></h4>
+<ul>
+<li>O <strong>Administrador do Sistema</strong> deve estar autenticado na plataforma com as devidas permissões de acesso.</li>
+</ul>
+<h4 id="10-pos-condicoes_4"><strong>10. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Registros Inspecionados:</strong> O <strong>Administrador do Sistema</strong> obteve informações detalhadas sobre o status das consultas e exames.  </li>
+<li><strong>[PCO02] Sistema Ajustado (se FA02 executado):</strong> Uma inconsistência em um registro específico foi resolvida por meio de um ajuste manual. 3  </li>
+</ul>
+<hr />
+<h3 id="uc15-atualizar-informacoes-de-parceiros">UC15: Atualizar Informações de Parceiros</h3>
+<h4 id="1-breve-descricao_14"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que o <strong>Administrador do Sistema</strong> realize ajustes no sistema, especificamente para atualizar as informações de organizações parceiras (ONGs, hospitais, etc.). Manter esses dados corretos é crucial para o bom funcionamento das interações entre os parceiros e a plataforma.</p>
+<h4 id="2-atores_14"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Administrador do Sistema</li>
+</ul>
+<h4 id="3-fluxo-principal-de-eventos-caminho-feliz"><strong>3. Fluxo Principal de Eventos ("Caminho Feliz")</strong></h4>
+<p>Este caso de uso é iniciado quando o <strong>Administrador do Sistema</strong> precisa atualizar os dados de uma organização parceira.</p>
+<ul>
+<li><strong>3.1.</strong> O <strong>Administrador do Sistema</strong> seleciona a funcionalidade para gerenciar parceiros.  </li>
+<li><strong>3.2.</strong> O sistema exibe uma lista com todas as organizações parceiras cadastradas. <strong>[RN01]</strong>  </li>
+<li><strong>3.3.</strong> O <strong>Administrador do Sistema</strong> localiza e seleciona o parceiro cujas informações precisam ser atualizadas. <strong>[FE01]</strong>  </li>
+<li><strong>3.4.</strong> O sistema exibe os dados cadastrais atuais do parceiro em um formulário editável.  </li>
+<li><strong>3.5.</strong> O <strong>Administrador do Sistema</strong> modifica as informações necessárias.  </li>
+<li><strong>3.6.</strong> O <strong>Administrador do Sistema</strong> submete as alterações.  </li>
+<li><strong>3.7.</strong> O sistema valida os novos dados. <strong>[FE02]</strong>  </li>
+<li><strong>3.8.</strong> O sistema salva as informações atualizadas no perfil da organização parceira.   </li>
+<li><strong>3.9.</strong> O sistema exibe uma mensagem de confirmação de que as informações foram atualizadas com sucesso.  </li>
+<li><strong>3.10.</strong> O caso de uso é encerrado.</li>
+</ul>
+<h4 id="4-fluxos-alternativos_10"><strong>4. Fluxos Alternativos</strong></h4>
+<ul>
+<li>Nenhum fluxo alternativo foi identificado para esta versão do caso de uso.</li>
+</ul>
+<h4 id="5-fluxos-de-excecao_9"><strong>5. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Parceiro Não Encontrado</strong>  <ul>
+<li>No passo 3.3 do Fluxo Principal, se o <strong>Administrador do Sistema</strong> buscar por um parceiro que não existe, o sistema exibirá uma mensagem informativa. O fluxo retorna ao passo 3.2.  </li>
+</ul>
+</li>
+<li><strong>[FE02] Dados Inválidos</strong>  <ul>
+<li>No passo 3.7 do Fluxo Principal, se as informações inseridas pelo administrador forem inválidas (ex: formato incorreto de um contato), o sistema exibirá uma mensagem de erro e retornará ao passo 3.5 para correção.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-requisitos-especiais_9"><strong>6. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Auditoria:</strong> Todas as alterações realizadas nas informações de um parceiro devem ser registradas em um log de auditoria, detalhando quem realizou a mudança, o que foi alterado e quando.</li>
+</ul>
+<h4 id="7-regras-de-negocio_8"><strong>7. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Consistência de Dados:</strong> A atualização das informações de um parceiro deve refletir em todas as áreas da plataforma onde esses dados são exibidos, como em campanhas de saúde ativas associadas a ele.</li>
+</ul>
+<h4 id="8-pre-condicoes_9"><strong>8. Pré-Condições</strong></h4>
+<ul>
+<li>O <strong>Administrador do Sistema</strong> deve estar autenticado na plataforma com as devidas permissões de acesso.</li>
+</ul>
+<h4 id="9-pos-condicoes_9"><strong>9. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Cadastro do Parceiro Atualizado:</strong> As informações da organização parceira selecionada estão atualizadas no banco de dados do sistema.</li>
+</ul>
+<hr />
+<h3 id="uc16-responder-duvidas-e-reclamacoes-de-pacientes">UC16: Responder Dúvidas e Reclamações de Pacientes</h3>
+<h4 id="1-breve-descricao_15"><strong>1. Breve Descrição</strong></h4>
+<p>Este caso de uso permite que o <strong>Administrador do Sistema</strong> gerencie e responda às dúvidas e reclamações enviadas pelos usuários da plataforma. É uma função crucial para a manutenção da satisfação do usuário e para a identificação de problemas técnicos ou operacionais no sistema.</p>
+<h4 id="2-atores_15"><strong>2. Atores</strong></h4>
+<ul>
+<li><strong>Primário:</strong> Administrador do Sistema</li>
+</ul>
+<h4 id="3-fluxo-principal-de-eventos_10"><strong>3. Fluxo Principal de Eventos</strong></h4>
+<p>Este caso de uso é iniciado quando o <strong>Administrador do Sistema</strong> acessa a área de suporte ou central de mensagens da plataforma.</p>
+<ul>
+<li><strong>3.1.</strong> O sistema exibe um painel com todas as dúvidas e reclamações recebidas, organizadas por data e status (ex: "Nova", "Em Andamento", "Resolvida"). <strong>[RN01] [RN02]</strong>  </li>
+<li><strong>3.2.</strong> O <strong>Administrador do Sistema</strong> seleciona uma mensagem para analisar.  </li>
+<li><strong>3.3.</strong> O sistema exibe o conteúdo completo da mensagem, incluindo os dados do usuário que a enviou.  </li>
+<li><strong>3.4.</strong> O <strong>Administrador do Sistema</strong> analisa a solicitação e redige uma resposta.  </li>
+<li><strong>3.5.</strong> O <strong>Administrador do Sistema</strong> envia a resposta ao usuário.  </li>
+<li><strong>3.6.</strong> O sistema atualiza o status da mensagem para "Respondida" ou "Resolvida". <strong>[FA01]</strong>  </li>
+<li><strong>3.7.</strong> O sistema envia a resposta para a caixa de entrada do usuário dentro da plataforma.  </li>
+<li><strong>3.8.</strong> O caso de uso é encerrado.</li>
+</ul>
+<h4 id="4-fluxos-alternativos_11"><strong>4. Fluxos Alternativos</strong></h4>
+<ul>
+<li><strong>[FA01] Marcar como Resolvida</strong>  <ul>
+<li>No passo 3.6 do Fluxo Principal, se a resposta enviada solucionar completamente a questão do usuário, o <strong>Administrador do Sistema</strong> pode marcar a conversa como "Resolvida", removendo-a da fila de pendências ativas.</li>
+</ul>
+</li>
+</ul>
+<h4 id="5-fluxos-de-excecao_10"><strong>5. Fluxos de Exceção</strong></h4>
+<ul>
+<li><strong>[FE01] Falha no Envio da Mensagem</strong>  <ul>
+<li>Se ocorrer um erro de sistema ao tentar enviar a resposta no passo 3.7 (ex: falha de conexão), o sistema deve notificar o administrador e manter a mensagem redigida para uma nova tentativa de envio.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-requisitos-especiais_10"><strong>6. Requisitos Especiais</strong></h4>
+<ul>
+<li><strong>[RE01] Templates de Resposta:</strong> O sistema deve permitir que o administrador crie e utilize templates de respostas para as dúvidas e reclamações mais frequentes, agilizando o processo de suporte.  </li>
+<li><strong>[RE02] Notificação ao Usuário:</strong> O usuário deve ser notificado (ex: via push notification) quando sua dúvida ou reclamação for respondida pelo administrador.</li>
+</ul>
+<h4 id="7-regras-de-negocio_9"><strong>7. Regras de Negócio</strong></h4>
+<ul>
+<li><strong>[RN01] Histórico de Conversas:</strong> Todas as interações (dúvidas, reclamações e respostas) devem ser armazenadas para compor um histórico de suporte do usuário, que pode ser consultado futuramente.  </li>
+<li><strong>[RN02] Priorização:</strong> O painel de mensagens deve permitir a priorização de solicitações urgentes.</li>
+</ul>
+<h4 id="8-pre-condicoes_10"><strong>8. Pré-Condições</strong></h4>
+<ul>
+<li>O <strong>Administrador do Sistema</strong> deve estar autenticado na plataforma com as devidas permissões de acesso.  </li>
+<li>Deve existir pelo menos uma dúvida ou reclamação enviada por um usuário.</li>
+</ul>
+<h4 id="9-pos-condicoes_10"><strong>9. Pós-Condições</strong></h4>
+<ul>
+<li><strong>[PCO01] Usuário Respondido:</strong> O usuário que enviou a solicitação recebeu uma resposta do administrador.  </li>
+<li><strong>[PCO02] Status da Solicitação Atualizado:</strong> O status da dúvida ou reclamação foi devidamente atualizado no sistema de suporte.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate - content.tabs.link - header.autohide - navigation.instant - navigation.top - navigation.tracking"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
